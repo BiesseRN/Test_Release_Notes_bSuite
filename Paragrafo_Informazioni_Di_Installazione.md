@@ -50,88 +50,107 @@ A partire dalla versione bSuite 4.0.0 è richiesto l’aggiornamento dei driver 
 Per eseguire questa operazione è necessario:
 
 1. Aprire il “Pannello di controllo”
-1. ![](Aspose.Words.8634bbf2-0062-4359-b7e5-f8c034eddfb0.013.png)Selezionare la voce “Gestione dispositivi”
-1. Espandere la sezione “Schede video”
+2. Selezionare la voce “Gestione dispositivi”
+   
+   ![Image Not Found](Informazioni_Di_Installazione/Aspose.Words.36f81f01-9f70-4468-adee-9576972549f4.015.png) 
+   
+3. Espandere la sezione “Schede video”
+   
+   ![Image Not Found](Informazioni_Di_Installazione/Aspose.Words.36f81f01-9f70-4468-adee-9576972549f4.016.png) 
 
-   ![](Aspose.Words.8634bbf2-0062-4359-b7e5-f8c034eddfb0.014.png)
-1. Selezionare con il tasto destro del mouse la scheda video dedicata e selezionare l’opzione “Aggiorna driver”
+4. Selezionare con il tasto destro del mouse la scheda video dedicata e selezionare l’opzione “Aggiorna driver”
 
-   ![](Aspose.Words.8634bbf2-0062-4359-b7e5-f8c034eddfb0.015.png)
+   ![Image Not Found](Informazioni_Di_Installazione/Aspose.Words.36f81f01-9f70-4468-adee-9576972549f4.017.png) 
 
-1. Selezionare l’opzione “Cerca automaticamente un driver aggiornato”.
+5. Selezionare l’opzione “Cerca automaticamente un driver aggiornato”.
    ATTENZIONE: è necessario che il PC sia collegato alla rete Internet
 
-   ![](Aspose.Words.8634bbf2-0062-4359-b7e5-f8c034eddfb0.016.png)
+   ![Image Not Found](Informazioni_Di_Installazione/Aspose.Words.36f81f01-9f70-4468-adee-9576972549f4.018.png)
 
-1. Attendere che la verifica dei driver aggiornati e l’eventuale installazione termini con successo
+6. Attendere che la verifica dei driver aggiornati e l’eventuale installazione termini con successo
 
+   <hr>
 
-### <a name="_toc127375709"></a><a name="_hlk99711384"></a><a name="_hlk116391567"></a>**4.1.5 Configurazione scheda video NVidia** 
-<a name="_hlk116391415"></a><a name="_hlk99711311"></a>NOTA: mentre bSuite è in esecuzione non è possibile modificare la dimensione di testo dello schermo. 
+**Configurazione scheda video NVidia** 
+
+NOTA: mentre bSuite è in esecuzione non è possibile modificare la dimensione di testo dello schermo. 
 
 Passi da eseguire nel “Pannello di controllo NVIDIA”: 
 
 1. Nella sezione “Regola le impostazioni dell’immagine con anteprima” abilitare il parametro “Usa le impostazioni dell’immagine 3D avanzate” 
+   
+![Image Not Found](Informazioni_Di_Installazione/Aspose.Words.36f81f01-9f70-4468-adee-9576972549f4.019.png)
+   
+2. Cliccare sul link “Apri la pagina” accanto al parametro “Usa le impostazioni dell’immagine 3D avanzate” 
+   
+3. Selezionare la voce “Profilo base” nei “Predefiniti globali”
+   
+   ![Image Not Found](Informazioni_Di_Installazione/Aspose.Words.36f81f01-9f70-4468-adee-9576972549f4.020.png)
+   
+4. ”Premere il pulsante “Ripristina” per resettare i valori di default (se uno o più di essi era stato precedentemente modificato)
+   
+5. In caso si tratti di un laptop, selezionare la voce “Processore NVIDIA ad alte prestazioni” in “Processore grafico preferito”
+   
+6. Nell’elenco sottostante  “Impostazioni:”, ricercare il parametro “Modalità di gestione dell’alimentazione” ed impostare il valore “Preferisci le prestazioni massime” 
 
-   ![](Aspose.Words.8634bbf2-0062-4359-b7e5-f8c034eddfb0.017.png)
-1. Cliccare sul link “Apri la pagina” accanto al parametro “Usa le impostazioni dell’immagine 3D avanzate” 
-1. Selezionare la voce “Profilo base” nei “Predefiniti globali” 
-   ![](Aspose.Words.8634bbf2-0062-4359-b7e5-f8c034eddfb0.018.png)
-1. ”Premere il pulsante “Ripristina” per resettare i valori di default (se uno o più di essi era stato precedentemente modificato) 
-1. In caso si tratti di un laptop, selezionare la voce “Processore NVIDIA ad alte prestazioni” in “Processore grafico preferito” 
-1. Nell’elenco sottostante  “Impostazioni:”, ricercare il parametro “Modalità di gestione dell’alimentazione” ed impostare il valore “Preferisci le prestazioni massime” 
+   ![Image Not Found](Informazioni_Di_Installazione/Aspose.Words.36f81f01-9f70-4468-adee-9576972549f4.021.png)
+   
+7. Applicare le modifiche effettuate cliccando sul comando “Applica” (pulsante in basso a destra) 
 
-   ![](Aspose.Words.8634bbf2-0062-4359-b7e5-f8c034eddfb0.019.png)
-1. Applicare le modifiche effettuate cliccando sul comando “Applica” (pulsante in basso a destra) 
+   <hr>
 
-
-<a name="_toc127375710"></a>**4.2 Operazioni preliminari su alcuni sistemi operativi**
-
---------------------------------------------------------------------------------------
-**ATTENZIONE: Durante l'installazione su WINDOWS 10 si potrebbe riscontrare un'anomalia relativa
+**Operazioni preliminari su alcuni sistemi operativi**
+   
+ATTENZIONE: Durante l'installazione su WINDOWS 10 si potrebbe riscontrare un'anomalia relativa
 all'impossibilità di installare il pacchetto di .NET Framework 3.5: tale software è un prerequisito dell'applicazione e deve quindi essere installato obbligatoriamente.
-Per installare il software in tale sistema operativo è possibile utilizzare una delle seguenti opzioni:**
+Per installare il software in tale sistema operativo è possibile utilizzare una delle seguenti opzioni:
 
-### <a name="_bookmark64"></a><a name="_toc97039214"></a><a name="_toc127375711"></a>**4.2.1 Abilitare .NET Framework 3.5 dal Pannello di Controllo**
+<hr>
+
+**Abilitare .NET Framework 3.5 dal Pannello di Controllo**
+   
 La procedura di seguito descritta necessita di una connessione Internet attiva:
 
-1. Premere il tasto Windows  ![](Aspose.Words.8634bbf2-0062-4359-b7e5-f8c034eddfb0.020.png)  sulla tastiera, digitare Funzionalità Windows e premere Invio. Verrà visualizzata la finestra di dialogo Attivazione o disattivazione delle funzionalità Windows. In alternativa, aprire Pannello di controllo, fare clic sugli elementi Programmi e quindi fare clic su "Attivazione o disattivazione delle funzionalità Windows" in Programmi e funzionalità.
+1. Premere il tasto Windows ![Image Not Found](Informazioni_Di_Installazione/Aspose.Words.36f81f01-9f70-4468-adee-9576972549f4.022.png) sulla tastiera, digitare Funzionalità Windows e premere Invio.<br>
+Verrà visualizzata la finestra di dialogo Attivazione o disattivazione delle funzionalità Windows.<br>
+In alternativa, aprire Pannello di controllo, fare clic sugli elementi Programmi e quindi fare clic su "Attivazione o disattivazione delle funzionalità Windows" in Programmi e funzionalità.<br>
 
 1. Selezionare la casella di controllo .NET Framework 3.5 (include .NET 2.0 e 3.0), fare clic su OK e riavviare il computer, se richiesto.
-### <a name="_bookmark65"></a><a name="_toc97039215"></a><a name="_toc127375712"></a>**4.2.2 Abilitare .NET Framework 3.5 da linea di comando**
+   
+<hr>
+   
+**Abilitare .NET Framework 3.5 da linea di comando**
+   
 E' possibile installare .NET Framework 3.5 anche in assenza di una connessione Internet, utilizzando la seguente procedura:
 
 1. Caricare il CD/DVD di installazione del sistema operativo in uso. Se si è in possesso dell'immagine ISO, è possibile installarla cliccando col tasto destro del mouse sul file e selezionare la voce di menu "Monta"
 
-1. Aprire la console di Windows in modalità Amministratore e scrivere la seguente linea di comando:
+2. Aprire la console di Windows in modalità Amministratore e scrivere la seguente linea di comando:<br>
+Dism /online /enable-feature /featurename:NetFx3 /All /Source:<Windows Setup Drive>\sources\sxs/LimitAccess<br>
+Dove <Windows Setup Drive> è la lettera che contraddistingue il drive in cui è presente il CD/DVD di installazione di Windows o in cui è stata installata l'immagine ISO del sistema operativo. 
+Ad esempio
+Dism /online /enable-feature /featurename:NetFx3 /All /Source:D:\sources\sxs /LimitAccess
+Una volta avviato il comando premendo il tasto invio, Windows installerà .NET Framework 3.5 sul PC.
 
-   Dism /online /enable-feature /featurename:NetFx3 /All /Source:<Windows Setup Drive>\sources\sxs/LimitAccess
+<hr>
 
-Dove <Windows Setup Drive> è la lettera che contraddistingue il drive in cui è presente il CD/DVD di installazione di Windows o in cui è stata installata l'immagine ISO del sistema operativo. Ad esempio
+**Installazione di bSuite**<br>
+NOTE: 
+- Prima di avviare l'installazione di B\_SUITE è necessario assicurarsi che l'utenza in uso abbia i diritti di amministratore del PC.
+- Per evitare possibili conflitti con applicazioni esterne è strettamente necessario NON eseguire il setup di installazione dal Desktop del PC e/o dalla cartella “Documenti”.
 
-`        `<a name="_hlk129175648"></a><a name="_hlk129175630"></a>Dism /online /enable-feature /featurename:NetFx3 /All /Source:D:\sources\sxs /LimitAccess
-
-<a name="_hlk129175655"></a>Una volta avviato il comando <a name="_hlk129175669"></a>premendo il tasto invio, Windows installerà .NET Framework 3.5 sul PC.
-
-
-## <a name="_toc127375713"></a>**4.3 Installazione di bSuite**
-<a name="_hlk129175795"></a>NOTE: 
-\- prima di avviare l'installazione di B\_SUITE è necessario assicurarsi che l'utenza in uso abbia i diritti di amministratore del PC.
-\- per evitare possibili conflitti con applicazioni esterne è strettamente necessario NON eseguire il setup di installazione dal Desktop del PC e/o dalla cartella “Documenti”.
-
-<a name="_hlk129175806"></a>Copiare la cartella dell'installer sul proprio PC.
-
+1. Copiare la cartella dell'installer sul proprio PC.<br>
 **ATTENZIONE: non bisogna in alcun modo copiare la cartella dell'installer di bSuite dentro una delle cartelle di destinazione (ad esempio C:\Biesse o C:\WNC) in quanto la presenza del setup in tali cartelle potrebbe creare dei problemi potenzialmente bloccanti per l'installazione.**
 
-<a name="_hlk129175863"></a>All'avvio del setup, apparirà la seguente finestra
+2. All'avvio del setup, apparirà la seguente finestra
 
 ![](Aspose.Words.8634bbf2-0062-4359-b7e5-f8c034eddfb0.021.png)
 
-<a name="_hlk129175931"></a>Premendo il pulsante <Avanti> verrà mostrato il contratto di licenza con l'utente finale
+3. Premendo il pulsante <Avanti> verrà mostrato il contratto di licenza con l'utente finale
 
 ![](Aspose.Words.8634bbf2-0062-4359-b7e5-f8c034eddfb0.022.png)
 
-<a name="_hlk129175984"></a>Per proseguire con l'installazione è necessario accettare i termini del contratto di licenza attivando la spunta corrispondente (evidenziata nell'immagine con un rettangolo rosso).
+4. Per proseguire con l'installazione è necessario accettare i termini del contratto di licenza attivando la spunta corrispondente (evidenziata nell'immagine con un rettangolo rosso).
 
 Si attiverà il pulsante <Avanti> per passare alla schermata successiva, che consente di selezionare il tipo di materiale su cui si intenderà lavorare.
 ### <a name="_toc97039217"></a><a name="_toc127375714"></a><a name="_hlk129176014"></a>**4.3.1 Opzioni di Installazione**
