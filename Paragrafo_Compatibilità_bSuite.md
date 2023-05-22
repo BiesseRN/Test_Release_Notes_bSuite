@@ -1,6 +1,4 @@
-**Compatibilità**
-
-**1 Compatibilità con sistemi operativi**
+**Compatibilità con sistemi operativi**
 
 B\_SUITE 4.1.0 può essere installato in modalità ufficio sui seguenti sistemi operativi a 64 bit: 
 
@@ -12,7 +10,7 @@ NOTA: prima di avviare l'installazione di B\_SUITE è necessario assicurarsi che
 <br>
 <br>
 <br>
-**2 Compatibilità hardware**
+**Compatibilità hardware**
 
 B\_SUITE 4.1.0 richiede un PC con almeno la seguente configurazione:
 
@@ -29,7 +27,7 @@ NOTA: B\_SUITE non può essere installato su macchine virtuali.
 <br>
 <br>
 <br>
-**3 Compatibilità con altri software (controlli numerici, CAD/CAM, ecc.)**
+**Compatibilità con altri software (controlli numerici, CAD/CAM, ecc.)**
 
 B\_SUITE 4.1.0 richiede la presenza di:
 
