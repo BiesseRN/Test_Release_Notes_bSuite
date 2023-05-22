@@ -1,58 +1,51 @@
-**Operazioni Preliminari**
-
+**Operazioni Preliminari**<br>
 Nel caso in cui nel PC sia già installata una versione di bSuite, prima di avviare la procedura di installazione devono essere eseguite le seguenti operazioni
-<br>
-<br>
-<br>
+<hr>
+
 **Creazione di una copia di backup dei dati**
 
 Creare una copia dei dati prima di procedere alla disinstallazione della versione corrente di bSuite e all'installazione del setup. A tal fine procedere come segue:
 
 - Andare in impostazioni generali
 
-![](Aspose.Words.8634bbf2-0062-4359-b7e5-f8c034eddfb0.009.png)
-
+![Image Not Found](Informazioni_Di_Installazione/Aspose.Words.36f81f01-9f70-4468-adee-9576972549f4.011.png)
+<br>
+<br>
 
 - Selezionare esegui backup
 
-![](Aspose.Words.8634bbf2-0062-4359-b7e5-f8c034eddfb0.010.png)
+![Image Not Found](Informazioni_Di_Installazione/Aspose.Words.36f81f01-9f70-4468-adee-9576972549f4.012.png)
 
 - Scegliere il percorso nel quale salvare il backup
 - Attendere la fine del backup.
 - Ricordarsi di salvare la cartella di default in documenti chiamata bSolid.
 - Chiudere bSolid.
+<hr>
 
-### <a name="_toc97039210"></a><a name="_toc127375706"></a>**4.1.2 Arresto dell'applicazione e del WRT**
+**Arresto dell'applicazione e del WRT**
+
 Per evitare malfunzionamenti, arrestare bSuite e, se si sta lavorando su un PC a bordo macchina, il WRT prima di avviare la disinstallazione dell'applicazione. Il setup di bSuite rileva comunque l'esecuzione di tali processi e chiede che vengano chiusi prima di procedere con l'installazione, la disinstallazione, la modifica o la riparazione.
+<hr>
 
+**Disinstallazione della versione corrente di bSuite**
 
-### <a name="_toc97039211"></a><a name="_toc127375707"></a>**4.1.3 Disinstallazione della versione corrente di bSuite**
-ATTENZIONE: se la versione commerciale di bSuite da rimuovere è antecedente alla versione 3.0.1, prima di disinstallare bSuite è necessario disinstallare manualmente tutte le patch di aggiornamento eventualmente installate.
-
+ATTENZIONE: se la versione commerciale di bSuite da rimuovere è antecedente alla versione 3.0.1, prima di disinstallare bSuite è necessario disinstallare manualmente tutte le patch di aggiornamento eventualmente installate.<br>
 Le patch sono identificabili dal nome "bSuite Patch <Versione>" dove <Versione> è il numero di versione a cui la patch ha aggiornato bSuite (ad es. "bSuite 3.0.1 Patch 3.18.18.0").
-
-Dalla versione 3.0.1, le patch vengono rimosse automaticamente dall'installer.
-
+Dalla versione 3.0.1, le patch vengono rimosse automaticamente dall'installer.<br>
 Per disinstallare bSuite dal proprio PC aprire "Programmi e funzionalità" dal Pannello di Controllo di Windows e selezionare la voce "bSolid" o "bSuite X.Y.W.Z" dove X.Y.W.Z corrisponde alla versione commerciale (ad es. "bSuite 3.0.6.60") dall'elenco dei programmi.
 
-![](Aspose.Words.8634bbf2-0062-4359-b7e5-f8c034eddfb0.011.png)
+![Image Not Found](Informazioni_Di_Installazione/Aspose.Words.36f81f01-9f70-4468-adee-9576972549f4.013.png) 
 
-Premere il pulsante Disinstalla che compare nella toolbar sopra l'elenco dei programmi. Alternativamente è possibile eseguire un doppio click sulla voce.
-
+Premere il pulsante Disinstalla che compare nella toolbar sopra l'elenco dei programmi.<br>
+Alternativamente è possibile eseguire un doppio click sulla voce.<br>
 Apparirà la finestra qui a destra, da cui è possibile premere il pulsante <Disinstalla> in basso a destra per avviare la procedura di disinstallazione.
 
-![](Aspose.Words.8634bbf2-0062-4359-b7e5-f8c034eddfb0.012.png)
+![Image Not Found](Informazioni_Di_Installazione/Aspose.Words.36f81f01-9f70-4468-adee-9576972549f4.014.png) 
 
+<hr>
+   
+**Aggiornamento Driver scheda video dedicata**
 
-
-
-
-
-
-
-<a name="_toc97039212"></a><a name="_toc127375708"></a>**4.1.4 Aggiornamento Driver scheda video dedicata**
-
------------------------------------------------------------------------------------------------------------
 A partire dalla versione bSuite 4.0.0 è richiesto l’aggiornamento dei driver della scheda video dedicata all’ultima versione disponibile.
 Per eseguire questa operazione è necessario:
 
