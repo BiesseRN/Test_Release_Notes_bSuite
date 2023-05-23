@@ -14,7 +14,7 @@
 - Viene avviato il “Server chiavi hardware 15.10” che rimane in esecuzione e viene lanciato in modo automatico all’avvio della postazione.<br>
 - Aprendo la scheda “Informazioni diagnostiche”, è possibile visualizzare l’UUID della chiave hardware, il percorso in cui viene importata la licenza, l’indirizzo IP e la porta da utilizzare in bNest per collegare la licenza di rete
 
-![](Aspose.Words.d5ef0e30-a93d-46dc-a3b4-63eed9b3e856.011.png)
+![Image Not Found](Informazioni_Di_Installazione/Aspose.Words.36f81f01-9f70-4468-adee-9576972549f4.011.png)
 
 <hr>
 
