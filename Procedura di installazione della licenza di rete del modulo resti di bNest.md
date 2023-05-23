@@ -31,4 +31,4 @@ Nelle postazioni in cui è installato bNest che necessitano del collegamento di 
   ![Image Not Found](Licenza_Resti/Aspose.Words.d5ef0e30-a93d-46dc-a3b4-63eed9b3e856.012.png)
 
 - Verificare che appaia il messaggio “licenza correttamente installata”, e provare ad elaborare un progetto contenente resti senza avere errori di licenza<br>
-*NOTA\**: si consiglia di inserire il nome del server nel campo “Server chiavi hardware”; se si volesse inserire l’IP è necessario impostare l’IP statico nel server.
+**NOTA**: si consiglia di inserire il nome del server nel campo “Server chiavi hardware”; se si volesse inserire l’IP è necessario impostare l’IP statico nel server.
