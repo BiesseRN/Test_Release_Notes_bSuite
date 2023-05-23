@@ -478,13 +478,13 @@ Risolta
 
 <hr>
 
-**[bSuite] la diagnostica restituisce errore "crash" senza specificare il problema**<br>
+**Bug 201156: [bSuite] la diagnostica restituisce errore "crash" senza specificare il problema**<br>
 
 Risolta 
 
 <hr>
 
-**[PAV] PR00019484: bSolid: errore con PAV "Il documento non è multipannello" e crash sistematico successivo.**<br>
+**Bug 201189: [PAV] PR00019484: bSolid: errore con PAV "Il documento non è multipannello" e crash sistematico successivo.**<br>
 
 Risolta 
 
