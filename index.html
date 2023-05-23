@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>La mia pagina web complessa</title>
+  <title>La mia pagina web super complessa</title>
   <style>
     /* Stili CSS per la pagina */
     body {
@@ -43,6 +43,26 @@
       padding: 20px;
     }
 
+    .services {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+    }
+
+    .service {
+      width: calc(33% - 20px);
+      background-color: #f2f2f2;
+      padding: 10px;
+      margin-bottom: 20px;
+    }
+
+    .contact-info {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-gap: 20px;
+      margin-top: 20px;
+    }
+
     footer {
       background-color: #333;
       color: #fff;
@@ -53,7 +73,7 @@
 </head>
 <body>
   <header>
-    <h1>Benvenuti nella mia pagina web complessa!</h1>
+    <h1>Benvenuti nella mia pagina web super complessa!</h1>
   </header>
 
   <nav>
@@ -67,26 +87,25 @@
 
   <section>
     <h2>Benvenuti</h2>
-    <p>Questa è una pagina web complessa di esempio.</p>
+    <p>Questa è una pagina web super complessa di esempio.</p>
 
     <h3>Servizi</h3>
-    <ul>
-      <li>Servizio 1</li>
-      <li>Servizio 2</li>
-      <li>Servizio 3</li>
-    </ul>
-
-    <h3>Contatti</h3>
-    <p>Per contattarci, utilizzate i seguenti dettagli:</p>
-    <ul>
-      <li>Email: info@example.com</li>
-      <li>Telefono: 123-4567890</li>
-      <li>Indirizzo: Via Example, 123</li>
-    </ul>
-  </section>
-
-  <footer>
-    <p>Copyright &copy; 2023. Tutti i diritti riservati.</p>
-  </footer>
-</body>
-</html>
+    <div class="services">
+      <div class="service">
+        <h4>Servizio 1</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vitae dui in sem congue lacinia et vel tortor.</p>
+      </div>
+      <div class="service">
+        <h4>Servizio 2</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vitae dui in sem congue lacinia et vel tortor.</p>
+      </div>
+      <div class="service">
+        <h4>Servizio 3</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vitae dui in sem congue lacinia et vel tortor.</p>
+      </div>
+      <div class="service">
+        <h4>Servizio 4</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vitae dui in sem congue lacinia et vel tortor.</p>
+      </div>
+      <div class="service">
+        <h
