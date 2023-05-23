@@ -1,5 +1,5 @@
 **Compatibilità con sistemi operativi**
-
+-----------------------------------------------------------------------------------------
 B\_SUITE 4.1.0 può essere installato in modalità ufficio sui seguenti sistemi operativi a 64 bit: 
 
 - Windows 10
