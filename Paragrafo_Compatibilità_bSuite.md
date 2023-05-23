@@ -7,9 +7,9 @@ B\_SUITE 4.1.0 può essere installato in modalità ufficio sui seguenti sistemi 
 
 Per la modalità “bordo macchina” si rimanda agli appositi documenti di compatibilità.
 NOTA: prima di avviare l'installazione di B\_SUITE è necessario assicurarsi che l'utenza in uso abbia i diritti di amministratore del PC
-<br>
-<br>
-<br>
+
+<hr>
+
 **Compatibilità hardware**
 
 B\_SUITE 4.1.0 richiede un PC con almeno la seguente configurazione:
@@ -24,9 +24,9 @@ B\_SUITE 4.1.0 richiede un PC con almeno la seguente configurazione:
 - Almeno 20 GB di spazio libero su Hard Disk
 
 NOTA: B\_SUITE non può essere installato su macchine virtuali.
-<br>
-<br>
-<br>
+
+<hr>
+
 **Compatibilità con altri software (controlli numerici, CAD/CAM, ecc.)**
 
 B\_SUITE 4.1.0 richiede la presenza di:
