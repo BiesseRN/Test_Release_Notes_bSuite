@@ -436,8 +436,9 @@ ciclo for:
 
 ripetizioni:
 
-![Image Not Found](Problemi_Risolti/AAspose.Words.e2c3cee3-53df-4b7a-addd-d7c5f876f6df.008.png) 
+![Image Not Found](Problemi_Risolti/Aspose.Words.e2c3cee3-53df-4b7a-addd-d7c5f876f6df.008.png) 
 
+<hr>
 
 **Bug 203457: [Validation 4.1] Crash sistematico editando una faccia custom**<br>
 
