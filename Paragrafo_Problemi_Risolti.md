@@ -1,25 +1,22 @@
-﻿
-![](Aspose.Words.e2c3cee3-53df-4b7a-addd-d7c5f876f6df.001.png)![](Aspose.Words.e2c3cee3-53df-4b7a-addd-d7c5f876f6df.002.png)![](Aspose.Words.e2c3cee3-53df-4b7a-addd-d7c5f876f6df.002.png)
-![](Aspose.Words.e2c3cee3-53df-4b7a-addd-d7c5f876f6df.003.png)![](Aspose.Words.e2c3cee3-53df-4b7a-addd-d7c5f876f6df.004.png)
+**LISTA PROBLEMI RISOLTI**
 
+<hr>
 
-2. # **Lista problemi risolti**
+**B_SUITE 4.1.0.121**
 
-<a name="_toc97039006"></a><a name="_toc127375275"></a>**2.1 Problemi risolti <a name="_hlk100826577"></a>B\_SUITE 4.1.0.121**
-
-
-------------------------------------------------------------------------------------------------------------------------------
-### <a name="_toc97039007"></a><a name="_toc127375276"></a><a name="_toc52367991"></a><a name="_hlk71117576"></a>**2.1.1 Bug 196134: [bSuite]: PR00018546: bsolid: macro con aggregato da sotto da errore di collisione in ottimizzazione**
+**Bug 196134: [bSuite]: PR00018546: bsolid: macro con aggregato da sotto da errore di collisione in ottimizzazione**
 Risolta
 
 NOTA: è necessario cancellare e reinserire manualmente le macro
 
+<hr>
 
-### **2.1.2 Bug 196426: PR00018923: bsolid: crash istantaneo aprendo alcune macro create sulla stessa 4.0**
+**Bug 196426: PR00018923: bsolid: crash istantaneo aprendo alcune macro create sulla stessa 4.0**
 Risolta
 
+<hr>
 
-### **2.1.3 Bug 196427: PR00019010 [PAV] : problema con il PAV ed il passo di rotazione.**
+**Bug 196427: PR00019010 [PAV] : problema con il PAV ed il passo di rotazione.**
 Risolta
 
 NOTE: Per ragioni prestazionali è fortemente consigliato al cliente di usare il parametro 0 nel passo di discretizzazione.
