@@ -49,7 +49,7 @@ Apparirà la finestra qui a destra, da cui è possibile premere il pulsante <Dis
 A partire dalla versione bSuite 4.0.0 è richiesto l’aggiornamento dei driver della scheda video dedicata all’ultima versione disponibile.
 Per eseguire questa operazione è necessario:
 
-1. Aprire il “Pannello di controllo”
+1. Aprire il “Pannello di controllo”<br>
 2. Selezionare la voce “Gestione dispositivi”
    
    ![Image Not Found](Informazioni_Di_Installazione/Aspose.Words.36f81f01-9f70-4468-adee-9576972549f4.015.png) 
@@ -79,13 +79,13 @@ Passi da eseguire nel “Pannello di controllo NVIDIA”: 
 
 1. Nella sezione “Regola le impostazioni dell’immagine con anteprima” abilitare il parametro “Usa le impostazioni dell’immagine 3D avanzate” 
    
-![Image Not Found](Informazioni_Di_Installazione/Aspose.Words.36f81f01-9f70-4468-adee-9576972549f4.019.png)
+   ![Image Not Found](Informazioni_Di_Installazione/Aspose.Words.36f81f01-9f70-4468-adee-9576972549f4.019.png)
    
 2. Cliccare sul link “Apri la pagina” accanto al parametro “Usa le impostazioni dell’immagine 3D avanzate” 
    
 3. Selezionare la voce “Profilo base” nei “Predefiniti globali”
    
-![Image Not Found](Informazioni_Di_Installazione/Aspose.Words.36f81f01-9f70-4468-adee-9576972549f4.020.png)
+   ![Image Not Found](Informazioni_Di_Installazione/Aspose.Words.36f81f01-9f70-4468-adee-9576972549f4.020.png)
    
 4. ”Premere il pulsante “Ripristina” per resettare i valori di default (se uno o più di essi era stato precedentemente modificato)
    
@@ -93,7 +93,7 @@ Passi da eseguire nel “Pannello di controllo NVIDIA”: 
    
 6. Nell’elenco sottostante  “Impostazioni:”, ricercare il parametro “Modalità di gestione dell’alimentazione” ed impostare il valore “Preferisci le prestazioni massime” 
 
- ![Image Not Found](Informazioni_Di_Installazione/Aspose.Words.36f81f01-9f70-4468-adee-9576972549f4.021.png)
+   ![Image Not Found](Informazioni_Di_Installazione/Aspose.Words.36f81f01-9f70-4468-adee-9576972549f4.021.png)
    
 7. Applicare le modifiche effettuate cliccando sul comando “Applica” (pulsante in basso a destra) 
 
