@@ -135,6 +135,7 @@ Una volta avviato il comando premendo il tasto invio, Windows installerà .NET F
 <hr>
 
 **Installazione di bSuite**<br>
+   
 NOTE: 
 - Prima di avviare l'installazione di B\_SUITE è necessario assicurarsi che l'utenza in uso abbia i diritti di amministratore del PC.
 - Per evitare possibili conflitti con applicazioni esterne è strettamente necessario NON eseguire il setup di installazione dal Desktop del PC e/o dalla cartella “Documenti”.
@@ -144,151 +145,119 @@ NOTE:
 
 2. All'avvio del setup, apparirà la seguente finestra
 
-![](Aspose.Words.8634bbf2-0062-4359-b7e5-f8c034eddfb0.021.png)
+![Image Not Found](Informazioni_Di_Installazione/Aspose.Words.36f81f01-9f70-4468-adee-9576972549f4.023.png)
 
 3. Premendo il pulsante <Avanti> verrà mostrato il contratto di licenza con l'utente finale
 
-![](Aspose.Words.8634bbf2-0062-4359-b7e5-f8c034eddfb0.022.png)
+![Image Not Found](Informazioni_Di_Installazione/Aspose.Words.36f81f01-9f70-4468-adee-9576972549f4.024.png)
 
 4. Per proseguire con l'installazione è necessario accettare i termini del contratto di licenza attivando la spunta corrispondente (evidenziata nell'immagine con un rettangolo rosso).
 
 Si attiverà il pulsante <Avanti> per passare alla schermata successiva, che consente di selezionare il tipo di materiale su cui si intenderà lavorare.
-### <a name="_toc97039217"></a><a name="_toc127375714"></a><a name="_hlk129176014"></a>**4.3.1 Opzioni di Installazione**
-<a name="_hlk129176263"></a>La schermata è suddivisa in quattro schede (Pacchetti, Dati di Esempio, Lingue ed Opzioni).
-#### <a name="_toc127375715"></a>**4.3.1.1 Pacchetti**
-<a name="_hlk129176512"></a><a name="_hlk129176275"></a>La scheda <Pacchetti> consente di selezionare i componenti di base di bSuite e gli eventuali pacchetti opzionali. Saranno quindi disponibili i 2 pacchetti “bEdge”, “bNest”.
 
-![](Aspose.Words.8634bbf2-0062-4359-b7e5-f8c034eddfb0.023.png)
+<hr>
 
-<a name="_hlk129176301"></a>NOTA: il check “Installazione a bordo macchina” si attiverà automaticamente nel caso in cui nel PC verrà rilevata la presenza dell’applicativo “WRT” (come nel caso dei computer a bordo macchina).
+**Opzioni di Installazione**<br>
+La schermata è suddivisa in quattro schede (Pacchetti, Dati di Esempio, Lingue ed Opzioni).
+   
+<hr>
+   
+**Pacchetti**<br>
+La scheda <Pacchetti> consente di selezionare i componenti di base di bSuite e gli eventuali pacchetti opzionali. Saranno quindi disponibili i 2 pacchetti “bEdge”, “bNest”.
 
+![Image Not Found](Informazioni_Di_Installazione/Aspose.Words.36f81f01-9f70-4468-adee-9576972549f4.025.png)
+   
+NOTA: il check “Installazione a bordo macchina” si attiverà automaticamente nel caso in cui nel PC verrà rilevata la presenza dell’applicativo “WRT” (come nel caso dei computer a bordo macchina).
 Con questo check disattivato (modalità ufficio) l’installazione di bSuite PROVVEDERA’ AD INSTALLARE ANCHE IL WRT.
 
-#### <a name="_toc127375716"></a>**4.3.1.2 Lingue**
-<a name="_hlk129176312"></a>La scheda <Lingue> consente di selezionare una o più lingue da installare.
+   <hr>
 
-![](Aspose.Words.8634bbf2-0062-4359-b7e5-f8c034eddfb0.024.png)
+**Lingue**<br>
+La scheda <Lingue> consente di selezionare una o più lingue da installare.
 
-<a name="_hlk129176341"></a>La lingua inglese (EN) viene sempre installata e non è quindi possibile deselezionarla. Di default il setup attiva la lingua correntemente selezionata, visibile in alto a destra vicino ai pulsanti di chiusura e riduzione a icona della finestra (nell'immagine sopra è stata evidenziata con un rettangolo rosso). Cliccando sulla lingua corrente del setup, è possibile selezionare una lingua diversa da quella attualmente utilizzata: il setup aggiornerà la finestra automaticamente (nell'immagine seguente, ad esempio, l'utente ha selezionato la lingua tedesca).
+![Image Not Found](Informazioni_Di_Installazione/Aspose.Words.36f81f01-9f70-4468-adee-9576972549f4.026.png)
 
-#### <a name="_toc127375717"></a>**4.3.1.3 Opzioni**
-<a name="_hlk129176376"></a>La scheda <Opzioni> consente di selezionare il file contenente il badge di licenza software
+La lingua inglese (EN) viene sempre installata e non è quindi possibile deselezionarla. Di default il setup attiva la lingua correntemente selezionata, visibile in alto a destra vicino ai pulsanti di chiusura e riduzione a icona della finestra (nell'immagine sopra è stata evidenziata con un rettangolo rosso). Cliccando sulla lingua corrente del setup, è possibile selezionare una lingua diversa da quella attualmente utilizzata: il setup aggiornerà la finestra automaticamente (nell'immagine seguente, ad esempio, l'utente ha selezionato la lingua tedesca).
 
-![](Aspose.Words.8634bbf2-0062-4359-b7e5-f8c034eddfb0.025.png)
+   <hr>
 
-<a name="_hlk129176395"></a>Di default, il setup installerà il software nella cartella C:\BIESSE
+**Opzioni**<br>
+La scheda <Opzioni> consente di selezionare il file contenente il badge di licenza software
 
-### <a name="_toc127375718"></a>**4.3.2 Avvio dell'Installazione**
-Una volta configurata l'installazione, sarà possibile avviarla premendo il pulsante <Installa>.
+![Image Not Found](Informazioni_Di_Installazione/Aspose.Words.36f81f01-9f70-4468-adee-9576972549f4.027.png)
 
+Di default, il setup installerà il software nella cartella C:\BIESSE
+
+   <hr>
+
+**Avvio dell'Installazione**<br>
+Una volta configurata l'installazione, sarà possibile avviarla premendo il pulsante <Installa>.<br>
 Verrà mostrata una barra di avanzamento che consentirà all'utente di capire fino a che punto è arrivata l'installazione dei componenti selezionati.
 
-![](Aspose.Words.8634bbf2-0062-4359-b7e5-f8c034eddfb0.026.png)
+![Image Not Found](Informazioni_Di_Installazione/Aspose.Words.36f81f01-9f70-4468-adee-9576972549f4.028.png)
 
-### <a name="_bookmark69"></a><a name="_toc97039219"></a><a name="_toc127375719"></a>**4.3.3 Attivazione firewall**
+   <hr>
+
+**Attivazione firewall**<br>
 Se è attivo Windows Firewall, durante l'installazione potrebbero apparire alcune finestre che richiedono l'autorizzazione ad accedere alla rete per alcune applicazioni. Consentire l'accesso alla rete privata, come evidenziato nell'immagine sotto
 
-![](Aspose.Words.8634bbf2-0062-4359-b7e5-f8c034eddfb0.027.png)
+![Image Not Found](Informazioni_Di_Installazione/Aspose.Words.36f81f01-9f70-4468-adee-9576972549f4.029.png)
 
+   <hr>
 
-
-
-
-
-
-
-
-
-
-
-
-
-## <a name="_toc127375720"></a>**4.4 Operazioni finali**
+**Operazioni finali**
 Una volta installato bSuite nel PC, eseguire le seguenti operazioni:
-### <a name="_bookmark71"></a><a name="_toc97039221"></a><a name="_toc127375721"></a>**4.4.1 Ripristino di una copia di backup**
+
+**Ripristino di una copia di backup**
 In generale, se si è creata una copia di backup dei dati, come specificato in "Creazione di una copia di backup dei dati" (sez.5.1.1), è possibile ripristinare la situazione precedente all'installazione di bSuite eseguendo le seguenti operazioni:
 
 1. Ricercare la cartella in cui sono stati depositati i file di backup.
 
-1. Cliccare due volte sul file .bBack desiderato, o in alternativa trascinarlo sull'icona di bSuite che si trova sul Desktop. Si aprirà la finestra di ripristino dei dati:
+2. Cliccare due volte sul file .bBack desiderato, o in alternativa trascinarlo sull'icona di bSuite che si trova sul Desktop. Si aprirà la finestra di ripristino dei dati:
 
-![](Aspose.Words.8634bbf2-0062-4359-b7e5-f8c034eddfb0.028.jpeg)
+![Image Not Found](Informazioni_Di_Installazione/Aspose.Words.36f81f01-9f70-4468-adee-9576972549f4.030.jpeg)
 
-1. Marcare le caselle corrispondenti ai dati da ripristinare (notare che le caselle corrispondenti agli oggetti non presenti nell'archivio di backup sono disabilitate):
-- **Utensili**
+3. Marcare le caselle corrispondenti ai dati da ripristinare (notare che le caselle corrispondenti agli oggetti non presenti nell'archivio di backup sono disabilitate):
+- **Utensili**<br>
   Salva la lista degli utensili nel database degli utensili. In tal caso, gli utensili con lo stesso nome verranno sovrascritti.
-- **Aggregati**
-
+- **Aggregati**<br>
 Salva la lista degli aggregati nel database degli utensili. In tal caso, gli aggregati con lo stesso nome verranno sovrascritti.
-
-- **Deflettori**
-
+- **Deflettori**<br>
 Salva la lista dei deflettori nel database degli utensili. In tal caso, i deflettori con lo stesso nome verranno sovrascritti.
-
-- **Sequenze**
-
+- **Sequenze**<br>
 Salva la lista delle sequenze nel database delle sequenze
-
-- **Operazioni di lavorazione automatica**
-
+- **Operazioni di lavorazione automatica**<br>
 Salva l'elenco delle operazioni di lavorazione automatica nel database di lavorazione automatica.
-
-- **Valori predefiniti**
-
+- **Valori predefiniti**<br>
 Sovrascrive i dati di lavorazione e geometria salvati come predefiniti nella scheda Avanzate dell'area dei parametri.
-
-- **Listelli di bordatura**
-
+- **Listelli di bordatura**<br>
 Salva l'elenco dei bordi nel database degli strumenti. I bordi con lo stesso nome verranno sovrascritti.
-
-- **Etichette**
-
+- **Etichette**<br>
 Salva l'elenco delle etichette nel database degli strumenti. Le etichette con lo stesso nome verranno sovrascritte.
-
-- **Macro**
-
+- **Macro**<br>
 Salva l'elenco delle macro nel database delle macro. Le macro con lo stesso nome verranno sovrascritte.
-
-- **Modelli**
-
+- **Modelli**<br>
 Salva l'elenco dei modelli, quelli utilizzati per creare un nuovo documento (programma di lavorazione).
-
-- **File CAM**
-
+- **File CAM**<br>
 Aggiorna il contenuto della cartella "... Biesse bS solid"
-
-- **Morsa personalizzata**
-
+- **Morsa personalizzata**<br>
 Salva l'elenco delle Morse personalizzate nel database delle Morse. Le Morse con lo stesso nome verranno sovrascritte.
 
-1. Nel campo dati "Seleziona le macchine da ripristinare", seleziona le macchine da ripristinare: la selezione è evidenziata da una cornice blu. Per impostazione predefinita, tutte le macchine nel file di backup sono già selezionate. Per selezionare/deselezionare una macchina, fare clic sul suo nome. Per impostare una macchina come predefinita quando bSuite si avvia, fare clic sull'icona a forma di stella in basso a destra (la stella diventerà gialla).
-   Per rimuovere l'impostazione predefinita della macchina, fare nuovamente clic sull'icona a forma di stella (la stella diventerà grigia). Per ripristinare anche i dati WRT, attivare la casella di controllo "Ripristina dati CN". Questo controllo è presente solo se i dati NC sono disponibili per la corrispondente macchina.
+4. Nel campo dati "Seleziona le macchine da ripristinare", seleziona le macchine da ripristinare: la selezione è evidenziata da una cornice blu. Per impostazione predefinita, tutte le macchine nel file di backup sono già selezionate. Per selezionare/deselezionare una macchina, fare clic sul suo nome. Per impostare una macchina come predefinita quando bSuite si avvia, fare clic sull'icona a forma di stella in basso a destra (la stella diventerà gialla).<br>
+Per rimuovere l'impostazione predefinita della macchina, fare nuovamente clic sull'icona a forma di stella (la stella diventerà grigia). Per ripristinare anche i dati WRT, attivare la casella di controllo "Ripristina dati CN". Questo controllo è presente solo se i dati NC sono disponibili per la corrispondente macchina.
 
-1. Selezionare la casella di controllo "Elimina tutti i modelli di macchine preesistenti" solo se si desidera eliminare tutti i modelli di macchine esistenti (ad esempio quelli importati dall'installazione di bSuite) e mantenere solo quelli nel file di backup.
+5. Selezionare la casella di controllo "Elimina tutti i modelli di macchine preesistenti" solo se si desidera eliminare tutti i modelli di macchine esistenti (ad esempio quelli importati dall'installazione di bSuite) e mantenere solo quelli nel file di backup.
 
-1. Selezionare la casella di controllo "Elimina dati e configurazioni esistenti" solo se si desidera eliminare tutti i dati nella fase di ripristino per sostituirli con quelli prelevati dal file di backup. In caso contrario, per sovrascrivere quelli esistenti e aggiungerne di nuovi, lasciare la casella disattivata.
+6. Selezionare la casella di controllo "Elimina dati e configurazioni esistenti" solo se si desidera eliminare tutti i dati nella fase di ripristino per sostituirli con quelli prelevati dal file di backup. In caso contrario, per sovrascrivere quelli esistenti e aggiungerne di nuovi, lasciare la casella disattivata.
 
-1. Fare clic sul pulsante <Ripristina>.
+7. Fare clic sul pulsante <Ripristina>.
 
-1. Attendere il completamento dell'operazione di ripristino, quindi chiudere il dialogo e avviare bSuite.
+8. Attendere il completamento dell'operazione di ripristino, quindi chiudere il dialogo e avviare bSuite.
 
+   <hr>
 
-
-
-
-
-
-
-
-### <a name="_toc97039222"></a><a name="_toc127375722"></a>**4.4.2 Eventuali anomalie riscontrate all'avvio dell'applicazione**
-Quando viene eseguita l'installazione di bSuite, eventuali files di configurazione di un'installazione precedente presenti nella cartella utente Documenti\Biesse Spa\bSuite che non vengono rimossi dalla disinstallazione, vengono modificati oppure eliminati (in quest'ultimo caso viene creata una copia di backup del file con estensione.bak) per far sì che bSuite si avvii con le nuove impostazioni risultanti dalle opzioni selezionate nell'interfaccia dell'installatore.
-
-Se si riscontrano delle anomalie all'avvio dell'applicazione, chiudere bSuite ed eliminare manualmente il file SuiteSetup.bSetup presente nella cartella Documenti\Biesse Spa\bSuite.
-
-La rimozione del file assicura che al riavvio dell'applicazione verrà ricreato il file di configurazione in base alle selezioni effettuate dall'utente al momento dell'installazione.
-
+**Eventuali anomalie riscontrate all'avvio dell'applicazione**
+Quando viene eseguita l'installazione di bSuite, eventuali files di configurazione di un'installazione precedente presenti nella cartella utente Documenti\Biesse Spa\bSuite che non vengono rimossi dalla disinstallazione, vengono modificati oppure eliminati (in quest'ultimo caso viene creata una copia di backup del file con estensione.bak) per far sì che bSuite si avvii con le nuove impostazioni risultanti dalle opzioni selezionate nell'interfaccia dell'installatore.<br>
+Se si riscontrano delle anomalie all'avvio dell'applicazione, chiudere bSuite ed eliminare manualmente il file SuiteSetup.bSetup presente nella cartella Documenti\Biesse Spa\bSuite.<br>
+La rimozione del file assicura che al riavvio dell'applicazione verrà ricreato il file di configurazione in base alle selezioni effettuate dall'utente al momento dell'installazione.<br>
 Se l'anomalia persiste è necessario chiamare l'assistenza tecnica di Biesse S.p.A.
-
-
-Pag. 16** di 16**
-![](Aspose.Words.8634bbf2-0062-4359-b7e5-f8c034eddfb0.029.png)
