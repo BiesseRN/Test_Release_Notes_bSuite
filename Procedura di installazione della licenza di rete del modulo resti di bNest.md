@@ -1,64 +1,24 @@
-﻿<a name="_hlk132712297"></a>Paragrafi
+**Procedura di installazione della licenza di rete del modulo resti di bNest**
+---------------------------------------------------------------------------------------
+**Materiale necessario**
 
-Revisionati:
-
-00
-
-Data Validità:
-
-05/05/2023
-
-B\_SUITE 4.1.0.121
-
-Official Release
-
-Data Emissione: 05/05/2023
-
-Descrizione:
-
-Documento di Release Notes
-
-Revisione:
-00
-![](Aspose.Words.d5ef0e30-a93d-46dc-a3b4-63eed9b3e856.001.png)![](Aspose.Words.d5ef0e30-a93d-46dc-a3b4-63eed9b3e856.002.png)![](Aspose.Words.d5ef0e30-a93d-46dc-a3b4-63eed9b3e856.003.png)![](Aspose.Words.d5ef0e30-a93d-46dc-a3b4-63eed9b3e856.004.png)![](Aspose.Words.d5ef0e30-a93d-46dc-a3b4-63eed9b3e856.005.png)![](Aspose.Words.d5ef0e30-a93d-46dc-a3b4-63eed9b3e856.006.png)![](Aspose.Words.d5ef0e30-a93d-46dc-a3b4-63eed9b3e856.007.png)![](Aspose.Words.d5ef0e30-a93d-46dc-a3b4-63eed9b3e856.008.png)![](Aspose.Words.d5ef0e30-a93d-46dc-a3b4-63eed9b3e856.008.png)
-![](Aspose.Words.d5ef0e30-a93d-46dc-a3b4-63eed9b3e856.009.png)![](Aspose.Words.d5ef0e30-a93d-46dc-a3b4-63eed9b3e856.010.png)
-
-
-2. # **Procedura di installazione della licenza di rete del modulo resti di bNest**
-
-### <a name="_toc97039224"></a><a name="_toc127375724"></a>**5.1.1 Materiale necessario**
-- “bNest\_Dongle\_Server.exe” (nella cartella di distribuzione dell’installer di bSuite a partire dalla versione 3.0.8.140, nel percorso Installer\Packages\bSolid\Wood)
-- File di licenza resti abilitata alla condivisione di rete
+- “bNest\_Dongle\_Server.exe” (nella cartella di distribuzione dell’installer di bSuite a partire dalla versione 3.0.8.140, nel percorso Installer\Packages\bSolid\Wood)<br>
+- File di licenza resti abilitata alla condivisione di rete<br>
 - Chiave hardware abilitata alla condivisione di rete
-### <a name="_bookmark75"></a><a name="_toc97039225"></a><a name="_toc127375725"></a>**5.1.2 Procedura di installazione e configurazione del server**
-- Inserire la chiave hardware e avviare il pacchetto di installazione “*bNest\_Dongle\_Server.exe*” sulla postazione indicata come server
-- Una volta terminata l’installazione, impostare il percorso della licenza di rete da condividere selezionando il file di licenza di rete “VirtualHwKey-xxxx.ini”
-- Viene avviato il “Server chiavi hardware 15.10” che rimane in esecuzione e viene lanciato in modo automatico all’avvio della postazione.
+
+<hr>
+
+**Procedura di installazione e configurazione del server**<br>
+- Inserire la chiave hardware e avviare il pacchetto di installazione “*bNest\_Dongle\_Server.exe*” sulla postazione indicata come server<br>
+- Una volta terminata l’installazione, impostare il percorso della licenza di rete da condividere selezionando il file di licenza di rete “VirtualHwKey-xxxx.ini”<br>
+- Viene avviato il “Server chiavi hardware 15.10” che rimane in esecuzione e viene lanciato in modo automatico all’avvio della postazione.<br>
 - Aprendo la scheda “Informazioni diagnostiche”, è possibile visualizzare l’UUID della chiave hardware, il percorso in cui viene importata la licenza, l’indirizzo IP e la porta da utilizzare in bNest per collegare la licenza di rete
 
 ![](Aspose.Words.d5ef0e30-a93d-46dc-a3b4-63eed9b3e856.011.png)
 
+<hr>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-### <a name="_toc97039226"></a><a name="_toc127375726"></a>**5.1.3 Procedura di configurazione del client**
+**Procedura di configurazione del client**
 Nelle postazioni in cui è installato bNest che necessitano del collegamento di rete del modulo resti:
 
 - Avviare bNest, e aprire la gestione delle licenze per il modulo dei resti (confermare con ok se appare il messaggio di licenza già installata)
