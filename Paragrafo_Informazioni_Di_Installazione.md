@@ -1,3 +1,5 @@
+Informazioni di installazione
+-----------------------------------------------------------------------------------------
 **Operazioni Preliminari**<br>
 Nel caso in cui nel PC sia già installata una versione di bSuite, prima di avviare la procedura di installazione devono essere eseguite le seguenti operazioni
 <hr>
