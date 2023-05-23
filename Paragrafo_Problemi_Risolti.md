@@ -21,7 +21,7 @@ Risolta
 
 NOTE: Per ragioni prestazionali è fortemente consigliato al cliente di usare il parametro 0 nel passo di discretizzazione.
 
-![Immagine](Aspose.Words.e2c3cee3-53df-4b7a-addd-d7c5f876f6df.005.png)In questo modo il PAV riesce a scegliere il passo corretto in funzione delle dimensioni del pannello ed ad avere una velocità di esecuzione ottimale
+![Image Not Found](Informazioni_Di_Installazione/Aspose.Words.36f81f01-9f70-4468-adee-9576972549f4.012.png) In questo modo il PAV riesce a scegliere il passo corretto in funzione delle dimensioni del pannello ed ad avere una velocità di esecuzione ottimale
 
 
 ### **2.1.4 Bug 196439: [bSuite]: PR00018817: bsolid: opzione di attrezzaggio "Lettura da CN" non riporta mai la posizione del piano 10**
