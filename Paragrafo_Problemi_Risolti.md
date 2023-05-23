@@ -494,6 +494,7 @@ Risolta
 
 Risolta
 
+<hr>
 
 **Bug 200831: [bSuite] Template bSolid con scaricatori area dx sporgenti Rv C matr. 1000058810 (fix catalogo) [CATALOGO]**<br>
 
