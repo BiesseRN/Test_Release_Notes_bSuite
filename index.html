@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>La mia pagina web super complessa</title>
+  <title>Release Notes - Software CAD CAM</title>
   <style>
     /* Stili CSS per la pagina */
     body {
@@ -20,6 +20,8 @@
     nav {
       background-color: #f2f2f2;
       padding: 10px;
+      width: 20%;
+      float: left;
     }
 
     nav ul {
@@ -29,38 +31,23 @@
     }
 
     nav ul li {
-      display: inline-block;
-      margin-right: 10px;
+      margin-bottom: 10px;
     }
 
     nav ul li a {
       color: #333;
       text-decoration: none;
       padding: 5px;
+      display: block;
     }
 
     section {
       padding: 20px;
+      margin-left: 20%;
     }
 
-    .services {
-      display: flex;
-      justify-content: space-between;
-      flex-wrap: wrap;
-    }
-
-    .service {
-      width: calc(33% - 20px);
-      background-color: #f2f2f2;
-      padding: 10px;
-      margin-bottom: 20px;
-    }
-
-    .contact-info {
-      display: grid;
-      grid-template-columns: repeat(2, 1fr);
-      grid-gap: 20px;
-      margin-top: 20px;
+    h2 {
+      margin-top: 0;
     }
 
     footer {
@@ -68,44 +55,30 @@
       color: #fff;
       padding: 10px;
       text-align: center;
+      clear: both;
     }
   </style>
 </head>
 <body>
   <header>
-    <h1>Benvenuti nella mia pagina web super complessa!</h1>
+    <h1>Release Notes - Software CAD CAM</h1>
   </header>
 
   <nav>
     <ul>
-      <li><a href="#">Home</a></li>
-      <li><a href="#">Informazioni</a></li>
-      <li><a href="#">Servizi</a></li>
-      <li><a href="#">Contatti</a></li>
+      <li><a href="version_1.0.md" target="content">Versione 1.0</a></li>
+      <li><a href="version_1.1.md" target="content">Versione 1.1</a></li>
+      <li><a href="version_1.2.md" target="content">Versione 1.2</a></li>
+      <li><a href="version_2.0.md" target="content">Versione 2.0</a></li>
     </ul>
   </nav>
 
   <section>
-    <h2>Benvenuti</h2>
-    <p>Questa è una pagina web super complessa di esempio.</p>
+    <iframe name="content" style="border: none; width: 100%; height: 600px;"></iframe>
+  </section>
 
-    <h3>Servizi</h3>
-    <div class="services">
-      <div class="service">
-        <h4>Servizio 1</h4>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vitae dui in sem congue lacinia et vel tortor.</p>
-      </div>
-      <div class="service">
-        <h4>Servizio 2</h4>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vitae dui in sem congue lacinia et vel tortor.</p>
-      </div>
-      <div class="service">
-        <h4>Servizio 3</h4>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vitae dui in sem congue lacinia et vel tortor.</p>
-      </div>
-      <div class="service">
-        <h4>Servizio 4</h4>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vitae dui in sem congue lacinia et vel tortor.</p>
-      </div>
-      <div class="service">
-        <h
+  <footer>
+    <p>© 2023 - Software CAD CAM. Tutti i diritti riservati.</p>
+  </footer>
+</body>
+</html>
