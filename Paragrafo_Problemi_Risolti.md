@@ -432,65 +432,70 @@ NOTA: Per ripetizioni a matrice il CIX, al fine di risparmio di utilizzo di mem
 
 ciclo for:
 
-![](Aspose.Words.e2c3cee3-53df-4b7a-addd-d7c5f876f6df.007.png)
+![Image Not Found](Problemi_Risolti/Aspose.Words.e2c3cee3-53df-4b7a-addd-d7c5f876f6df.007.png) 
 
 ripetizioni:
 
-![](Aspose.Words.e2c3cee3-53df-4b7a-addd-d7c5f876f6df.008.png)
+![Image Not Found](Problemi_Risolti/AAspose.Words.e2c3cee3-53df-4b7a-addd-d7c5f876f6df.008.png) 
 
 
-### **2.1.65 Bug 203457: [Validation 4.1] Crash sistematico editando una faccia custom**
-
-Risolta 
-
-
-
-### **2.1.66 Bug 201023: [bsuite] PR00019967: La battuta 2 della barra fissa 12 si muove spostando l'origine 13. La barra fissa 12 si muove spostando l'origine 3**
+**Bug 203457: [Validation 4.1] Crash sistematico editando una faccia custom**<br>
 
 Risolta 
 
+<hr>
 
-### **2.1.67 Bug 203118: [AU-ISSUE] PR00020250 - urto foratrice e sistema hyperpod con riposizionamento su piano assistito**
+**Bug 201023: [bsuite] PR00019967: La battuta 2 della barra fissa 12 si muove spostando l'origine 13. La barra fissa 12 si muove spostando l'origine 3**<br>
 
 Risolta 
 
+<hr>
 
-### **2.1.68 Bug 203013: [4.1Validation] - P60:Crash invio programma in lista da pagina di simulazione**
+**Bug 203118: [AU-ISSUE] PR00020250 - urto foratrice e sistema hyperpod con riposizionamento su piano assistito**<br>
+
+Risolta 
+
+<hr>
+
+**Bug 203013: [4.1Validation] - P60:Crash invio programma in lista da pagina di simulazione**<br>
 
 Risolta
 
+<hr>
 
-### **2.1.69 Bug 203481: [OT] Matricola 1000061428 - grafica macchina errata (fix catalogo)**
+**Bug 203481: [OT] Matricola 1000061428 - grafica macchina errata (fix catalogo)**<br>
 
 Risolta
 
 NOTA: è necessario eseguire l'import del modello macchina con il check "Preservare i dati" abilitato. 
 
+<hr>
 
-### <a name="_hlk133589751"></a>**2.1.70 Bug 196534: PR00018984: bSolid: collisione non segnalata in simulazione macchina**
+**Bug 196534: PR00018984: bSolid: collisione non segnalata in simulazione macchina**<br>
+
+Risolta
+
+<hr>
+
+**[bSuite] la diagnostica restituisce errore "crash" senza specificare il problema**<br>
+
+Risolta 
+
+<hr>
+
+**[PAV] PR00019484: bSolid: errore con PAV "Il documento non è multipannello" e crash sistematico successivo.**<br>
+
+Risolta 
+
+<hr>
+
+**Bug 197118: PR00019416: bSolid: manca il manuale in lingua olandese (dutch).**<br>
 
 Risolta
 
 
-### **2.1.71 [bSuite] la diagnostica restituisce errore "crash" senza specificare il problema**
-
-Risolta 
-
-
-### **2.1.72 [PAV] PR00019484: bSolid: errore con PAV "Il documento non è multipannello" e crash sistematico successivo.**
-
-Risolta 
-
-
-### **2.1.73 Bug 197118: PR00019416: bSolid: manca il manuale in lingua olandese (dutch).**
-
-Risolta
-
-
-### **2.1.74 Bug 200831: [bSuite] Template bSolid con scaricatori area dx sporgenti Rv C matr. 1000058810 (fix catalogo) [CATALOGO]**
+**Bug 200831: [bSuite] Template bSolid con scaricatori area dx sporgenti Rv C matr. 1000058810 (fix catalogo) [CATALOGO]**<br>
 
 Risolta 
 
 NOTA: è necessario eseguire l’import del modello macchina
-Pag. 13** di 13**
-![](Aspose.Words.e2c3cee3-53df-4b7a-addd-d7c5f876f6df.009.png)
