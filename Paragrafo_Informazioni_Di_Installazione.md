@@ -85,7 +85,7 @@ Passi da eseguire nel “Pannello di controllo NVIDIA”: 
    
 3. Selezionare la voce “Profilo base” nei “Predefiniti globali”
    
-   ![Image Not Found](Informazioni_Di_Installazione/Aspose.Words.36f81f01-9f70-4468-adee-9576972549f4.020.png)
+![Image Not Found](Informazioni_Di_Installazione/Aspose.Words.36f81f01-9f70-4468-adee-9576972549f4.020.png)
    
 4. ”Premere il pulsante “Ripristina” per resettare i valori di default (se uno o più di essi era stato precedentemente modificato)
    
@@ -93,7 +93,7 @@ Passi da eseguire nel “Pannello di controllo NVIDIA”: 
    
 6. Nell’elenco sottostante  “Impostazioni:”, ricercare il parametro “Modalità di gestione dell’alimentazione” ed impostare il valore “Preferisci le prestazioni massime” 
 
-   ![Image Not Found](Informazioni_Di_Installazione/Aspose.Words.36f81f01-9f70-4468-adee-9576972549f4.021.png)
+ ![Image Not Found](Informazioni_Di_Installazione/Aspose.Words.36f81f01-9f70-4468-adee-9576972549f4.021.png)
    
 7. Applicare le modifiche effettuate cliccando sul comando “Applica” (pulsante in basso a destra) 
 
