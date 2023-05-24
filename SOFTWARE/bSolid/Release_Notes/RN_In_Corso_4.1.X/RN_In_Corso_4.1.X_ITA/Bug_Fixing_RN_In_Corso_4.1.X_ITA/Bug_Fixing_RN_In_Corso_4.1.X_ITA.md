@@ -181,7 +181,7 @@ Risolta
 
 NOTA: il comando "vista fotorealistica" ora presenta il corretto shortCut "Shift+Alt+P" nel suo tooltip
 
-![Image Not Found](Problemi_Risolti/Aspose.Words.e2c3cee3-53df-4b7a-addd-d7c5f876f6df.006.png) 
+![Image Not Found](Image/Aspose.Words.e2c3cee3-53df-4b7a-addd-d7c5f876f6df.006.png) 
 
 <hr>
 
@@ -430,11 +430,11 @@ NOTA: Per ripetizioni a matrice il CIX, al fine di risparmio di utilizzo di mem
 
 ciclo for:
 
-![Image Not Found](Problemi_Risolti/Aspose.Words.e2c3cee3-53df-4b7a-addd-d7c5f876f6df.007.png) 
+![Image Not Found](Image/Aspose.Words.e2c3cee3-53df-4b7a-addd-d7c5f876f6df.007.png) 
 
 ripetizioni:
 
-![Image Not Found](Problemi_Risolti/Aspose.Words.e2c3cee3-53df-4b7a-addd-d7c5f876f6df.008.png) 
+![Image Not Found](Image/Aspose.Words.e2c3cee3-53df-4b7a-addd-d7c5f876f6df.008.png) 
 
 <hr>
 
