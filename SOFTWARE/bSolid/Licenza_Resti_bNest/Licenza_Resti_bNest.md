@@ -14,7 +14,7 @@
 - Viene avviato il “Server chiavi hardware 15.10” che rimane in esecuzione e viene lanciato in modo automatico all’avvio della postazione.<br>
 - Aprendo la scheda “Informazioni diagnostiche”, è possibile visualizzare l’UUID della chiave hardware, il percorso in cui viene importata la licenza, l’indirizzo IP e la porta da utilizzare in bNest per collegare la licenza di rete
 
-  ![Image Not Found](Licenza_Resti/Aspose.Words.d5ef0e30-a93d-46dc-a3b4-63eed9b3e856.011.png)
+  ![Image Not Found](Image_Licenza_Resti_bNest/Aspose.Words.d5ef0e30-a93d-46dc-a3b4-63eed9b3e856.011.png)
 
 <hr>
 
@@ -28,7 +28,7 @@ Nelle postazioni in cui è installato bNest che necessitano del collegamento di 
 - Cliccare sull’icona della chiave e verificare che appaia il messaggio”Chiave hardware trovata”<br>
 - Premere Conferma e successivamente ok per sostituire l’eventuale file di licenza precedente
 
-  ![Image Not Found](Licenza_Resti/Aspose.Words.d5ef0e30-a93d-46dc-a3b4-63eed9b3e856.012.png)
+  ![Image Not Found](Image_Licenza_Resti_bNest/Aspose.Words.d5ef0e30-a93d-46dc-a3b4-63eed9b3e856.012.png)
 
 - Verificare che appaia il messaggio “licenza correttamente installata”, e provare ad elaborare un progetto contenente resti senza avere errori di licenza<br>
 **NOTA**: si consiglia di inserire il nome del server nel campo “Server chiavi hardware”; se si volesse inserire l’IP è necessario impostare l’IP statico nel server.
