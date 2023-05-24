@@ -1,0 +1,17 @@
+name: Convert Markdown to PDF
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  convert:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v2
+
+    - name: Convert Markdown to PDF
+      uses: wow-actions/markdown-pdf@v1
+      with:
+        markdown_file: SOFTWARE/bSolid/Compatibilità/Compatibilità.md
