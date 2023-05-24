@@ -23,7 +23,7 @@ Risolta
 NOTE: Per ragioni prestazionali è fortemente consigliato al cliente di usare il parametro 0 nel passo di discretizzazione.<br>
 In questo modo il PAV riesce a scegliere il passo corretto in funzione delle dimensioni del pannello ed ad avere una velocità di esecuzione ottimale.<br>
 
-![Image Not Found](Problemi_Risolti/Aspose.Words.e2c3cee3-53df-4b7a-addd-d7c5f876f6df.005.png) 
+![Image Not Found](Image/Aspose.Words.e2c3cee3-53df-4b7a-addd-d7c5f876f6df.005.png) 
 
 <hr>
 
