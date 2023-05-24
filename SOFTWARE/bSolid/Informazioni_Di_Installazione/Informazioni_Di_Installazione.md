@@ -10,13 +10,13 @@ Creare una copia dei dati prima di procedere alla disinstallazione della version
 
 - Andare in impostazioni generali
 
-![Image Not Found](Informazioni_Di_Installazione/Aspose.Words.36f81f01-9f70-4468-adee-9576972549f4.011.png)
+![Image Not Found](Image_Informazioni_Di_Installazione/Aspose.Words.36f81f01-9f70-4468-adee-9576972549f4.011.png)
 <br>
 <br>
 
 - Selezionare esegui backup
 
-![Image Not Found](Informazioni_Di_Installazione/Aspose.Words.36f81f01-9f70-4468-adee-9576972549f4.012.png)
+![Image Not Found](Image_Informazioni_Di_Installazione/Aspose.Words.36f81f01-9f70-4468-adee-9576972549f4.012.png)
 
 - Scegliere il percorso nel quale salvare il backup
 - Attendere la fine del backup.
@@ -42,7 +42,7 @@ Premere il pulsante Disinstalla che compare nella toolbar sopra l'elenco dei pro
 Alternativamente è possibile eseguire un doppio click sulla voce.<br>
 Apparirà la finestra qui a destra, da cui è possibile premere il pulsante <Disinstalla> in basso a destra per avviare la procedura di disinstallazione.
 
-![Image Not Found](Informazioni_Di_Installazione/Aspose.Words.36f81f01-9f70-4468-adee-9576972549f4.014.png) 
+![Image Not Found](Image_Informazioni_Di_Installazione/Aspose.Words.36f81f01-9f70-4468-adee-9576972549f4.014.png) 
 
 <hr>
    
@@ -54,20 +54,20 @@ Per eseguire questa operazione è necessario:
 1. Aprire il “Pannello di controllo”<br>
 2. Selezionare la voce “Gestione dispositivi”
    
-   ![Image Not Found](Informazioni_Di_Installazione/Aspose.Words.36f81f01-9f70-4468-adee-9576972549f4.015.png) 
+   ![Image Not Found](Image_Informazioni_Di_Installazione/Aspose.Words.36f81f01-9f70-4468-adee-9576972549f4.015.png) 
    
 3. Espandere la sezione “Schede video”
    
-   ![Image Not Found](Informazioni_Di_Installazione/Aspose.Words.36f81f01-9f70-4468-adee-9576972549f4.016.png) 
+   ![Image Not Found](Image_Informazioni_Di_Installazione/Aspose.Words.36f81f01-9f70-4468-adee-9576972549f4.016.png) 
 
 4. Selezionare con il tasto destro del mouse la scheda video dedicata e selezionare l’opzione “Aggiorna driver”
 
-   ![Image Not Found](Informazioni_Di_Installazione/Aspose.Words.36f81f01-9f70-4468-adee-9576972549f4.017.png) 
+   ![Image Not Found](Image_Informazioni_Di_Installazione/Aspose.Words.36f81f01-9f70-4468-adee-9576972549f4.017.png) 
 
 5. Selezionare l’opzione “Cerca automaticamente un driver aggiornato”.
    ATTENZIONE: è necessario che il PC sia collegato alla rete Internet
 
-   ![Image Not Found](Informazioni_Di_Installazione/Aspose.Words.36f81f01-9f70-4468-adee-9576972549f4.018.png)
+   ![Image Not Found](Image_Informazioni_Di_Installazione/Aspose.Words.36f81f01-9f70-4468-adee-9576972549f4.018.png)
 
 6. Attendere che la verifica dei driver aggiornati e l’eventuale installazione termini con successo
 
@@ -81,13 +81,13 @@ Passi da eseguire nel “Pannello di controllo NVIDIA”: 
 
 1. Nella sezione “Regola le impostazioni dell’immagine con anteprima” abilitare il parametro “Usa le impostazioni dell’immagine 3D avanzate” 
    
-   ![Image Not Found](Informazioni_Di_Installazione/Aspose.Words.36f81f01-9f70-4468-adee-9576972549f4.019.png)
+   ![Image Not Found](Image_Informazioni_Di_Installazione/Aspose.Words.36f81f01-9f70-4468-adee-9576972549f4.019.png)
    
 2. Cliccare sul link “Apri la pagina” accanto al parametro “Usa le impostazioni dell’immagine 3D avanzate” 
    
 3. Selezionare la voce “Profilo base” nei “Predefiniti globali”
    
-   ![Image Not Found](Informazioni_Di_Installazione/Aspose.Words.36f81f01-9f70-4468-adee-9576972549f4.020.png)
+   ![Image Not Found](Image_Informazioni_Di_Installazione/Aspose.Words.36f81f01-9f70-4468-adee-9576972549f4.020.png)
    
 4. ”Premere il pulsante “Ripristina” per resettare i valori di default (se uno o più di essi era stato precedentemente modificato)
    
@@ -95,7 +95,7 @@ Passi da eseguire nel “Pannello di controllo NVIDIA”: 
    
 6. Nell’elenco sottostante  “Impostazioni:”, ricercare il parametro “Modalità di gestione dell’alimentazione” ed impostare il valore “Preferisci le prestazioni massime” 
 
-   ![Image Not Found](Informazioni_Di_Installazione/Aspose.Words.36f81f01-9f70-4468-adee-9576972549f4.021.png)
+   ![Image Not Found](Image_Informazioni_Di_Installazione/Aspose.Words.36f81f01-9f70-4468-adee-9576972549f4.021.png)
    
 7. Applicare le modifiche effettuate cliccando sul comando “Applica” (pulsante in basso a destra) 
 
@@ -113,7 +113,7 @@ Per installare il software in tale sistema operativo è possibile utilizzare una
    
 La procedura di seguito descritta necessita di una connessione Internet attiva:
 
-1. Premere il tasto Windows ![Image Not Found](Informazioni_Di_Installazione/Aspose.Words.36f81f01-9f70-4468-adee-9576972549f4.022.png) sulla tastiera, digitare Funzionalità Windows e premere Invio.<br>
+1. Premere il tasto Windows ![Image Not Found](Image_Informazioni_Di_Installazione/Aspose.Words.36f81f01-9f70-4468-adee-9576972549f4.022.png) sulla tastiera, digitare Funzionalità Windows e premere Invio.<br>
 Verrà visualizzata la finestra di dialogo Attivazione o disattivazione delle funzionalità Windows.<br>
 In alternativa, aprire Pannello di controllo, fare clic sugli elementi Programmi e quindi fare clic su "Attivazione o disattivazione delle funzionalità Windows" in Programmi e funzionalità.<br>
 
@@ -147,11 +147,11 @@ NOTE:
 
 2. All'avvio del setup, apparirà la seguente finestra
 
-![Image Not Found](Informazioni_Di_Installazione/Aspose.Words.36f81f01-9f70-4468-adee-9576972549f4.023.png)
+![Image Not Found](Image_Informazioni_Di_Installazione/Aspose.Words.36f81f01-9f70-4468-adee-9576972549f4.023.png)
 
 3. Premendo il pulsante <Avanti> verrà mostrato il contratto di licenza con l'utente finale
 
-![Image Not Found](Informazioni_Di_Installazione/Aspose.Words.36f81f01-9f70-4468-adee-9576972549f4.024.png)
+![Image Not Found](Image_Informazioni_Di_Installazione/Aspose.Words.36f81f01-9f70-4468-adee-9576972549f4.024.png)
 
 4. Per proseguire con l'installazione è necessario accettare i termini del contratto di licenza attivando la spunta corrispondente (evidenziata nell'immagine con un rettangolo rosso).
 
@@ -167,7 +167,7 @@ La schermata è suddivisa in quattro schede (Pacchetti, Dati di Esempio, Lingue 
 **Pacchetti**<br>
 La scheda <Pacchetti> consente di selezionare i componenti di base di bSuite e gli eventuali pacchetti opzionali. Saranno quindi disponibili i 2 pacchetti “bEdge”, “bNest”.
 
-![Image Not Found](Informazioni_Di_Installazione/Aspose.Words.36f81f01-9f70-4468-adee-9576972549f4.025.png)
+![Image Not Found](Image_Informazioni_Di_Installazione/Aspose.Words.36f81f01-9f70-4468-adee-9576972549f4.025.png)
    
 NOTA: il check “Installazione a bordo macchina” si attiverà automaticamente nel caso in cui nel PC verrà rilevata la presenza dell’applicativo “WRT” (come nel caso dei computer a bordo macchina).
 Con questo check disattivato (modalità ufficio) l’installazione di bSuite PROVVEDERA’ AD INSTALLARE ANCHE IL WRT.
@@ -177,7 +177,7 @@ Con questo check disattivato (modalità ufficio) l’installazione di bSuite PRO
 **Lingue**<br>
 La scheda <Lingue> consente di selezionare una o più lingue da installare.
 
-![Image Not Found](Informazioni_Di_Installazione/Aspose.Words.36f81f01-9f70-4468-adee-9576972549f4.026.png)
+![Image Not Found](Image_Informazioni_Di_Installazione/Aspose.Words.36f81f01-9f70-4468-adee-9576972549f4.026.png)
 
 La lingua inglese (EN) viene sempre installata e non è quindi possibile deselezionarla. Di default il setup attiva la lingua correntemente selezionata, visibile in alto a destra vicino ai pulsanti di chiusura e riduzione a icona della finestra (nell'immagine sopra è stata evidenziata con un rettangolo rosso). Cliccando sulla lingua corrente del setup, è possibile selezionare una lingua diversa da quella attualmente utilizzata: il setup aggiornerà la finestra automaticamente (nell'immagine seguente, ad esempio, l'utente ha selezionato la lingua tedesca).
 
@@ -186,7 +186,7 @@ La lingua inglese (EN) viene sempre installata e non è quindi possibile deselez
 **Opzioni**<br>
 La scheda <Opzioni> consente di selezionare il file contenente il badge di licenza software
 
-![Image Not Found](Informazioni_Di_Installazione/Aspose.Words.36f81f01-9f70-4468-adee-9576972549f4.027.png)
+![Image Not Found](Image_Informazioni_Di_Installazione/Aspose.Words.36f81f01-9f70-4468-adee-9576972549f4.027.png)
 
 Di default, il setup installerà il software nella cartella C:\BIESSE
 
@@ -196,14 +196,14 @@ Di default, il setup installerà il software nella cartella C:\BIESSE
 Una volta configurata l'installazione, sarà possibile avviarla premendo il pulsante <Installa>.<br>
 Verrà mostrata una barra di avanzamento che consentirà all'utente di capire fino a che punto è arrivata l'installazione dei componenti selezionati.
 
-![Image Not Found](Informazioni_Di_Installazione/Aspose.Words.36f81f01-9f70-4468-adee-9576972549f4.028.png)
+![Image Not Found](Image_Informazioni_Di_Installazione/Aspose.Words.36f81f01-9f70-4468-adee-9576972549f4.028.png)
 
    <hr>
 
 **Attivazione firewall**<br>
 Se è attivo Windows Firewall, durante l'installazione potrebbero apparire alcune finestre che richiedono l'autorizzazione ad accedere alla rete per alcune applicazioni. Consentire l'accesso alla rete privata, come evidenziato nell'immagine sotto
 
-![Image Not Found](Informazioni_Di_Installazione/Aspose.Words.36f81f01-9f70-4468-adee-9576972549f4.029.png)
+![Image Not Found](Image_Informazioni_Di_Installazione/Aspose.Words.36f81f01-9f70-4468-adee-9576972549f4.029.png)
 
    <hr>
 
@@ -217,7 +217,7 @@ In generale, se si è creata una copia di backup dei dati, come specificato in "
 
 2. Cliccare due volte sul file .bBack desiderato, o in alternativa trascinarlo sull'icona di bSuite che si trova sul Desktop. Si aprirà la finestra di ripristino dei dati:
 
-![Image Not Found](Informazioni_Di_Installazione/Aspose.Words.36f81f01-9f70-4468-adee-9576972549f4.030.jpeg)
+![Image Not Found](Image_Informazioni_Di_Installazione/Aspose.Words.36f81f01-9f70-4468-adee-9576972549f4.030.jpeg)
 
 3. Marcare le caselle corrispondenti ai dati da ripristinare (notare che le caselle corrispondenti agli oggetti non presenti nell'archivio di backup sono disabilitate):
 - **Utensili**<br>
