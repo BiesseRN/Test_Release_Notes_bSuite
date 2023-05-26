@@ -1,8 +1,6 @@
 **Nuove funzionalità**
 ----------------------------------------------
-**B_SUITE 4.1.0.121**
-
-<hr>
+**B_SUITE 4.1.0.121**<br>
 
 **Feature 197422: [bSuite][bNest] Ottimizzazione sul trasferimento file a seguito dell’import di più articoli che riferiscono lo stesso file**<br>
 
