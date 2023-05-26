@@ -1,4 +1,5 @@
 **Clarifications and Additional Information**
+-------------------------------------------------
 **CIX Compatibility**<br>
 
 Information regarding the compatibility of CIX files between bSolid and Biesseworks is specified in the documents distributed with the Setup in the DVD\Support\CIX path.
