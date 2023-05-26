@@ -6,18 +6,21 @@
   <link rel="stylesheet" type="text/css" href="scripts/style.css">
 </head>
 <body>
+  <script src="https://kit.fontawesome.com/62cc1e16e2.js" crossorigin="anonymous"></script>
+  <script src="scripts/script.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.9.3/html2pdf.bundle.min.js"></script>
   <div id="container">
     <div id="sidebar">
       <h1 class="tree-title"><img src="images/logo.png" alt="Biesse Logo" class="logo">Software Information</h1>
       <ul id="releaseTree">
         <li>
-          <button class="toggle"><i class="fas fa-chevron-down"></i> Softwares</button>
+          <button class="bold-link toggle"><i class="fas fa-chevron-down"></i> Softwares</button>
           <ul class="subtree">
 		  
 		    <!-- CHI HA INVENTATO I MENU DROPDOWN VAFFANCULO -->
 			<!-- MENU DROPDOWN BSUITE -->
             <li>
-              <button class="toggle"><i class="fas fa-chevron-down"></i> bSuite</button>
+              <button class="bold-link toggle"><i class="fas fa-chevron-down"></i> bSuite</button>
               <ul class="subtree">
                 <li><a href="#" data-release="v3.1" style="color:#FFFFFF">Compatibilità</a></li>
                 <li><a href="#" data-release="v3.0" style="color:#FFFFFF">Informazioni Aggiuntive</a></li>
@@ -26,16 +29,16 @@
                 <li><a href="#" data-release="v3.0" style="color:#FFFFFF">Localizzazione</a></li>
                 <li><a href="#" data-release="v3.0" style="color:#FFFFFF">Storico Versioni Rilasciate</a></li>
                 <li>
-                  <button class="toggle"><i class="fas fa-chevron-down"></i> Release Notes</button>
+                  <button class="bold-link toggle"><i class="fas fa-chevron-down"></i> Release Notes</button>
                   <ul class="subtree">
                     <li>
-                      <button class="toggle"><i class="fas fa-chevron-down"></i> Release Notes 4.1</button>
+                      <button class="bold-link toggle"><i class="fas fa-chevron-down"></i> Release Notes 4.1</button>
                       <ul class="subtree">
-                        <li><a href="#" data-release="bSuite/4.1/v4.1" style="color:#FFFFFF">[ITA] 4.1.0.121 (MKT_Release)</a></li>
+                        <li>  <i class="fas fa-download download-pdf" onclick="convertToPdf('release_notes/bSuite/4.1/[ITA] 4.1.0.121 (MKT_Release).html')"></i>  </button> <a href="#" data-release="bSuite/4.1/v4.1" style="color:#FFFFFF">[ITA] 4.1.0.121 (MKT_Release)</a></li> 
                       </ul>
                     </li>
                     <li>
-                      <button class="toggle"><i class="fas fa-chevron-down"></i> Release Notes 4.0</button>
+                      <button class="bold-link toggle"><i class="fas fa-chevron-down"></i> Release Notes 4.0</button>
                       <ul class="subtree">
                         <li><a href="#" data-release="v4.0" style="color:#FFFFFF">[ITA] 4.0.0.117 (MKT_Release)</a></li>
                       </ul>
@@ -47,16 +50,16 @@
 			
 			<!-- MENU DROPDOWN BOPTI -->
             <li>
-              <button class="toggle"><i class="fas fa-chevron-down"></i> bOpti</button>
+              <button class="bold-link toggle"><i class="fas fa-chevron-down"></i> bOpti</button>
               <ul class="subtree">
                 <li>
-                  <button class="toggle"><i class="fas fa-chevron-down"></i> Release Notes 1.X</button>
+                  <button class="bold-link toggle"><i class="fas fa-chevron-down"></i> Release Notes 1.X</button>
                   <ul class="subtree">
                     <li><a href="#" data-release="bSuite/4.1/v4.1" style="color:#FFFFFF">[ITA] Release Notes X.X</a></li>
                   </ul>
                 </li>
                 <li>
-                  <button class="toggle"><i class="fas fa-chevron-down"></i> Release Notes 2.X</button>
+                  <button class="bold-link toggle"><i class="fas fa-chevron-down"></i> Release Notes 2.X</button>
                   <ul class="subtree">
                     <li><a href="#" data-release="v3.1" style="color:#FFFFFF">[ITA] Release Notes X.X</a></li>
                   </ul>
@@ -66,16 +69,16 @@
 			
 			<!-- MENU DROPDOWN BPROCESS -->
             <li>
-              <button class="toggle"><i class="fas fa-chevron-down"></i> bProcess</button>
+              <button class="bold-link toggle"><i class="fas fa-chevron-down"></i> bProcess</button>
               <ul class="subtree">
                 <li>
-                  <button class="toggle"><i class="fas fa-chevron-down"></i> Release Notes 1.X</button>
+                  <button class="bold-link toggle"><i class="fas fa-chevron-down"></i> Release Notes 1.X</button>
                   <ul class="subtree">
                     <li><a href="#" data-release="bSuite/4.1/v4.1" style="color:#FFFFFF">[ITA] Release Notes X.X</a></li>
                   </ul>
                 </li>
                 <li>
-                  <button class="toggle"><i class="fas fa-chevron-down"></i> Release Notes 2.X</button>
+                  <button class="bold-link toggle"><i class="fas fa-chevron-down"></i> Release Notes 2.X</button>
                   <ul class="subtree">
                     <li><a href="#" data-release="v3.1" style="color:#FFFFFF">[ITA] Release Notes X.X</a></li>
                   </ul>
@@ -85,16 +88,16 @@
 			
 			<!-- MENU DROPDOWN USER -->
             <li>
-              <button class="toggle"><i class="fas fa-chevron-down"></i> uSer</button>
+              <button class="bold-link toggle"><i class="fas fa-chevron-down"></i> uSer</button>
               <ul class="subtree">
                 <li>
-                  <button class="toggle"><i class="fas fa-chevron-down"></i> Release Notes 1.X</button>
+                  <button class="bold-link toggle"><i class="fas fa-chevron-down"></i> Release Notes 1.X</button>
                   <ul class="subtree">
                     <li><a href="#" data-release="bSuite/4.1/v4.1" style="color:#FFFFFF">[ITA] Release Notes X.X</a></li>
                   </ul>
                 </li>
                 <li>
-                  <button class="toggle"><i class="fas fa-chevron-down"></i> Release Notes 2.X</button>
+                  <button class="bold-link toggle"><i class="fas fa-chevron-down"></i> Release Notes 2.X</button>
                   <ul class="subtree">
                     <li><a href="#" data-release="v3.1" style="color:#FFFFFF">[ITA] Release Notes X.X</a></li>
                   </ul>
@@ -123,8 +126,5 @@
   </div>
 	
   </div>
-
-  <script src="https://kit.fontawesome.com/62cc1e16e2.js" crossorigin="anonymous"></script>
-  <script src="scripts/script.js"></script>
 </body>
 </html>
