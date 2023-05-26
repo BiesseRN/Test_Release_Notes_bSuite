@@ -1,6 +1,6 @@
 **LISTA PROBLEMI RISOLTI**
 -----------------------------------------------------------------------------------------
-**B_SUITE 4.1.0.121**
+**B_SUITE 4.1.0.121**<br>
 
 **Bug 196134: [bSuite]: PR00018546: bsolid: macro con aggregato da sotto da errore di collisione in ottimizzazione**<br>
 
