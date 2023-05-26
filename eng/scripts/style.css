@@ -1,0 +1,177 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+#container {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  overflow-y: 1;
+  background-color: #1a1a1a;
+}
+
+#sidebar {
+  height: 100vh;
+  width: 20%;
+  padding: 20px;
+  background-color: #1a1a1a;
+  color: #fff;
+  overflow-y: auto;
+}
+
+.tree-title {
+  color: #fff;
+  background-color: #1a1a1a;
+  padding: 10px;
+  margin: 0;
+  text-align: center;
+}
+
+#content {
+  flex: 1;
+  padding: 20px;
+  background-color: #000;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+.toggle {
+  cursor: pointer;
+  background-color: #1a1a1a;
+  color: #fff;
+  border: none;
+  padding: 10px;
+  width: 100%;
+  text-align: left;
+  display: flex;
+  align-items: center;
+}
+
+.toggle:hover {
+  background-color: #333;
+}
+
+.toggle i {
+  margin-right: 10px;
+}
+
+.subtree {
+  display: none;
+  padding-left: 20px;
+}
+
+.subtree ul.subtree {
+  padding-left: 40px;
+}
+
+.subtree ul.subtree ul.subtree {
+  padding-left: 60px;
+}
+
+.subtree.expanded {
+  display: block;
+}
+
+.text-color-tree {
+  color: #FFFFFF;
+}
+
+.expanded {
+  display: block;
+}
+
+#releaseContent {
+  color: #fff;
+  padding-left: 40px;
+  max-width: 70%;
+  background-color: #000;
+}
+
+#releaseContent ul {
+  list-style-type: none;
+  margin-left: 20px;
+  padding: 0;
+}
+
+#releaseContent ul li {
+  margin-bottom: 5px;
+}
+
+.logo {
+  width: 25px;
+  height: 25px;
+}
+
+#releaseTree a.selected {
+  background-color: #000000;
+  position: relative;
+}
+
+#releaseTree a.selected li {
+  background-color: #000000;
+}
+
+#releaseTree a.selected::after {
+  content: url('../images/arrow.png'); /* Sostituisci con il percorso dell'immagine dell'icona */
+  position: absolute;
+  right: 102%;
+  top: 50%;
+  transform: translateY(-50%);
+  margin-left: 5px; /* Aggiungi uno spazio tra il testo del link e l'icona */
+}
+
+#languageMenu {
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+}
+
+#languageMenu .toggle {
+  display: inline-block;
+  padding: 8px 12px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+#languageMenu .subtree {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  box-shadow: 0px -8px 16px 0px rgba(0, 0, 0, 0.2);
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  min-width: 120px;
+  bottom: 100%;
+}
+
+#languageMenu .subtree li {
+  padding: 8px 12px;
+  cursor: pointer;
+}
+
+#languageMenu .subtree li a {
+  color: #333;
+  text-decoration: none;
+}
+
+#languageMenu:hover .subtree {
+  display: block;
+}
+
+#languageMenu .subtree li:hover a {
+  color: #fff;
+  background-color: #333;
+}
