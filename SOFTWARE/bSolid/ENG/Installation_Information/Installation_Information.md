@@ -258,6 +258,7 @@ Save the list of custom vises in the vise database. Custom vises with the same n
 <hr>
 
 **Any anomalies encountered when launching the application**<br>
+   
 When bSuite is installed, any configuration files from a previous installation present in the user's Documents\Biesse Spa\bSuite folder that were not removed during the uninstallation will be modified or deleted (in the latter case, a backup copy of the file with the .bak extension is created) to ensure that bSuite starts with the new settings resulting from the options selected in the installer interface.<br>
 If any anomalies occur when launching the application, close bSuite and manually delete the SuiteSetup.bSetup file in the Documents\Biesse Spa\bSuite folder.<br>
 Removing the file ensures that the configuration file will be recreated based on the user's selections during the installation when the application is restarted.<br>
