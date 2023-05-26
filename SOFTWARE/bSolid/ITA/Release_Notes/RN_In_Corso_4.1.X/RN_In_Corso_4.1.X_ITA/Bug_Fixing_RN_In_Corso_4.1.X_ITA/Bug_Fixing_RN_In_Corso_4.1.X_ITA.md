@@ -47,12 +47,6 @@ NOTA: è necessario eseguire l’import del modello macchina con il check “pre
 
 <hr>
 
-**Bug 196820: LUA ToolLogic P122: errata visualizzazione TP15 lama in simulazione macchina**<br>
-
-NOTA: è necessario eseguire l’import del modello macchina con il check “preservare i dati” abilitato
-
-<hr>
-
 **Bug 197147: PR00019420: Carrelli piani HTS con la pneumatica laterale dal lato sbagliato. In realtà è a destra in bSuite è a sinistra.**<br>
 
 <hr>
