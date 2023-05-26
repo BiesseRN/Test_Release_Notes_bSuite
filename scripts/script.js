@@ -43,5 +43,30 @@ document.addEventListener('DOMContentLoaded', function() {
       selectedLinks[k].classList.remove('selected');
     }
   }
+
+
   
 });
+
+function convertToPdf(htmlFilePath) {
+  // Ottieni il nome del file dalle release notes
+  const releaseNotesName = htmlFilePath.substring(htmlFilePath.lastIndexOf('/') + 1);
+
+  // Rimuovi l'estensione ".html" dal nome del file
+  const pdfFileName = releaseNotesName.replace('.html', '');
+
+  // Carica il contenuto HTML dal file specificato
+  fetch(htmlFilePath)
+    .then(response => response.text())
+    .then(html => {
+      // Crea un oggetto "html2pdf"
+      const element = document.createElement('div');
+      element.innerHTML = html;
+      html2pdf().set({
+        pagebreak: { mode: 'avoid-all' } // Opzione per evitare la separazione del testo tra le pagine
+      }).from(element).save(pdfFileName + '.pdf');
+    });
+}
+
+
+
