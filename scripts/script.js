@@ -33,7 +33,7 @@ document.addEventListener('DOMContentLoaded', function() {
         }
       }
     };
-    xhr.open('GET', 'release_notes/' + release + '.html', true);
+    xhr.open('GET', release + '.html', true);
     xhr.send();
   }
 
