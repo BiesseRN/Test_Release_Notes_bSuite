@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>RELEASE NOTES BSUITE 4.1</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+        }
+        
+        h1 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        
+        .container {
+            display: flex;
+            flex-direction: row;
+        }
+        
+        .links {
+            flex: 0 0 200px;
+        }
+        
+        .content {
+            flex: 1;
+            padding-left: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>RELEASE NOTES BSUITE 4.1</h1>
+    
+    <div class="container">
+        <div class="links">
+            <ul>
+                <li><a href="Localizzazione.html">Localizzazione</a></li>
+                <li><a href="Bug_Fixing_RN_In_Corso_4.1.X_ITA.html">Bug Fixing RN In Corso 4.1.X ITA</a></li>
+                <li><a href="Nuove_Funzionalità_RN_In_Corso_4.1.X_ITA.html">Nuove Funzionalità RN In Corso 4.1.X ITA</a></li>
+                <li><a href="Storico_Versioni_Rilasciate.html">Storico Versioni Rilasciate</a></li>
+                <li><a href="Licenza_Resti_bNest.html">Licenza Resti bNest</a></li>
+                <li><a href="Informazioni_Aggiuntive.html">Informazioni Aggiuntive</a></li>
+                <li><a href="Compatibilità.html">Compatibilità</a></li>
+                <li><a href="Informazioni_Di_Installazione.html">Informazioni Di Installazione</a></li>
+            </ul>
+        </div>
+        <div class="content">
+            <h2 id="Nuove_Funzionalità_RN_In_Corso_4.1.X_ITA"h2>
+<h2 id="lista-nuove-funzionalità"><strong>LISTA NUOVE 
+FUNZIONALITA'</strong></h2>
+<p><strong>B_SUITE 4.1.0.121</strong></p>
+<hr>
+<p><strong>Feature 197422: [bSuite][bNest] Ottimizzazione sul
+trasferimento file a seguito dell’import di più articoli che riferiscono
+lo stesso file</strong><br></p>
+<p>E’ stata ottimizzata la gestione del trasferimento e archiviazione
+dei file di programma (bSolid, cix, …) associati agli articoli da
+importare (da csv, da file, ecc.) facendo in modo di trasferire un solo
+file nel caso più articoli riferiscono lo stesso file, o di non
+trasferire i file nel caso siano già presenti in archivio. Questa
+ottimizzazione può rendere più “leggeri” i backup di bNest.**</p>
+<hr>
+<p><strong>Feature 197424: [bSuite] [bNest] Nesting con tecnologia
+indotta</strong><br></p>
+<p>E’ stata aggiunta una nuova tecnologia automatica che permette di
+applicare una fresatura intorno ad ogni singolo pezzo dello schema di
+nesting. Questa funzionalità è molto utile nel caso di pezzi composti da
+sole geometrie. Per attivare questa funzionalità basta andare nei
+parametri di progetto e selezionare “Fresatura a pezzo singolo” nel tipo
+di fresatura della tecnologia automatica**</p>
+<figure>
+<img
+src="SOFTWARE/bSolid/Release_Notes/RN_In_Corso_4.1.X/RN_In_Corso_4.1.X_ITA/Nuove_Funzionalità_RN_In_Corso_4.1.X_ITA/Image/Aspose.Words.5060ec76-ade4-47a5-9909-f396d2b98e18.003.jpeg"
+alt="Image Not Found" />
+<figcaption aria-hidden="true">Image Not Found</figcaption>
+</figure>
+<p>Per impostare tutti i parametri tecnologici e di comportamento della
+fresatura a pezzo singolo, basta andare nella specifica scheda</p>
+<figure>
+<img
+src="SOFTWARE/bSolid/Release_Notes/RN_In_Corso_4.1.X/RN_In_Corso_4.1.X_ITA/Nuove_Funzionalità_RN_In_Corso_4.1.X_ITA/Image/Aspose.Words.5060ec76-ade4-47a5-9909-f396d2b98e18.004.jpeg"
+alt="Image Not Found" />
+<figcaption aria-hidden="true">Image Not Found</figcaption>
+</figure>
+<p>Tra i parametri di comportamento di questa scheda particolarmente
+importanti sono quelli relativi alla gestione del punto di attacco, che
+offrono la possibilità di decidere in quale punto del pezzo posizionare
+il punto di attacco (es. sul tratto più lungo, in base all’ordine di
+distacco dei pezzi, prediligendo i tratti lineari, …).</p>
