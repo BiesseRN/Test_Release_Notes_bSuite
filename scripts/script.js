@@ -44,10 +44,17 @@ document.addEventListener('DOMContentLoaded', function() {
     }
   }
 
+  //QUESTO JQUERY CODE SERVER PER INTERAGIRE CON LA FRECCIA VERSO IL BASSO, QUANDO VIENE CLICCATA TRASFORMA LA FRECCIA VERSO IL BASSO A VERSO DESTRA
+  $(document).ready(function() {
+	$('.toggle').click(function() {
+    $(this).find('i:not(.download-pdf, .fa-globe)').toggleClass('fa-chevron-down fa-chevron-right');
+  });
+ });
+
 
   
 });
-
+  
 function convertToPdf(htmlFilePath) {
   // Ottieni il nome del file dalle release notes
   const releaseNotesName = htmlFilePath.substring(htmlFilePath.lastIndexOf('/') + 1);
@@ -67,6 +74,3 @@ function convertToPdf(htmlFilePath) {
       }).from(element).save(pdfFileName + '.pdf');
     });
 }
-
-
-
