@@ -1,5 +1,5 @@
 **Localizzazione**
---------------------------------------------------------------
+***
 
 L’applicazione è localizzata in:
 
@@ -33,7 +33,7 @@ L’applicazione è localizzata in:
 - Turco
 - Ungherese
 
-<hr>
+***
 
 il manuale è tradotto in:
 
