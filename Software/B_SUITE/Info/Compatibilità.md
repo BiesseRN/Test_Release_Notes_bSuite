@@ -8,7 +8,7 @@ B\_SUITE 4.1.0 può essere installato in modalità ufficio sui seguenti sistemi 
 Per la modalità “bordo macchina” si rimanda agli appositi documenti di compatibilità.
 NOTA: prima di avviare l'installazione di B\_SUITE è necessario assicurarsi che l'utenza in uso abbia i diritti di amministratore del PC
 
-<hr>
+***
 
 **Compatibilità hardware**
 
