@@ -10,12 +10,12 @@ Creare una copia dei dati prima di procedere alla disinstallazione della version
 
 1. Andare in impostazioni generali
 
-![Image Not Found](Software/B_SUITE/Info/Image/Aspose.Words.36f81f01-9f70-4468-adee-9576972549f4.011.png)
+   ![Image Not Found](Software/B_SUITE/Info/Image/Aspose.Words.36f81f01-9f70-4468-adee-9576972549f4.011.png)
 
 
 2. Selezionare esegui backup
 
-![Image Not Found](Software/B_SUITE/Info/Image/Aspose.Words.36f81f01-9f70-4468-adee-9576972549f4.012.png)
+   ![Image Not Found](Software/B_SUITE/Info/Image/Aspose.Words.36f81f01-9f70-4468-adee-9576972549f4.012.png)
 
 3. Scegliere il percorso nel quale salvare il backup
 4. Attendere la fine del backup.
