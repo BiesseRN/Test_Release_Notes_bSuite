@@ -31,7 +31,7 @@ Per evitare malfunzionamenti, arrestare bSuite e, se si sta lavorando su un PC a
 **Disinstallazione della versione corrente di bSuite**
 
 ATTENZIONE: se la versione commerciale di bSuite da rimuovere è antecedente alla versione 3.0.1, prima di disinstallare bSuite è necessario disinstallare manualmente tutte le patch di aggiornamento eventualmente installate.
-Le patch sono identificabili dal nome "bSuite Patch <Versione>" dove <Versione> è il numero di versione a cui la patch ha aggiornato bSuite (ad es. "bSuite 3.0.1 Patch 3.18.18.0").
+Le patch sono identificabili dal nome "bSuite Patch Versione" dove Versione è il numero di versione a cui la patch ha aggiornato bSuite (ad es. "bSuite 3.0.1 Patch 3.18.18.0").
 Dalla versione 3.0.1, le patch vengono rimosse automaticamente dall'installer.
 Per disinstallare bSuite dal proprio PC aprire "Programmi e funzionalità" dal Pannello di Controllo di Windows e selezionare la voce "bSolid" o "bSuite X.Y.W.Z" dove X.Y.W.Z corrisponde alla versione commerciale (ad es. "bSuite 3.0.6.60") dall'elenco dei programmi.
 
@@ -148,7 +148,7 @@ NOTE:
 
 ![Image Not Found](Image/Aspose.Words.36f81f01-9f70-4468-adee-9576972549f4.023.png)
 
-3. Premendo il pulsante <Avanti> verrà mostrato il contratto di licenza con l'utente finale
+3. Premendo il pulsante Avanti verrà mostrato il contratto di licenza con l'utente finale
 
 ![Image Not Found](Image/Aspose.Words.36f81f01-9f70-4468-adee-9576972549f4.024.png)
 
@@ -166,7 +166,7 @@ La schermata è suddivisa in quattro schede (Pacchetti, Dati di Esempio, Lingue 
    
 **Pacchetti**
    
-La scheda <Pacchetti> consente di selezionare i componenti di base di bSuite e gli eventuali pacchetti opzionali. Saranno quindi disponibili i 2 pacchetti “bEdge”, “bNest”.
+La scheda Pacchetti consente di selezionare i componenti di base di bSuite e gli eventuali pacchetti opzionali. Saranno quindi disponibili i 2 pacchetti “bEdge”, “bNest”.
 
 ![Image Not Found](Image/Aspose.Words.36f81f01-9f70-4468-adee-9576972549f4.025.png)
    
@@ -218,7 +218,7 @@ Una volta installato bSuite nel PC, eseguire le seguenti operazioni:
 
 **Ripristino di una copia di backup**
    
-In generale, se si è creata una copia di backup dei dati, come specificato in "Creazione di una copia di backup dei dati" (sez.5.1.1), è possibile ripristinare la situazione precedente all'installazione di bSuite eseguendo le seguenti operazioni:
+In generale, se si è creata una copia di backup dei dati, come specificato in "Creazione di una copia di backup dei dati", è possibile ripristinare la situazione precedente all'installazione di bSuite eseguendo le seguenti operazioni:
 
 1. Ricercare la cartella in cui sono stati depositati i file di backup.
 
@@ -270,7 +270,7 @@ Per rimuovere l'impostazione predefinita della macchina, fare nuovamente clic su
 
 6. Selezionare la casella di controllo "Elimina dati e configurazioni esistenti" solo se si desidera eliminare tutti i dati nella fase di ripristino per sostituirli con quelli prelevati dal file di backup. In caso contrario, per sovrascrivere quelli esistenti e aggiungerne di nuovi, lasciare la casella disattivata.
 
-7. Fare clic sul pulsante <Ripristina>.
+7. Fare clic sul pulsante Ripristina.
 
 8. Attendere il completamento dell'operazione di ripristino, quindi chiudere il dialogo e avviare bSuite.
 
