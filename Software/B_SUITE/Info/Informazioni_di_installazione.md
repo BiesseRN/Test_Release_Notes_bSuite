@@ -30,15 +30,15 @@ Per evitare malfunzionamenti, arrestare bSuite e, se si sta lavorando su un PC a
 
 **Disinstallazione della versione corrente di bSuite**
 
-ATTENZIONE: se la versione commerciale di bSuite da rimuovere è antecedente alla versione 3.0.1, prima di disinstallare bSuite è necessario disinstallare manualmente tutte le patch di aggiornamento eventualmente installate.<br>
+ATTENZIONE: se la versione commerciale di bSuite da rimuovere è antecedente alla versione 3.0.1, prima di disinstallare bSuite è necessario disinstallare manualmente tutte le patch di aggiornamento eventualmente installate.
 Le patch sono identificabili dal nome "bSuite Patch <Versione>" dove <Versione> è il numero di versione a cui la patch ha aggiornato bSuite (ad es. "bSuite 3.0.1 Patch 3.18.18.0").
-Dalla versione 3.0.1, le patch vengono rimosse automaticamente dall'installer.<br>
+Dalla versione 3.0.1, le patch vengono rimosse automaticamente dall'installer.
 Per disinstallare bSuite dal proprio PC aprire "Programmi e funzionalità" dal Pannello di Controllo di Windows e selezionare la voce "bSolid" o "bSuite X.Y.W.Z" dove X.Y.W.Z corrisponde alla versione commerciale (ad es. "bSuite 3.0.6.60") dall'elenco dei programmi.
 
 ![Image Not Found](Image/Aspose.Words.36f81f01-9f70-4468-adee-9576972549f4.013.png)
 
-Premere il pulsante Disinstalla che compare nella toolbar sopra l'elenco dei programmi.<br>
-Alternativamente è possibile eseguire un doppio click sulla voce.<br>
+Premere il pulsante Disinstalla che compare nella toolbar sopra l'elenco dei programmi.
+Alternativamente è possibile eseguire un doppio click sulla voce.
 Apparirà la finestra qui a destra, da cui è possibile premere il pulsante <Disinstalla> in basso a destra per avviare la procedura di disinstallazione.
 
 ![Image Not Found](Image/Aspose.Words.36f81f01-9f70-4468-adee-9576972549f4.014.png) 
@@ -50,7 +50,7 @@ Apparirà la finestra qui a destra, da cui è possibile premere il pulsante <Dis
 A partire dalla versione bSuite 4.0.0 è richiesto l’aggiornamento dei driver della scheda video dedicata all’ultima versione disponibile.
 Per eseguire questa operazione è necessario:
 
-1. Aprire il “Pannello di controllo”<br>
+1. Aprire il “Pannello di controllo”
 2. Selezionare la voce “Gestione dispositivi”
    
    ![Image Not Found](Image/Aspose.Words.36f81f01-9f70-4468-adee-9576972549f4.015.png) 
@@ -112,9 +112,9 @@ Per installare il software in tale sistema operativo è possibile utilizzare una
    
 La procedura di seguito descritta necessita di una connessione Internet attiva:
 
-1. Premere il tasto Windows ![Image Not Found](Image/Aspose.Words.36f81f01-9f70-4468-adee-9576972549f4.022.png) sulla tastiera, digitare Funzionalità Windows e premere Invio.<br>
-Verrà visualizzata la finestra di dialogo Attivazione o disattivazione delle funzionalità Windows.<br>
-In alternativa, aprire Pannello di controllo, fare clic sugli elementi Programmi e quindi fare clic su "Attivazione o disattivazione delle funzionalità Windows" in Programmi e funzionalità.<br>
+1. Premere il tasto Windows ![Image Not Found](Image/Aspose.Words.36f81f01-9f70-4468-adee-9576972549f4.022.png) sulla tastiera, digitare Funzionalità Windows e premere Invio.
+Verrà visualizzata la finestra di dialogo Attivazione o disattivazione delle funzionalità Windows.
+In alternativa, aprire Pannello di controllo, fare clic sugli elementi Programmi e quindi fare clic su "Attivazione o disattivazione delle funzionalità Windows" in Programmi e funzionalità.
 
 1. Selezionare la casella di controllo .NET Framework 3.5 (include .NET 2.0 e 3.0), fare clic su OK e riavviare il computer, se richiesto.
    
@@ -126,8 +126,8 @@ E' possibile installare .NET Framework 3.5 anche in assenza di una connessione I
 
 1. Caricare il CD/DVD di installazione del sistema operativo in uso. Se si è in possesso dell'immagine ISO, è possibile installarla cliccando col tasto destro del mouse sul file e selezionare la voce di menu "Monta"
 
-2. Aprire la console di Windows in modalità Amministratore e scrivere la seguente linea di comando:<br>
-Dism /online /enable-feature /featurename:NetFx3 /All /Source:<Windows Setup Drive>\sources\sxs/LimitAccess<br>
+2. Aprire la console di Windows in modalità Amministratore e scrivere la seguente linea di comando:
+Dism /online /enable-feature /featurename:NetFx3 /All /Source:<Windows Setup Drive>\sources\sxs/LimitAccess
 Dove <Windows Setup Drive> è la lettera che contraddistingue il drive in cui è presente il CD/DVD di installazione di Windows o in cui è stata installata l'immagine ISO del sistema operativo. 
 Ad esempio
 Dism /online /enable-feature /featurename:NetFx3 /All /Source:D:\sources\sxs /LimitAccess
@@ -135,13 +135,13 @@ Una volta avviato il comando premendo il tasto invio, Windows installerà .NET F
 
 ***
 
-**Installazione di bSuite**<br>
+**Installazione di bSuite**
    
 NOTE: 
 - Prima di avviare l'installazione di B\_SUITE è necessario assicurarsi che l'utenza in uso abbia i diritti di amministratore del PC.
 - Per evitare possibili conflitti con applicazioni esterne è strettamente necessario NON eseguire il setup di installazione dal Desktop del PC e/o dalla cartella “Documenti”.
 
-1. Copiare la cartella dell'installer sul proprio PC.<br>
+1. Copiare la cartella dell'installer sul proprio PC.
 **ATTENZIONE: non bisogna in alcun modo copiare la cartella dell'installer di bSuite dentro una delle cartelle di destinazione (ad esempio C:\Biesse o C:\WNC) in quanto la presenza del setup in tali cartelle potrebbe creare dei problemi potenzialmente bloccanti per l'installazione.**
 
 2. All'avvio del setup, apparirà la seguente finestra
@@ -158,12 +158,12 @@ Si attiverà il pulsante <Avanti> per passare alla schermata successiva, che con
 
 ***
 
-**Opzioni di Installazione**<br>
+**Opzioni di Installazione**
 La schermata è suddivisa in quattro schede (Pacchetti, Dati di Esempio, Lingue ed Opzioni).
    
 ***
    
-**Pacchetti**<br>
+**Pacchetti**
 La scheda <Pacchetti> consente di selezionare i componenti di base di bSuite e gli eventuali pacchetti opzionali. Saranno quindi disponibili i 2 pacchetti “bEdge”, “bNest”.
 
 ![Image Not Found](Image/Aspose.Words.36f81f01-9f70-4468-adee-9576972549f4.025.png)
@@ -173,7 +173,7 @@ Con questo check disattivato (modalità ufficio) l’installazione di bSuite PRO
 
    ***
 
-**Lingue**<br>
+**Lingue**
 La scheda <Lingue> consente di selezionare una o più lingue da installare.
 
 ![Image Not Found](Image/Aspose.Words.36f81f01-9f70-4468-adee-9576972549f4.026.png)
@@ -182,7 +182,7 @@ La lingua inglese (EN) viene sempre installata e non è quindi possibile deselez
 
    ***
 
-**Opzioni**<br>
+**Opzioni**
 La scheda <Opzioni> consente di selezionare il file contenente il badge di licenza software
 
 ![Image Not Found](Image/Aspose.Words.36f81f01-9f70-4468-adee-9576972549f4.027.png)
@@ -191,15 +191,15 @@ Di default, il setup installerà il software nella cartella C:\BIESSE
 
    ***
 
-**Avvio dell'Installazione**<br>
-Una volta configurata l'installazione, sarà possibile avviarla premendo il pulsante <Installa>.<br>
+**Avvio dell'Installazione**
+Una volta configurata l'installazione, sarà possibile avviarla premendo il pulsante <Installa>.
 Verrà mostrata una barra di avanzamento che consentirà all'utente di capire fino a che punto è arrivata l'installazione dei componenti selezionati.
 
 ![Image Not Found](Image/Aspose.Words.36f81f01-9f70-4468-adee-9576972549f4.028.png)
 
    ***
 
-**Attivazione firewall**<br>
+**Attivazione firewall**
 Se è attivo Windows Firewall, durante l'installazione potrebbero apparire alcune finestre che richiedono l'autorizzazione ad accedere alla rete per alcune applicazioni. Consentire l'accesso alla rete privata, come evidenziato nell'immagine sotto
 
 ![Image Not Found](Image/Aspose.Words.36f81f01-9f70-4468-adee-9576972549f4.029.png)
@@ -219,32 +219,32 @@ In generale, se si è creata una copia di backup dei dati, come specificato in "
 ![Image Not Found](Image/Aspose.Words.36f81f01-9f70-4468-adee-9576972549f4.030.jpeg)
 
 3. Marcare le caselle corrispondenti ai dati da ripristinare (notare che le caselle corrispondenti agli oggetti non presenti nell'archivio di backup sono disabilitate):
-- **Utensili**<br>
+- **Utensili**
   Salva la lista degli utensili nel database degli utensili. In tal caso, gli utensili con lo stesso nome verranno sovrascritti.
-- **Aggregati**<br>
+- **Aggregati**
 Salva la lista degli aggregati nel database degli utensili. In tal caso, gli aggregati con lo stesso nome verranno sovrascritti.
-- **Deflettori**<br>
+- **Deflettori**
 Salva la lista dei deflettori nel database degli utensili. In tal caso, i deflettori con lo stesso nome verranno sovrascritti.
-- **Sequenze**<br>
+- **Sequenze**
 Salva la lista delle sequenze nel database delle sequenze
-- **Operazioni di lavorazione automatica**<br>
+- **Operazioni di lavorazione automatica**
 Salva l'elenco delle operazioni di lavorazione automatica nel database di lavorazione automatica.
-- **Valori predefiniti**<br>
+- **Valori predefiniti**
 Sovrascrive i dati di lavorazione e geometria salvati come predefiniti nella scheda Avanzate dell'area dei parametri.
-- **Listelli di bordatura**<br>
+- **Listelli di bordatura**
 Salva l'elenco dei bordi nel database degli strumenti. I bordi con lo stesso nome verranno sovrascritti.
-- **Etichette**<br>
+- **Etichette**
 Salva l'elenco delle etichette nel database degli strumenti. Le etichette con lo stesso nome verranno sovrascritte.
-- **Macro**<br>
+- **Macro**
 Salva l'elenco delle macro nel database delle macro. Le macro con lo stesso nome verranno sovrascritte.
-- **Modelli**<br>
+- **Modelli**
 Salva l'elenco dei modelli, quelli utilizzati per creare un nuovo documento (programma di lavorazione).
-- **File CAM**<br>
+- **File CAM**
 Aggiorna il contenuto della cartella "... Biesse bS solid"
-- **Morsa personalizzata**<br>
+- **Morsa personalizzata**
 Salva l'elenco delle Morse personalizzate nel database delle Morse. Le Morse con lo stesso nome verranno sovrascritte.
 
-4. Nel campo dati "Seleziona le macchine da ripristinare", seleziona le macchine da ripristinare: la selezione è evidenziata da una cornice blu. Per impostazione predefinita, tutte le macchine nel file di backup sono già selezionate. Per selezionare/deselezionare una macchina, fare clic sul suo nome. Per impostare una macchina come predefinita quando bSuite si avvia, fare clic sull'icona a forma di stella in basso a destra (la stella diventerà gialla).<br>
+4. Nel campo dati "Seleziona le macchine da ripristinare", seleziona le macchine da ripristinare: la selezione è evidenziata da una cornice blu. Per impostazione predefinita, tutte le macchine nel file di backup sono già selezionate. Per selezionare/deselezionare una macchina, fare clic sul suo nome. Per impostare una macchina come predefinita quando bSuite si avvia, fare clic sull'icona a forma di stella in basso a destra (la stella diventerà gialla).
 Per rimuovere l'impostazione predefinita della macchina, fare nuovamente clic sull'icona a forma di stella (la stella diventerà grigia). Per ripristinare anche i dati WRT, attivare la casella di controllo "Ripristina dati CN". Questo controllo è presente solo se i dati NC sono disponibili per la corrispondente macchina.
 
 5. Selezionare la casella di controllo "Elimina tutti i modelli di macchine preesistenti" solo se si desidera eliminare tutti i modelli di macchine esistenti (ad esempio quelli importati dall'installazione di bSuite) e mantenere solo quelli nel file di backup.
@@ -257,8 +257,8 @@ Per rimuovere l'impostazione predefinita della macchina, fare nuovamente clic su
 
    ***
 
-**Eventuali anomalie riscontrate all'avvio dell'applicazione**<br>
-Quando viene eseguita l'installazione di bSuite, eventuali files di configurazione di un'installazione precedente presenti nella cartella utente Documenti\Biesse Spa\bSuite che non vengono rimossi dalla disinstallazione, vengono modificati oppure eliminati (in quest'ultimo caso viene creata una copia di backup del file con estensione.bak) per far sì che bSuite si avvii con le nuove impostazioni risultanti dalle opzioni selezionate nell'interfaccia dell'installatore.<br>
-Se si riscontrano delle anomalie all'avvio dell'applicazione, chiudere bSuite ed eliminare manualmente il file SuiteSetup.bSetup presente nella cartella Documenti\Biesse Spa\bSuite.<br>
-La rimozione del file assicura che al riavvio dell'applicazione verrà ricreato il file di configurazione in base alle selezioni effettuate dall'utente al momento dell'installazione.<br>
+**Eventuali anomalie riscontrate all'avvio dell'applicazione**
+Quando viene eseguita l'installazione di bSuite, eventuali files di configurazione di un'installazione precedente presenti nella cartella utente Documenti\Biesse Spa\bSuite che non vengono rimossi dalla disinstallazione, vengono modificati oppure eliminati (in quest'ultimo caso viene creata una copia di backup del file con estensione.bak) per far sì che bSuite si avvii con le nuove impostazioni risultanti dalle opzioni selezionate nell'interfaccia dell'installatore.
+Se si riscontrano delle anomalie all'avvio dell'applicazione, chiudere bSuite ed eliminare manualmente il file SuiteSetup.bSetup presente nella cartella Documenti\Biesse Spa\bSuite.
+La rimozione del file assicura che al riavvio dell'applicazione verrà ricreato il file di configurazione in base alle selezioni effettuate dall'utente al momento dell'installazione.
 Se l'anomalia persiste è necessario chiamare l'assistenza tecnica di Biesse S.p.A.
