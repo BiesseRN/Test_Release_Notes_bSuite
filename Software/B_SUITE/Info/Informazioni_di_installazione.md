@@ -8,19 +8,19 @@ Nel caso in cui nel PC sia già installata una versione di bSuite, prima di avvi
 
 Creare una copia dei dati prima di procedere alla disinstallazione della versione corrente di bSuite e all'installazione del setup. A tal fine procedere come segue:
 
--Andare in impostazioni generali
+* Andare in impostazioni generali
 
 ![Image Not Found](Software/B_SUITE/Info/Image/Aspose.Words.36f81f01-9f70-4468-adee-9576972549f4.011.png)
 
 
--Selezionare esegui backup
+* Selezionare esegui backup
 
 ![Image Not Found](Software/B_SUITE/Info/Image/Aspose.Words.36f81f01-9f70-4468-adee-9576972549f4.012.png)
 
--Scegliere il percorso nel quale salvare il backup
--Attendere la fine del backup.
--Ricordarsi di salvare la cartella di default in documenti chiamata bSolid.
--Chiudere bSolid.
+* Scegliere il percorso nel quale salvare il backup
+* Attendere la fine del backup.
+* Ricordarsi di salvare la cartella di default in documenti chiamata bSolid.
+* Chiudere bSolid.
 
 ***
 
