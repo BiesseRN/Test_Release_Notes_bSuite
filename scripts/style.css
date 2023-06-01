@@ -32,7 +32,7 @@ body {
   flex: 1;
   padding: 20px;
   // background-color: #000;
-  background-image: url('./images/whiteandlogo.jpg');
+  background-image: url('../images/whiteandlogo.jpg');
 }
 
 ul {
