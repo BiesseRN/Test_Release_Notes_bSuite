@@ -107,9 +107,9 @@ Passi da eseguire nel “Pannello di controllo NVIDIA”: 
    
 ATTENZIONE: Durante l'installazione su WINDOWS 10 si potrebbe riscontrare un'anomalia relativa
 all'impossibilità di installare il pacchetto di .NET Framework 3.5: tale software è un prerequisito dell'applicazione e deve quindi essere installato obbligatoriamente.  
-Per installare il software in tale sistema operativo è possibile utilizzare una delle seguenti opzioni:
-
-***
+Per installare il software in tale sistema operativo è possibile utilizzare una delle seguenti opzioni:  
+   
+   
 
 **Abilitare .NET Framework 3.5 dal Pannello di Controllo**
    
@@ -119,9 +119,9 @@ La procedura di seguito descritta necessita di una connessione Internet attiva:
 Verrà visualizzata la finestra di dialogo Attivazione o disattivazione delle funzionalità Windows.
 In alternativa, aprire Pannello di controllo, fare clic sugli elementi Programmi e quindi fare clic su "Attivazione o disattivazione delle funzionalità Windows" in Programmi e funzionalità.
 
-1. Selezionare la casella di controllo .NET Framework 3.5 (include .NET 2.0 e 3.0), fare clic su OK e riavviare il computer, se richiesto.
+2. Selezionare la casella di controllo .NET Framework 3.5 (include .NET 2.0 e 3.0), fare clic su OK e riavviare il computer, se richiesto.  
    
-***
+   
    
 **Abilitare .NET Framework 3.5 da linea di comando**
    
@@ -140,7 +140,7 @@ Una volta avviato il comando premendo il tasto invio, Windows installerà .NET F
 
 **Installazione di bSuite**
    
-NOTE: 
+NOTE:   
 Prima di avviare l'installazione di B\_SUITE è necessario assicurarsi che l'utenza in uso abbia i diritti di amministratore del PC.  
 Per evitare possibili conflitti con applicazioni esterne è strettamente necessario NON eseguire il setup di installazione dal Desktop del PC e/o dalla cartella “Documenti”.
 
