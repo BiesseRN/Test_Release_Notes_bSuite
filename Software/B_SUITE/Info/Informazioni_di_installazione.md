@@ -106,7 +106,7 @@ Passi da eseguire nel “Pannello di controllo NVIDIA”: 
 **Operazioni preliminari su alcuni sistemi operativi**
    
 ATTENZIONE: Durante l'installazione su WINDOWS 10 si potrebbe riscontrare un'anomalia relativa
-all'impossibilità di installare il pacchetto di .NET Framework 3.5: tale software è un prerequisito dell'applicazione e deve quindi essere installato obbligatoriamente.
+all'impossibilità di installare il pacchetto di .NET Framework 3.5: tale software è un prerequisito dell'applicazione e deve quindi essere installato obbligatoriamente.  
 Per installare il software in tale sistema operativo è possibile utilizzare una delle seguenti opzioni:
 
 ***
