@@ -31,7 +31,7 @@ NOTA: B\_SUITE non può essere installato su macchine virtuali.
 
 B\_SUITE 4.1.0 richiede la presenza di:
 
-- WRT <a name="_hlk529961031"></a>12.1 PL 381 o versioni successive
+- WRT 12.1 PL 381 o versioni successive
 - PLC 16.2.33.103 o versioni successive
 
 NOTA: è garantita la compatibilità con B\_OPTI sullo stesso PC a condizione che siano installate le versioni di B\_SUITE e B\_OPTI distribuite con lo stesso rilascio
