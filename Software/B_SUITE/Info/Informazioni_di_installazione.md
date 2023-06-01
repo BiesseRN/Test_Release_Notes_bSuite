@@ -159,11 +159,13 @@ Si attiverà il pulsante <Avanti> per passare alla schermata successiva, che con
 ***
 
 **Opzioni di Installazione**
+   
 La schermata è suddivisa in quattro schede (Pacchetti, Dati di Esempio, Lingue ed Opzioni).
    
 ***
    
 **Pacchetti**
+   
 La scheda <Pacchetti> consente di selezionare i componenti di base di bSuite e gli eventuali pacchetti opzionali. Saranno quindi disponibili i 2 pacchetti “bEdge”, “bNest”.
 
 ![Image Not Found](Image/Aspose.Words.36f81f01-9f70-4468-adee-9576972549f4.025.png)
@@ -174,7 +176,8 @@ Con questo check disattivato (modalità ufficio) l’installazione di bSuite PRO
    ***
 
 **Lingue**
-La scheda <Lingue> consente di selezionare una o più lingue da installare.
+   
+La scheda "Lingue" consente di selezionare una o più lingue da installare.
 
 ![Image Not Found](Image/Aspose.Words.36f81f01-9f70-4468-adee-9576972549f4.026.png)
 
@@ -183,7 +186,8 @@ La lingua inglese (EN) viene sempre installata e non è quindi possibile deselez
    ***
 
 **Opzioni**
-La scheda <Opzioni> consente di selezionare il file contenente il badge di licenza software
+   
+La scheda "Opzioni" consente di selezionare il file contenente il badge di licenza software
 
 ![Image Not Found](Image/Aspose.Words.36f81f01-9f70-4468-adee-9576972549f4.027.png)
 
@@ -192,6 +196,7 @@ Di default, il setup installerà il software nella cartella C:\BIESSE
    ***
 
 **Avvio dell'Installazione**
+   
 Una volta configurata l'installazione, sarà possibile avviarla premendo il pulsante <Installa>.
 Verrà mostrata una barra di avanzamento che consentirà all'utente di capire fino a che punto è arrivata l'installazione dei componenti selezionati.
 
@@ -200,6 +205,7 @@ Verrà mostrata una barra di avanzamento che consentirà all'utente di capire fi
    ***
 
 **Attivazione firewall**
+   
 Se è attivo Windows Firewall, durante l'installazione potrebbero apparire alcune finestre che richiedono l'autorizzazione ad accedere alla rete per alcune applicazioni. Consentire l'accesso alla rete privata, come evidenziato nell'immagine sotto
 
 ![Image Not Found](Image/Aspose.Words.36f81f01-9f70-4468-adee-9576972549f4.029.png)
@@ -207,6 +213,7 @@ Se è attivo Windows Firewall, durante l'installazione potrebbero apparire alcun
    ***
 
 **Operazioni finali**
+   
 Una volta installato bSuite nel PC, eseguire le seguenti operazioni:
 
 **Ripristino di una copia di backup**
@@ -258,6 +265,7 @@ Per rimuovere l'impostazione predefinita della macchina, fare nuovamente clic su
    ***
 
 **Eventuali anomalie riscontrate all'avvio dell'applicazione**
+   
 Quando viene eseguita l'installazione di bSuite, eventuali files di configurazione di un'installazione precedente presenti nella cartella utente Documenti\Biesse Spa\bSuite che non vengono rimossi dalla disinstallazione, vengono modificati oppure eliminati (in quest'ultimo caso viene creata una copia di backup del file con estensione.bak) per far sì che bSuite si avvii con le nuove impostazioni risultanti dalle opzioni selezionate nell'interfaccia dell'installatore.
 Se si riscontrano delle anomalie all'avvio dell'applicazione, chiudere bSuite ed eliminare manualmente il file SuiteSetup.bSetup presente nella cartella Documenti\Biesse Spa\bSuite.
 La rimozione del file assicura che al riavvio dell'applicazione verrà ricreato il file di configurazione in base alle selezioni effettuate dall'utente al momento dell'installazione.
