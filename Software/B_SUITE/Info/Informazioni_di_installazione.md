@@ -132,8 +132,7 @@ E' possibile installare .NET Framework 3.5 anche in assenza di una connessione I
 2. Aprire la console di Windows in modalità Amministratore e scrivere la seguente linea di comando:
 Dism /online /enable-feature /featurename:NetFx3 /All /Source:<Windows Setup Drive>\sources\sxs/LimitAccess
 Dove <Windows Setup Drive> è la lettera che contraddistingue il drive in cui è presente il CD/DVD di installazione di Windows o in cui è stata installata l'immagine ISO del sistema operativo.   
-Ad esempio
-Dism /online /enable-feature /featurename:NetFx3 /All /Source:D:\sources\sxs /LimitAccess
+Ad esempio Dism /online /enable-feature /featurename:NetFx3 /All /Source:D:\sources\sxs /LimitAccess  
 Una volta avviato il comando premendo il tasto invio, Windows installerà .NET Framework 3.5 sul PC.
 
 ***
