@@ -4,7 +4,7 @@
 
 Le informazioni relative alla compatibilità dei file CIX tra bSolid e Biesseworks sono specificate nei documenti distribuiti con il Setup nel percorso DVD\Support\CIX
 
-<hr>
+***
 
 **Semplificazione degli elementi 3D del modello macchina**<br>
 
