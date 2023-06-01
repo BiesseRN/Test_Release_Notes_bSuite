@@ -25,7 +25,7 @@ B\_SUITE 4.1.0 richiede un PC con almeno la seguente configurazione:
 
 NOTA: B\_SUITE non può essere installato su macchine virtuali.
 
-<hr>
+***
 
 **Compatibilità con altri software (controlli numerici, CAD/CAM, ecc.)**
 
