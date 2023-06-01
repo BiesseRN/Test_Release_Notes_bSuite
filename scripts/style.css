@@ -99,10 +99,10 @@ a {
 }
 
 #releaseContent {
-  color: #fff;
+  color: #000;
   padding-left: 40px;
   max-width: 70%;
-  background-color: #000;
+  background-color: #fff;
 }
 
 #releaseContent ul {
