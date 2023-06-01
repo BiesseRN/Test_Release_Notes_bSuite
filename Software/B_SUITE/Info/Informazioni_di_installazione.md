@@ -50,7 +50,7 @@ Apparirà la finestra qui a destra, da cui è possibile premere il pulsante <Dis
    
 **Aggiornamento Driver scheda video dedicata**
 
-A partire dalla versione bSuite 4.0.0 è richiesto l’aggiornamento dei driver della scheda video dedicata all’ultima versione disponibile.
+A partire dalla versione bSuite 4.0.0 è richiesto l’aggiornamento dei driver della scheda video dedicata all’ultima versione disponibile.  
 Per eseguire questa operazione è necessario:
 
 1. Aprire il “Pannello di controllo”
