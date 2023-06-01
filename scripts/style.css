@@ -31,7 +31,8 @@ body {
 #content {
   flex: 1;
   padding: 20px;
-  background-color: #000;
+  // background-color: #000;
+  background-image: url('https://themes.webberwebber.com/time/files/2013/07/clouds-4-pan.jpg');
 }
 
 ul {
