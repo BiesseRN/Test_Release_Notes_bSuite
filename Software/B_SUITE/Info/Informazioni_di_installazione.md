@@ -1,8 +1,8 @@
 Informazioni di installazione
 -----------------------------------------------------------------------------------------
-**Operazioni Preliminari**<br>
+**Operazioni Preliminari**
 Nel caso in cui nel PC sia già installata una versione di bSuite, prima di avviare la procedura di installazione devono essere eseguite le seguenti operazioni
-<hr>
+***
 
 **Creazione di una copia di backup dei dati**
 
@@ -11,8 +11,7 @@ Creare una copia dei dati prima di procedere alla disinstallazione della version
 - Andare in impostazioni generali
 
 ![Image Not Found](Image/Aspose.Words.36f81f01-9f70-4468-adee-9576972549f4.011.png)
-<br>
-<br>
+
 
 - Selezionare esegui backup
 
@@ -22,12 +21,12 @@ Creare una copia dei dati prima di procedere alla disinstallazione della version
 - Attendere la fine del backup.
 - Ricordarsi di salvare la cartella di default in documenti chiamata bSolid.
 - Chiudere bSolid.
-<hr>
+***
 
 **Arresto dell'applicazione e del WRT**
 
 Per evitare malfunzionamenti, arrestare bSuite e, se si sta lavorando su un PC a bordo macchina, il WRT prima di avviare la disinstallazione dell'applicazione. Il setup di bSuite rileva comunque l'esecuzione di tali processi e chiede che vengano chiusi prima di procedere con l'installazione, la disinstallazione, la modifica o la riparazione.
-<hr>
+***
 
 **Disinstallazione della versione corrente di bSuite**
 
@@ -44,7 +43,7 @@ Apparirà la finestra qui a destra, da cui è possibile premere il pulsante <Dis
 
 ![Image Not Found](Image/Aspose.Words.36f81f01-9f70-4468-adee-9576972549f4.014.png) 
 
-<hr>
+***
    
 **Aggiornamento Driver scheda video dedicata**
 
@@ -71,7 +70,7 @@ Per eseguire questa operazione è necessario:
 
 6. Attendere che la verifica dei driver aggiornati e l’eventuale installazione termini con successo
 
-   <hr>
+   ***
 
 **Configurazione scheda video NVidia** 
 
@@ -99,7 +98,7 @@ Passi da eseguire nel “Pannello di controllo NVIDIA”: 
    
 7. Applicare le modifiche effettuate cliccando sul comando “Applica” (pulsante in basso a destra) 
 
-   <hr>
+   ***
 
 **Operazioni preliminari su alcuni sistemi operativi**
    
@@ -107,7 +106,7 @@ ATTENZIONE: Durante l'installazione su WINDOWS 10 si potrebbe riscontrare un'ano
 all'impossibilità di installare il pacchetto di .NET Framework 3.5: tale software è un prerequisito dell'applicazione e deve quindi essere installato obbligatoriamente.
 Per installare il software in tale sistema operativo è possibile utilizzare una delle seguenti opzioni:
 
-<hr>
+***
 
 **Abilitare .NET Framework 3.5 dal Pannello di Controllo**
    
@@ -119,7 +118,7 @@ In alternativa, aprire Pannello di controllo, fare clic sugli elementi Programmi
 
 1. Selezionare la casella di controllo .NET Framework 3.5 (include .NET 2.0 e 3.0), fare clic su OK e riavviare il computer, se richiesto.
    
-<hr>
+***
    
 **Abilitare .NET Framework 3.5 da linea di comando**
    
@@ -134,7 +133,7 @@ Ad esempio
 Dism /online /enable-feature /featurename:NetFx3 /All /Source:D:\sources\sxs /LimitAccess
 Una volta avviato il comando premendo il tasto invio, Windows installerà .NET Framework 3.5 sul PC.
 
-<hr>
+***
 
 **Installazione di bSuite**<br>
    
@@ -157,12 +156,12 @@ NOTE:
 
 Si attiverà il pulsante <Avanti> per passare alla schermata successiva, che consente di selezionare il tipo di materiale su cui si intenderà lavorare.
 
-<hr>
+***
 
 **Opzioni di Installazione**<br>
 La schermata è suddivisa in quattro schede (Pacchetti, Dati di Esempio, Lingue ed Opzioni).
    
-<hr>
+***
    
 **Pacchetti**<br>
 La scheda <Pacchetti> consente di selezionare i componenti di base di bSuite e gli eventuali pacchetti opzionali. Saranno quindi disponibili i 2 pacchetti “bEdge”, “bNest”.
@@ -172,7 +171,7 @@ La scheda <Pacchetti> consente di selezionare i componenti di base di bSuite e g
 NOTA: il check “Installazione a bordo macchina” si attiverà automaticamente nel caso in cui nel PC verrà rilevata la presenza dell’applicativo “WRT” (come nel caso dei computer a bordo macchina).
 Con questo check disattivato (modalità ufficio) l’installazione di bSuite PROVVEDERA’ AD INSTALLARE ANCHE IL WRT.
 
-   <hr>
+   ***
 
 **Lingue**<br>
 La scheda <Lingue> consente di selezionare una o più lingue da installare.
@@ -181,7 +180,7 @@ La scheda <Lingue> consente di selezionare una o più lingue da installare.
 
 La lingua inglese (EN) viene sempre installata e non è quindi possibile deselezionarla. Di default il setup attiva la lingua correntemente selezionata, visibile in alto a destra vicino ai pulsanti di chiusura e riduzione a icona della finestra (nell'immagine sopra è stata evidenziata con un rettangolo rosso). Cliccando sulla lingua corrente del setup, è possibile selezionare una lingua diversa da quella attualmente utilizzata: il setup aggiornerà la finestra automaticamente (nell'immagine seguente, ad esempio, l'utente ha selezionato la lingua tedesca).
 
-   <hr>
+   ***
 
 **Opzioni**<br>
 La scheda <Opzioni> consente di selezionare il file contenente il badge di licenza software
@@ -190,7 +189,7 @@ La scheda <Opzioni> consente di selezionare il file contenente il badge di licen
 
 Di default, il setup installerà il software nella cartella C:\BIESSE
 
-   <hr>
+   ***
 
 **Avvio dell'Installazione**<br>
 Una volta configurata l'installazione, sarà possibile avviarla premendo il pulsante <Installa>.<br>
@@ -198,14 +197,14 @@ Verrà mostrata una barra di avanzamento che consentirà all'utente di capire fi
 
 ![Image Not Found](Image/Aspose.Words.36f81f01-9f70-4468-adee-9576972549f4.028.png)
 
-   <hr>
+   ***
 
 **Attivazione firewall**<br>
 Se è attivo Windows Firewall, durante l'installazione potrebbero apparire alcune finestre che richiedono l'autorizzazione ad accedere alla rete per alcune applicazioni. Consentire l'accesso alla rete privata, come evidenziato nell'immagine sotto
 
 ![Image Not Found](Image/Aspose.Words.36f81f01-9f70-4468-adee-9576972549f4.029.png)
 
-   <hr>
+   ***
 
 **Operazioni finali**
 Una volta installato bSuite nel PC, eseguire le seguenti operazioni:
@@ -256,7 +255,7 @@ Per rimuovere l'impostazione predefinita della macchina, fare nuovamente clic su
 
 8. Attendere il completamento dell'operazione di ripristino, quindi chiudere il dialogo e avviare bSuite.
 
-   <hr>
+   ***
 
 **Eventuali anomalie riscontrate all'avvio dell'applicazione**<br>
 Quando viene eseguita l'installazione di bSuite, eventuali files di configurazione di un'installazione precedente presenti nella cartella utente Documenti\Biesse Spa\bSuite che non vengono rimossi dalla disinstallazione, vengono modificati oppure eliminati (in quest'ultimo caso viene creata una copia di backup del file con estensione.bak) per far sì che bSuite si avvii con le nuove impostazioni risultanti dalle opzioni selezionate nell'interfaccia dell'installatore.<br>
