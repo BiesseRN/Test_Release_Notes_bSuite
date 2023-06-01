@@ -226,29 +226,29 @@ In generale, se si è creata una copia di backup dei dati, come specificato in "
 ![Image Not Found](Image/Aspose.Words.36f81f01-9f70-4468-adee-9576972549f4.030.jpeg)
 
 3. Marcare le caselle corrispondenti ai dati da ripristinare (notare che le caselle corrispondenti agli oggetti non presenti nell'archivio di backup sono disabilitate):
-- **Utensili**
+-**Utensili**
   Salva la lista degli utensili nel database degli utensili. In tal caso, gli utensili con lo stesso nome verranno sovrascritti.
-- **Aggregati**
+-**Aggregati**
 Salva la lista degli aggregati nel database degli utensili. In tal caso, gli aggregati con lo stesso nome verranno sovrascritti.
-- **Deflettori**
+-**Deflettori**
 Salva la lista dei deflettori nel database degli utensili. In tal caso, i deflettori con lo stesso nome verranno sovrascritti.
-- **Sequenze**
+-**Sequenze**
 Salva la lista delle sequenze nel database delle sequenze
-- **Operazioni di lavorazione automatica**
+-**Operazioni di lavorazione automatica**
 Salva l'elenco delle operazioni di lavorazione automatica nel database di lavorazione automatica.
-- **Valori predefiniti**
+-**Valori predefiniti**
 Sovrascrive i dati di lavorazione e geometria salvati come predefiniti nella scheda Avanzate dell'area dei parametri.
-- **Listelli di bordatura**
+-**Listelli di bordatura**
 Salva l'elenco dei bordi nel database degli strumenti. I bordi con lo stesso nome verranno sovrascritti.
-- **Etichette**
+-**Etichette**
 Salva l'elenco delle etichette nel database degli strumenti. Le etichette con lo stesso nome verranno sovrascritte.
-- **Macro**
+-**Macro**
 Salva l'elenco delle macro nel database delle macro. Le macro con lo stesso nome verranno sovrascritte.
-- **Modelli**
+-**Modelli**
 Salva l'elenco dei modelli, quelli utilizzati per creare un nuovo documento (programma di lavorazione).
-- **File CAM**
+-**File CAM**
 Aggiorna il contenuto della cartella "... Biesse bS solid"
-- **Morsa personalizzata**
+-**Morsa personalizzata**
 Salva l'elenco delle Morse personalizzate nel database delle Morse. Le Morse con lo stesso nome verranno sovrascritte.
 
 4. Nel campo dati "Seleziona le macchine da ripristinare", seleziona le macchine da ripristinare: la selezione è evidenziata da una cornice blu. Per impostazione predefinita, tutte le macchine nel file di backup sono già selezionate. Per selezionare/deselezionare una macchina, fare clic sul suo nome. Per impostare una macchina come predefinita quando bSuite si avvia, fare clic sull'icona a forma di stella in basso a destra (la stella diventerà gialla).
