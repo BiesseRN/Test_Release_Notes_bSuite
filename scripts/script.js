@@ -23,19 +23,22 @@ document.addEventListener('DOMContentLoaded', function() {
   }
 
   function loadReleaseNotes(release) {
-    var xhr = new XMLHttpRequest();
-    xhr.onreadystatechange = function() {
-      if (xhr.readyState === XMLHttpRequest.DONE) {
-        if (xhr.status === 200) {
-          releaseContent.innerHTML = xhr.responseText;
-        } else {
-          releaseContent.innerHTML = 'Failed to load the requested file, please try again later.';
-        }
+  var xhr = new XMLHttpRequest();
+  xhr.onreadystatechange = function() {
+    if (xhr.readyState === XMLHttpRequest.DONE) {
+      if (xhr.status === 200) {
+        var markdown = xhr.responseText;
+        var renderedHTML = markdownit().render(markdown);
+        releaseContent.innerHTML = renderedHTML;
+      } else {
+        releaseContent.innerHTML = 'Failed to load the requested file, please try again later.';
       }
-    };
-    xhr.open('GET', release + '.html', true);
-    xhr.send();
-  }
+    }
+  };
+  xhr.open('GET', release + '.md', true);
+  xhr.send();
+}
+
 
   function removeSelectedLinks() {
     var selectedLinks = document.getElementsByClassName('selected');
