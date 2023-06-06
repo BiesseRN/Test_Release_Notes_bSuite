@@ -1,6 +1,6 @@
 <?php
 // Connessione al database
-$servername = 'db4free.net';
+$servername = 'https://db4free.net';
 $username = 'biessern';
 $password = 'BiesseReleaseNotes';
 $dbname = 'biessern';
