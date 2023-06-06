@@ -108,7 +108,7 @@ document.getElementById('login-form').addEventListener('submit', function(event)
              document.getElementById('success-message').style.display = 'block';
 			 localStorage.setItem('accessToken', 'myAccessToken');
 			setTimeout(function() {
-          window.location.href = 'dashboard.html'; // Redirect to dashboard page
+          window.location.href = 'index.html'; // Redirect to dashboard page
 		  }, 3000); // Delay di 3000 millisecondi (3 secondi)
         } else {
           showErrorMessage(response.message); // Show error message
