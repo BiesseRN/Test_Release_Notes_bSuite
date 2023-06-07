@@ -138,7 +138,9 @@ After running the command, Windows will install .NET Framework 3.5 on your PC.
 ***
 
 **bSuite Installation**  
-
+   
+***
+   
 NOTE:  
 · Before starting the installation of bSuite, make sure that the user account has administrator rights on the PC.  
 · To avoid potential conflicts with external applications, it is strictly necessary NOT to run the installation setup from the PC desktop and/or the "Documents" folder.  
