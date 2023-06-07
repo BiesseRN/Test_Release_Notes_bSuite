@@ -65,7 +65,7 @@ Starting from version bSuite 4.0.0, it is required to update the drivers for the
 5. Select the option "Search automatically for updated driver software."
    WARNING: Make sure your PC is connected to the internet.
 
-   ![Image Not Found](Software/B_SUITE/Info/Image/Aspose.Words.36f81f01-9f70-4468-adee-9576972549f4.027.png)
+   ![Image Not Found](Software/B_SUITE/Info/Image/Aspose.Words.36f81f01-9f70-4468-adee-9576972549f4.018.png)
 
 6. Wait for the verification of updated drivers and the installation process to complete successfully.
 
@@ -79,13 +79,13 @@ Steps to be performed in the "NVIDIA Control Panel":
 
 1. In the "Adjust image settings with preview" section, enable the option "Use the advanced 3D image settings."
 
-   ![Image Not Found](Software/B_SUITE/Info/Image/Aspose.Words.36f81f01-9f70-4468-adee-9576972549f4.028.png)
+   ![Image Not Found](Software/B_SUITE/Info/Image/Aspose.Words.36f81f01-9f70-4468-adee-9576972549f4.019.png)
 
 2. Click on the link "Open page" next to the option "Use the advanced 3D image settings."
 
 3. Select the "Base profile" in the "Global presets."
 
-   ![Image Not Found](Image/Aspose.Words.36f81f01-9f70-4468-adee-9576972549f4.020.png)
+   ![Image Not Found](Software/B_SUITE/Info/Image/Aspose.Words.36f81f01-9f70-4468-adee-9576972549f4.020.png)
 
 4. Press the "Restore" button to reset the default values (if any of them were previously modified).
 
@@ -93,7 +93,7 @@ Steps to be performed in the "NVIDIA Control Panel":
 
 6. In the "Settings:" section below, search for the parameter "Power management mode" and set it to "Prefer maximum performance."
 
-   ![Image Not Found](Image/Aspose.Words.36f81f01-9f70-4468-adee-9576972549f4.021.png)
+   ![Image Not Found](Software/B_SUITE/Info/Image/Aspose.Words.36f81f01-9f70-4468-adee-9576972549f4.021.png)
 
 7. Apply the changes by clicking the "Apply" button (bottom right).
 
@@ -109,9 +109,9 @@ WARNING: During the installation on Windows 10, you may encounter an anomaly rel
 
 The procedure described below requires an active internet connection:
 
-1. Press the Windows key ![Image Not Found](Image/Aspose.Words.36f81f01-9f70-4468-adee-9576972549f4.022.png) on the keyboard, type "Windows Features," and press Enter.<br>
-The "Turn Windows features on or off" dialog box will appear.<br>
-Alternatively, open the Control Panel, click on "Programs," and then click on "Turn Windows features on or off" under Programs and Features.<br>
+1. Press the Windows key ![Image Not Found](Software/B_SUITE/Info/Image/Aspose.Words.36f81f01-9f70-4468-adee-9576972549f4.022.png) on the keyboard, type "Windows Features," and press Enter.  
+The "Turn Windows features on or off" dialog box will appear.  
+Alternatively, open the Control Panel, click on "Programs," and then click on "Turn Windows features on or off" under Programs and Features.  
 
 2. Check the box for .NET Framework 3.5 (includes .NET 2.0 and 3.0), click OK, and restart the computer if prompted.
    
@@ -143,11 +143,11 @@ NOTE:
 
 2. Upon starting the setup, the following window will appear:
 
-![Image Not Found](Image/Aspose.Words.36f81f01-9f70-4468-adee-9576972549f4.023.png)
+![Image Not Found](Software/B_SUITE/Info/Image/Aspose.Words.36f81f01-9f70-4468-adee-9576972549f4.023.png)
 
 3. By clicking the <Next> button, the end-user license agreement will be displayed:
 
-![Image Not Found](Image/Aspose.Words.36f81f01-9f70-4468-adee-9576972549f4.024.png)
+![Image Not Found](Software/B_SUITE/Info/Image/Aspose.Words.36f81f01-9f70-4468-adee-9576972549f4.024.png)
 
 4. To proceed with the installation, it is necessary to accept the terms of the license agreement by activating the corresponding checkbox (highlighted in the image with a red rectangle).
 
@@ -165,45 +165,48 @@ The screen is divided into four tabs (Packages, Sample Data, Languages, and Opti
 
 The <Packages> tab allows selecting the basic components of bSuite and any optional packages. The two packages "bEdge" and "bNest" will be available.
 
-![Image Not Found](Image/Aspose.Words.36f81f01-9f70-4468-adee-9576972549f4.025.png)
+![Image Not Found](Software/B_SUITE/Info/Image/Aspose.Words.36f81f01-9f70-4468-adee-9576972549f4.025.png)
 
-NOTE: The "Machine-side installation" checkbox will automatically activate if the "WRT" application is detected on the PC (as in the case of machine-side computers). With this checkbox deactivated (office mode), the bSuite installation will ALSO INSTALL WRT.
+NOTE: The "Machine-side installation" checkbox will automatically activate if the "WRT" application is detected on the PC (as in the case of machine-side computers).  
+ With this checkbox deactivated (office mode), the bSuite installation will ALSO INSTALL WRT.
 
-<hr>
+ ***
 
 **Languages**
 
 The <Languages> tab allows selecting one or more languages to install.
 
-![Image Not Found](Image/Aspose.Words.36f81f01-9f70-4468-adee-9576972549f4.026.png)
+![Image Not Found](Software/B_SUITE/Info/Image/Aspose.Words.36f81f01-9f70-4468-adee-9576972549f4.026.png)
 
-The English language (EN) is always installed and cannot be deselected. By default, the setup activates the currently selected language, visible at the top right next to the close and minimize window buttons (highlighted in red in the image). By clicking on the current setup language, a different language can be selected from the one currently in use. The setup will update the window automatically (in the following image, for example, the user has selected the German language).
+The English language (EN) is always installed and cannot be deselected. By default, the setup activates the currently selected language, visible at the top right next to the close and minimize window buttons (highlighted in red in the image).  
+By clicking on the current setup language, a different language can be selected from the one currently in use. The setup will update the window automatically (in the following image, for example, the user has selected the German language).
 
-<hr>
+***
 
 **Options**
 
 The <Options> tab allows selecting the file containing the software license badge.
 
-![Image Not Found](Image/Aspose.Words.36f81f01-9f70-4468-adee-9576972549f4.027.png)
+![Image Not Found](Software/B_SUITE/Info/Image/Aspose.Words.36f81f01-9f70-4468-adee-9576972549f4.027.png)
 
 By default, the setup will install the software in the C:\BIESSE folder.
 
-<hr>
+***
 
 **Starting the Installation**
 
 Once the installation is configured, it can be initiated by clicking the <Install> button.
 A progress bar will be displayed, allowing the user to track the installation progress of the selected components.
 
-![Image Not Found](Image/Aspose.Words.36f81f01-9f70-4468-adee-9576972549f4.028.png)
+![Image Not Found](Software/B_SUITE/Info/Image/Aspose.Words.36f81f01-9f70-4468-adee-9576972549f4.028.png)
 
-<hr>
+***
 
-**Firewall Activation**
-If Windows Firewall is enabled, you may see some windows during the installation that require permission to access the network for certain applications. Allow access to the private network, as highlighted in the image below:
+**Firewall Activation**  
+If Windows Firewall is enabled, you may see some windows during the installation that require permission to access the network for certain applications.  
+Allow access to the private network, as highlighted in the image below:
 
-![Image Not Found](Image/Aspose.Words.36f81f01-9f70-4468-adee-9576972549f4.029.png)
+![Image Not Found](Software/B_SUITE/Info/Image/Aspose.Words.36f81f01-9f70-4468-adee-9576972549f4.029.png)
 
 <hr>
 
@@ -217,7 +220,7 @@ In general, if you have created a backup copy of your data as specified in "Crea
 
 2. Double-click on the desired .bBack file, or alternatively, drag it onto the bSuite icon on the Desktop. The data restore window will open:
 
-![Image Not Found](Image/Aspose.Words.36f81f01-9f70-4468-adee-9576972549f4.030.jpeg)
+![Image Not Found](Software/B_SUITE/Info/Image/Aspose.Words.36f81f01-9f70-4468-adee-9576972549f4.030.jpeg)
 
 3. Check the boxes corresponding to the data you want to restore (note that boxes corresponding to items not present in the backup archive are disabled):
 - **Tools**<br>
