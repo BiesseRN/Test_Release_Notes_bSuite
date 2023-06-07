@@ -14,7 +14,7 @@ The management of file transfer and storage for program files (bSolid, cix, etc.
 
 A new automatic technology has been added, allowing milling to be applied around each individual piece in the nesting pattern. This feature is especially useful for pieces composed solely of geometries. To activate this feature, simply go to the project parameters and select "Single-piece milling" in the automatic technology's milling type.  
 
-![Image Not Found](Image/Aspose.Words.5060ec76-ade4-47a5-9909-f396d2b98e18.003.jpeg)
+![Image Not Found](eng/Software/B_SUITE/Release_Notes/4_1/4_1_0_121_(MKT_Release)/Image/Feature_197424_01.jpeg)
 
 To configure all the technological and behavioral parameters of single-piece milling, navigate to the specific tab.  
 
