@@ -37,7 +37,7 @@ NOTA: è necessario eseguire l’import del modello macchina
 
 **Bug 196820: LUA ToolLogic P122: errata visualizzazione TP15 lama in simulazione macchina**  
 
-NOTA: è necessario eseguire l’import del modello macchina con il check “preservare i dati” abilitato
+NOTA: è necessario eseguire l’import del modello macchina con il check “preservare i dati” abilitato.
 
 ***
 
