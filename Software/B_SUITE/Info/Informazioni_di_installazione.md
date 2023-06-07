@@ -1,7 +1,11 @@
 Informazioni di installazione
------------------------------------------------------------------------------------------
-**Operazioni Preliminari**
+
+***
+
+**Operazioni Preliminari**  
+
 Nel caso in cui nel PC sia già installata una versione di bSuite, prima di avviare la procedura di installazione devono essere eseguite le seguenti operazioni
+
 ***
 
 **Creazione di una copia di backup dei dati**
@@ -26,23 +30,24 @@ Creare una copia dei dati prima di procedere alla disinstallazione della version
 
 **Arresto dell'applicazione e del WRT**
 
-Per evitare malfunzionamenti, arrestare bSuite e, se si sta lavorando su un PC a bordo macchina, il WRT prima di avviare la disinstallazione dell'applicazione. 
+Per evitare malfunzionamenti, arrestare bSuite e, se si sta lavorando su un PC a bordo macchina, il WRT prima di avviare la disinstallazione dell'applicazione.  
 Il setup di bSuite rileva comunque l'esecuzione di tali processi e chiede che vengano chiusi prima di procedere con l'installazione, la disinstallazione, la modifica o la riparazione.
 
 ***
 
 **Disinstallazione della versione corrente di bSuite**
 
-ATTENZIONE: se la versione commerciale di bSuite da rimuovere è antecedente alla versione 3.0.1, prima di disinstallare bSuite è necessario disinstallare manualmente tutte le patch di aggiornamento eventualmente installate.  
+ATTENZIONE:  
+Se la versione commerciale di bSuite da rimuovere è antecedente alla versione 3.0.1, prima di disinstallare bSuite è necessario disinstallare manualmente tutte le patch di aggiornamento eventualmente installate.  
 Le patch sono identificabili dal nome "bSuite Patch Versione" dove Versione è il numero di versione a cui la patch ha aggiornato bSuite (ad es. "bSuite 3.0.1 Patch 3.18.18.0").
 Dalla versione 3.0.1, le patch vengono rimosse automaticamente dall'installer.  
-Per disinstallare bSuite dal proprio PC aprire "Programmi e funzionalità" dal Pannello di Controllo di Windows e selezionare la voce "bSolid" o "bSuite X.Y.W.Z" dove X.Y.W.Z corrisponde alla versione commerciale (ad es. "bSuite 3.0.6.60") dall'elenco dei programmi.
+Per disinstallare bSuite dal proprio PC aprire "Programmi e funzionalità" dal Pannello di Controllo di Windows e selezionare la voce "bSolid" o "bSuite X.Y.W.Z" dove X.Y.W.Z corrisponde alla versione commerciale (ad es. "bSuite 3.0.6.60") dall'elenco dei programmi.  
 
 ![Image Not Found](Software/B_SUITE/Info/Image/Aspose.Words.36f81f01-9f70-4468-adee-9576972549f4.013.png)
 
 Premere il pulsante Disinstalla che compare nella toolbar sopra l'elenco dei programmi.  
 Alternativamente è possibile eseguire un doppio click sulla voce.  
-Apparirà la finestra qui a destra, da cui è possibile premere il pulsante <Disinstalla> in basso a destra per avviare la procedura di disinstallazione.
+Apparirà la finestra qui a destra, da cui è possibile premere il pulsante <Disinstalla> in basso a destra per avviare la procedura di disinstallazione.  
 
 ![Image Not Found](Software/B_SUITE/Info/Image/Aspose.Words.36f81f01-9f70-4468-adee-9576972549f4.014.png) 
 
@@ -77,7 +82,8 @@ Per eseguire questa operazione è necessario:
 
 **Configurazione scheda video NVidia** 
 
-NOTA: mentre bSuite è in esecuzione non è possibile modificare la dimensione di testo dello schermo. 
+NOTA:  
+Mentre bSuite è in esecuzione non è possibile modificare la dimensione di testo dello schermo. 
 
 Passi da eseguire nel “Pannello di controllo NVIDIA”: 
 
@@ -103,25 +109,23 @@ Passi da eseguire nel “Pannello di controllo NVIDIA”: 
 
    ***
 
-**Operazioni preliminari su alcuni sistemi operativi**
+**Operazioni preliminari su alcuni sistemi operativi**  
    
 ATTENZIONE: Durante l'installazione su WINDOWS 10 si potrebbe riscontrare un'anomalia relativa
 all'impossibilità di installare il pacchetto di .NET Framework 3.5: tale software è un prerequisito dell'applicazione e deve quindi essere installato obbligatoriamente.  
 Per installare il software in tale sistema operativo è possibile utilizzare una delle seguenti opzioni:  
    
    
-
 **Abilitare .NET Framework 3.5 dal Pannello di Controllo**
    
 La procedura di seguito descritta necessita di una connessione Internet attiva:
 
-1. Premere il tasto Windows ![Image Not Found](Software/B_SUITE/Info/Image/Aspose.Words.36f81f01-9f70-4468-adee-9576972549f4.022.png) sulla tastiera, digitare Funzionalità Windows e premere Invio.
-Verrà visualizzata la finestra di dialogo Attivazione o disattivazione delle funzionalità Windows.
-In alternativa, aprire Pannello di controllo, fare clic sugli elementi Programmi e quindi fare clic su "Attivazione o disattivazione delle funzionalità Windows" in Programmi e funzionalità.
+1. Premere il tasto Windows ![Image Not Found](Software/B_SUITE/Info/Image/Aspose.Words.36f81f01-9f70-4468-adee-9576972549f4.022.png) sulla tastiera, digitare Funzionalità Windows e premere Invio.  
+Verrà visualizzata la finestra di dialogo Attivazione o disattivazione delle funzionalità Windows.  
+In alternativa, aprire Pannello di controllo, fare clic sugli elementi Programmi e quindi fare clic su "Attivazione o disattivazione delle funzionalità Windows" in Programmi e funzionalità.  
 
 2. Selezionare la casella di controllo .NET Framework 3.5 (include .NET 2.0 e 3.0), fare clic su OK e riavviare il computer, se richiesto.  
-   
-   
+     
    
 **Abilitare .NET Framework 3.5 da linea di comando**
    
