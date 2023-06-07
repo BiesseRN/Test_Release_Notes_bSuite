@@ -10,7 +10,7 @@ NOTE: it is necessary to manually delete and re-enter the macros.
 
 **Bug 196426: PR00018923: bsolid: instant crash when opening some macros created on the same 4.0**  
 
-<hr>
+***
 
 **Bug 196427: PR00019010 [PAV] : Problem with PAV and rotation step.**<br>
 
