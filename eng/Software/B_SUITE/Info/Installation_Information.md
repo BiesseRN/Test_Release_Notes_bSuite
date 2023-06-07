@@ -12,32 +12,33 @@ In case a version of bSuite is already installed on your PC, the following opera
 
 Create a backup of your data before proceeding with the uninstallation of the current version of bSuite and the installation of the setup. To do so, follow these steps:  
 
-- Go to general settings
+1. Go to general settings
 
 ![Image Not Found](Software/B_SUITE/Info/Image/Aspose.Words.36f81f01-9f70-4468-adee-9576972549f4.011.png)
 
-- Select "Run Backup"
+2. Select "Run Backup"
 
 ![Image Not Found](Software/B_SUITE/Info/Image/Aspose.Words.36f81f01-9f70-4468-adee-9576972549f4.012.png)
 
-- Choose the location to save the backup.  
-- Wait for the backup to complete.  
-- Remember to save the default folder named "bSolid" in documents.  
-- Close bSolid.  
-- 
+3. Choose the location to save the backup.  
+4. Wait for the backup to complete.  
+5. Remember to save the default folder named "bSolid" in documents.  
+6. Close bSolid.  
+
 ***
 
 **Closing the Application and WRT**  
 
 To avoid malfunctions, close bSuite and, if you are working on a machine's onboard PC, close WRT before starting the application uninstallation.  
 The bSuite setup detects the execution of these processes and prompts you to close them before proceeding with installation, uninstallation, modification, or repair.  
+
 ***
 
 **Uninstalling the Current Version of bSuite**  
 
-WARNING: If the commercial version of bSuite to be removed is older than version 3.0.1, you must manually uninstall all the installed update patches before uninstalling bSuite. The patches can be identified by the name "bSuite Patch <Version>", where <Version> is the version number to which the patch has updated bSuite (e.g., "bSuite 3.0.1 Patch 3.18.18.0").  
-Starting from version 3.0.1, patches are automatically removed by the installer.  
-To uninstall bSuite from your PC, open "Programs and Features" from the Windows Control Panel and select the entry "bSolid" or "bSuite X.Y.W.Z" where X.Y.W.Z corresponds to the commercial version (e.g., "bSuite 3.0.6.60") from the list of programs.  
+WARNING: If the commercial version of bSuite to be removed is older than version 3.0.1, you must manually uninstall all the installed update patches before uninstalling bSuite. The patches can be identified by the name "bSuite Patch <Version>", where <Version> is the version number to which the patch has updated bSuite (e.g., "bSuite 3.0.1 Patch 3.18.18.0").   
+Starting from version 3.0.1, patches are automatically removed by the installer.    
+To uninstall bSuite from your PC, open "Programs and Features" from the Windows Control Panel and select the entry "bSolid" or "bSuite X.Y.W.Z" where X.Y.W.Z corresponds to the commercial version (e.g., "bSuite 3.0.6.60") from the list of programs.   
 
 ![Image Not Found](Software/B_SUITE/Info/Image/Aspose.Words.36f81f01-9f70-4468-adee-9576972549f4.013.png)
 
@@ -56,15 +57,15 @@ Starting from version bSuite 4.0.0, it is required to update the drivers for the
 1. Open the "Control Panel."  
 2. Select "Device Manager."  
 
-   ![Image Not Found](Software/B_SUITE/Info/Image/Aspose.Words.36f81f01-9f70-4468-adee-9576972549f4.015.png)
+  ![Image Not Found](Software/B_SUITE/Info/Image/Aspose.Words.36f81f01-9f70-4468-adee-9576972549f4.015.png)
    
 3. Expand the "Display adapters" section.
 
-   ![Image Not Found](Software/B_SUITE/Info/Image/Aspose.Words.36f81f01-9f70-4468-adee-9576972549f4.016.png)
+  ![Image Not Found](Software/B_SUITE/Info/Image/Aspose.Words.36f81f01-9f70-4468-adee-9576972549f4.016.png)
 
 4. Right-click on the dedicated graphics card and select "Update driver."
 
-   ![Image Not Found](Software/B_SUITE/Info/Image/Aspose.Words.36f81f01-9f70-4468-adee-9576972549f4.017.png)
+  ![Image Not Found](Software/B_SUITE/Info/Image/Aspose.Words.36f81f01-9f70-4468-adee-9576972549f4.017.png)
 
 5. Select the option "Search automatically for updated driver software."
    WARNING: Make sure your PC is connected to the internet.
@@ -83,13 +84,13 @@ Steps to be performed in the "NVIDIA Control Panel":
 
 1. In the "Adjust image settings with preview" section, enable the option "Use the advanced 3D image settings."
 
-   ![Image Not Found](Software/B_SUITE/Info/Image/Aspose.Words.36f81f01-9f70-4468-adee-9576972549f4.019.png)
+  ![Image Not Found](Software/B_SUITE/Info/Image/Aspose.Words.36f81f01-9f70-4468-adee-9576972549f4.019.png)
 
 2. Click on the link "Open page" next to the option "Use the advanced 3D image settings."
 
 3. Select the "Base profile" in the "Global presets."
 
-   ![Image Not Found](Software/B_SUITE/Info/Image/Aspose.Words.36f81f01-9f70-4468-adee-9576972549f4.020.png)
+  ![Image Not Found](Software/B_SUITE/Info/Image/Aspose.Words.36f81f01-9f70-4468-adee-9576972549f4.020.png)
 
 4. Press the "Restore" button to reset the default values (if any of them were previously modified).
 
@@ -97,7 +98,7 @@ Steps to be performed in the "NVIDIA Control Panel":
 
 6. In the "Settings:" section below, search for the parameter "Power management mode" and set it to "Prefer maximum performance."
 
-   ![Image Not Found](Software/B_SUITE/Info/Image/Aspose.Words.36f81f01-9f70-4468-adee-9576972549f4.021.png)
+  ![Image Not Found](Software/B_SUITE/Info/Image/Aspose.Words.36f81f01-9f70-4468-adee-9576972549f4.021.png)
 
 7. Apply the changes by clicking the "Apply" button (bottom right).
 
@@ -139,8 +140,8 @@ After running the command, Windows will install .NET Framework 3.5 on your PC.
 **bSuite Installation**  
 
 NOTE:  
-- Before starting the installation of bSuite, make sure that the user account has administrator rights on the PC.  
-- To avoid potential conflicts with external applications, it is strictly necessary NOT to run the installation setup from the PC desktop and/or the "Documents" folder.  
+· Before starting the installation of bSuite, make sure that the user account has administrator rights on the PC.  
+· To avoid potential conflicts with external applications, it is strictly necessary NOT to run the installation setup from the PC desktop and/or the "Documents" folder.  
 
 1. Copy the installer folder to your PC.
 **WARNING: Under no circumstances should you copy the bSuite installer folder into one of the destination folders (e.g., C:\Biesse or C:\WNC), as having the setup in such folders could potentially cause blocking installation issues.**
@@ -230,29 +231,29 @@ In general, if you have created a backup copy of your data as specified in "Crea
 ![Image Not Found](Software/B_SUITE/Info/Image/Aspose.Words.36f81f01-9f70-4468-adee-9576972549f4.030.jpeg)
 
 3. Check the boxes corresponding to the data you want to restore (note that boxes corresponding to items not present in the backup archive are disabled):
-- **Tools**  
+· **Tools**  
   Save the list of tools in the tool database. In this case, tools with the same name will be overwritten.  
-- **Aggregates**  
+· **Aggregates**  
 Save the list of aggregates in the tool database. In this case, aggregates with the same name will be overwritten.  
-- **Deflectors**  
+· **Deflectors**  
 Save the list of deflectors in the tool database. In this case, deflectors with the same name will be overwritten.  
-- **Sequences**  
+· **Sequences**  
 Save the list of sequences in the sequence database.  
-- **Automatic Processing Operations**  
+· **Automatic Processing Operations**  
 Save the list of automatic processing operations in the automatic processing database.  
-- **Default Values**  
+· **Default Values**  
 Overwrite the saved processing and geometry data as defaults in the Advanced tab of the parameter area.  
-- **Edgebanding Strips**  
+· **Edgebanding Strips**  
 Save the list of edgebanding strips in the tool database. Strips with the same name will be overwritten.  
-- **Labels**  
+· **Labels**  
 Save the list of labels in the tool database. Labels with the same name will be overwritten.  
-- **Macros**  
+· **Macros**  
 Save the list of macros in the macro database. Macros with the same name will be overwritten.  
-- **Models**  
+· **Models**  
 Save the list of models used to create a new document (processing program).  
-- **CAM Files**  
+· **CAM Files**  
 Update the content of the "... Biesse bS solid" folder.  
-- **Custom Vises**  
+· **Custom Vises**  
 Save the list of custom vises in the vise database. Custom vises with the same name will be overwritten.  
 
 4. In the "Select Machines to Restore Data" field, select the machines to restore: the selection is highlighted by a blue frame.  
