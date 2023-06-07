@@ -1,4 +1,4 @@
-**Nuove funzionalità**
+**LISTA NUOVE FUNZIONALITA'**
 ***
 **B_SUITE 4.1.0.121**  
 
