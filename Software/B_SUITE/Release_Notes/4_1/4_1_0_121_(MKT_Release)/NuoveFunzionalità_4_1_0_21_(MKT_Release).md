@@ -4,7 +4,7 @@
 
 **Feature 197422: [bSuite][bNest] Ottimizzazione sul trasferimento file a seguito dell’import di più articoli che riferiscono lo stesso file**  
 
-E' stata ottimizzata la gestione del trasferimento e archiviazione dei file di programma (bSolid, cix, ...) associati agli articoli da importare (da csv, da file, ecc.) facendo in modo di trasferire un solo file nel caso più articoli riferiscono lo stesso file, o di non trasferire i file nel caso siano già presenti in archivio. Questa ottimizzazione può rendere più "leggeri" i backup di bNest.**  
+E' stata ottimizzata la gestione del trasferimento e archiviazione dei file di programma (bSolid, cix, ...) associati agli articoli da importare (da csv, da file, ecc.) facendo in modo di trasferire un solo file nel caso più articoli riferiscono lo stesso file, o di non trasferire i file nel caso siano già presenti in archivio. Questa ottimizzazione può rendere più "leggeri" i backup di bNest.  
 
 ***
 
