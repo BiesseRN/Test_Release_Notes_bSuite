@@ -5,8 +5,9 @@ B\_SUITE 4.1.0 può essere installato in modalità ufficio sui seguenti sistemi 
 · Windows 10  
 · Windows 11  
 
-Per la modalità “bordo macchina” si rimanda agli appositi documenti di compatibilità.
-NOTA: prima di avviare l'installazione di B\_SUITE è necessario assicurarsi che l'utenza in uso abbia i diritti di amministratore del PC
+Per la modalità “bordo macchina” si rimanda agli appositi documenti di compatibilità.  
+NOTA:  
+Prima di avviare l'installazione di B\_SUITE è necessario assicurarsi che l'utenza in uso abbia i diritti di amministratore del PC
 
 ***
 
@@ -34,4 +35,5 @@ B\_SUITE 4.1.0 richiede la presenza di:
 · WRT 12.1 PL 381 o versioni successive  
 · PLC 16.2.33.103 o versioni successive  
 
-NOTA: è garantita la compatibilità con B\_OPTI sullo stesso PC a condizione che siano installate le versioni di B\_SUITE e B\_OPTI distribuite con lo stesso rilascio
+NOTA:  
+E' garantita la compatibilità con B\_OPTI sullo stesso PC a condizione che siano installate le versioni di B\_SUITE e B\_OPTI distribuite con lo stesso rilascio
