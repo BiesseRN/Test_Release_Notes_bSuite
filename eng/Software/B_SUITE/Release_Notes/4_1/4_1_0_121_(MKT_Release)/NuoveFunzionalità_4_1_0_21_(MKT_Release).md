@@ -18,6 +18,6 @@ A new automatic technology has been added, allowing milling to be applied around
 
 To configure all the technological and behavioral parameters of single-piece milling, navigate to the specific tab.  
 
-![Image Not Found](Image/Aspose.Words.5060ec76-ade4-47a5-9909-f396d2b98e18.004.jpeg)
+![Image Not Found](eng/Software/B_SUITE/Release_Notes/4_1/4_1_0_121_(MKT_Release)/Image/Feature_197424_02.jpeg)
 
 Among the behavioral parameters on this tab, the ones related to the attachment point management are particularly important. They offer the possibility to decide where to position the attachment point on the piece (e.g., on the longest stretch, based on the detachment order of the pieces, prioritizing linear stretches, etc.).  
