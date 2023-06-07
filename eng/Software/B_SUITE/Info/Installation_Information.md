@@ -10,13 +10,13 @@ Create a backup of your data before proceeding with the uninstallation of the cu
 
 - Go to general settings
 
-![Image Not Found](Image/Aspose.Words.36f81f01-9f70-4468-adee-9576972549f4.011.png)
+![Image Not Found](Software/B_SUITE/Info/Image/Aspose.Words.36f81f01-9f70-4468-adee-9576972549f4.011.png)
 <br>
 <br>
 
 - Select "Run Backup"
 
-![Image Not Found](Image/Aspose.Words.36f81f01-9f70-4468-adee-9576972549f4.012.png)
+![Image Not Found](Software/B_SUITE/Info/Image/Aspose.Words.36f81f01-9f70-4468-adee-9576972549f4.012.png)
 
 - Choose the location to save the backup.
 - Wait for the backup to complete.
@@ -35,13 +35,13 @@ WARNING: If the commercial version of bSuite to be removed is older than version
 Starting from version 3.0.1, patches are automatically removed by the installer.
 To uninstall bSuite from your PC, open "Programs and Features" from the Windows Control Panel and select the entry "bSolid" or "bSuite X.Y.W.Z" where X.Y.W.Z corresponds to the commercial version (e.g., "bSuite 3.0.6.60") from the list of programs.
 
-![Image Not Found](Image/Aspose.Words.36f81f01-9f70-4468-adee-9576972549f4.013.png)
+![Image Not Found](Software/B_SUITE/Info/Image/Aspose.Words.36f81f01-9f70-4468-adee-9576972549f4.013.png)
 
 Click the Uninstall button in the toolbar above the program list.<br>
 Alternatively, double-click on the entry.<br>
 The following window will appear, from which you can click the <Uninstall> button at the bottom right to start the uninstallation procedure.
 
-![Image Not Found](Image/Aspose.Words.36f81f01-9f70-4468-adee-9576972549f4.014.png) 
+![Image Not Found](Software/B_SUITE/Info/Image/Aspose.Words.36f81f01-9f70-4468-adee-9576972549f4.014.png) 
 
 <hr>
    
@@ -52,20 +52,20 @@ Starting from version bSuite 4.0.0, it is required to update the drivers for the
 1. Open the "Control Panel."
 2. Select "Device Manager."
 
-   ![Image Not Found](Image/Aspose.Words.36f81f01-9f70-4468-adee-9576972549f4.015.png)
+   ![Image Not Found](Software/B_SUITE/Info/Image/Aspose.Words.36f81f01-9f70-4468-adee-9576972549f4.015.png)
    
 3. Expand the "Display adapters" section.
 
-   ![Image Not Found](Image/Aspose.Words.36f81f01-9f70-4468-adee-9576972549f4.016.png)
+   ![Image Not Found](Software/B_SUITE/Info/Image/Aspose.Words.36f81f01-9f70-4468-adee-9576972549f4.016.png)
 
 4. Right-click on the dedicated graphics card and select "Update driver."
 
-   ![Image Not Found](Image/Aspose.Words.36f81f01-9f70-4468-adee-9576972549f4.017.png)
+   ![Image Not Found](Software/B_SUITE/Info/Image/Aspose.Words.36f81f01-9f70-4468-adee-9576972549f4.017.png)
 
 5. Select the option "Search automatically for updated driver software."
    WARNING: Make sure your PC is connected to the internet.
 
-   ![Image Not Found](Image/Aspose.Words.36f81f01-9f70-4468-adee-9576972549f4.018.png)
+   ![Image Not Found](Software/B_SUITE/Info/Image/Aspose.Words.36f81f01-9f70-4468-adee-9576972549f4.027.png)
 
 6. Wait for the verification of updated drivers and the installation process to complete successfully.
 
@@ -79,7 +79,7 @@ Steps to be performed in the "NVIDIA Control Panel":
 
 1. In the "Adjust image settings with preview" section, enable the option "Use the advanced 3D image settings."
 
-   ![Image Not Found](Image/Aspose.Words.36f81f01-9f70-4468-adee-9576972549f4.019.png)
+   ![Image Not Found](Software/B_SUITE/Info/Image/Aspose.Words.36f81f01-9f70-4468-adee-9576972549f4.028.png)
 
 2. Click on the link "Open page" next to the option "Use the advanced 3D image settings."
 
