@@ -1,6 +1,9 @@
-Installation Information
+**Installation Information**  
+
 ***
+
 **Preliminary Steps**  
+
 In case a version of bSuite is already installed on your PC, the following operations must be performed before starting the installation procedure.  
 
 ***
