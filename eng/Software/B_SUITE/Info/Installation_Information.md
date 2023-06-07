@@ -170,7 +170,7 @@ The screen is divided into four tabs (Packages, Sample Data, Languages, and Opti
 
 **Packages**  
 
-The <Packages> tab allows selecting the basic components of bSuite and any optional packages. The two packages "bEdge" and "bNest" will be available.  
+The Packages tab allows selecting the basic components of bSuite and any optional packages. The two packages "bEdge" and "bNest" will be available.  
 
 ![Image Not Found](Software/B_SUITE/Info/Image/Aspose.Words.36f81f01-9f70-4468-adee-9576972549f4.025.png)
 
@@ -186,7 +186,8 @@ The Languages tab allows selecting one or more languages to install.
 ![Image Not Found](Software/B_SUITE/Info/Image/Aspose.Words.36f81f01-9f70-4468-adee-9576972549f4.026.png)
 
 The English language (EN) is always installed and cannot be deselected. By default, the setup activates the currently selected language, visible at the top right next to the close and minimize window buttons (highlighted in red in the image).  
-By clicking on the current setup language, a different language can be selected from the one currently in use. The setup will update the window automatically (in the following image, for example, the user has selected the German language).
+By clicking on the current setup language, a different language can be selected from the one currently in use.  
+The setup will update the window automatically (in the following image, for example, the user has selected the German language).
 
 ***
 
@@ -202,7 +203,7 @@ By default, the setup will install the software in the C:\BIESSE folder.
 
 **Starting the Installation**  
 
-Once the installation is configured, it can be initiated by clicking the <Install> button.  
+Once the installation is configured, it can be initiated by clicking the Install button.  
 A progress bar will be displayed, allowing the user to track the installation progress of the selected components.  
 
 ![Image Not Found](Software/B_SUITE/Info/Image/Aspose.Words.36f81f01-9f70-4468-adee-9576972549f4.028.png)
@@ -219,6 +220,8 @@ Allow access to the private network, as highlighted in the image below:
 ***
 
 **Final Operations**  
+   
+***
    
 After installing bSuite on your PC, perform the following operations:
 
