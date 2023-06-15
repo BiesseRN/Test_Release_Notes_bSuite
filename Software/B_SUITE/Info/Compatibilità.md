@@ -19,7 +19,7 @@ B\_SUITE 4.1.0 richiede un PC con almeno la seguente configurazione:
 · Almeno 8 GB RAM  
 · Sistema operativo Windows 10 64 bit o Windows 11 64 bit  
 · Scheda Grafica nVidia compatibile con OpenGL 4.4 con almeno 2 GB RAM con driver aggiornati all’ultima versione  
-· Risoluzione minima 1440x900   
+· Risoluzione minima 1440x900  
 · Risoluzione massima 1920x1080  
 · Hard Disk di tipo SSD  
 · Almeno 20 GB di spazio libero su Hard Disk  
