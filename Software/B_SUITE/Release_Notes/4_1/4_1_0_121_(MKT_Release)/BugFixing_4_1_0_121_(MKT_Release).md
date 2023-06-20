@@ -15,9 +15,9 @@ NOTA: è necessario cancellare e reinserire manualmente le macro
 
 **Bug 196427: PR00019010 [PAV] : problema con il PAV ed il passo di rotazione.**  
 
-NOTE: Per ragioni prestazionali è fortemente consigliato al cliente di usare il parametro 0 nel passo di discretizzazione.
-
-![Immagine](Aspose.Words.384bf70f-4628-49ef-9621-c6762054915a.003.png)In questo modo il PAV riesce a scegliere il passo corretto in funzione delle dimensioni del pannello ed ad avere una velocità di esecuzione ottimale
+NOTE: Per ragioni prestazionali è fortemente consigliato al cliente di usare il parametro 0 nel passo di discretizzazione.  
+In questo modo il PAV riesce a scegliere il passo corretto in funzione delle dimensioni del pannello ed ad avere una velocità di esecuzione ottimale.  
+![Image Not Found](Software/B_SUITE/Release_Notes/4_1/4_1_0_121_(MKT_Release)/Image/Bug196427.png)
 
 ***
 
@@ -124,9 +124,9 @@ NOTA: è stato rimosso il dato "Tipo cambio utensile" dai parametri dei sottoman
 
 **Bug 197810: [AU-ISSUE] Tastatore. Collegamento post per PR00019461**  
 
-NOTA: il comando "vista fotorealistica" ora presenta il corretto shortCut "Shift+Alt+P" nel suo tooltip
+NOTA: il comando "vista fotorealistica" ora presenta il corretto shortCut "Shift+Alt+P" nel suo tooltip  
 
-![Immagine](Aspose.Words.384bf70f-4628-49ef-9621-c6762054915a.004.png)
+![Image Not Found](Software/B_SUITE/Release_Notes/4_1/4_1_0_121_(MKT_Release)/Image/Bug197810.png)
 
 ***
 
@@ -173,11 +173,11 @@ Inserimento a catalogo dei modelli di aggregato lama 300 con cuffia dedicata per
 
 ***
 
-**Bug 198431: [bSuite] [4.1Validation] Prototipo Winline Step2 - da import impostare parametro postprocessor VROT\_T = 4000 [CATALOGO]**
-
+**Bug 198431: [bSuite] [4.1Validation] Prototipo Winline Step2 - da import impostare parametro postprocessor VROT\_T = 4000 [CATALOGO]**  
 
 NOTA: è necessario eseguire l'import del modello macchina
 
+***
 
 **Bug 196437: [WRT] - PR00019205: bSolid: Problema fresatura con deflettore. la fresa non mangia correttamente. OK senza deflettore**
 
@@ -301,11 +301,11 @@ NOTA: Per ripetizioni a matrice il CIX, al fine di risparmio di utilizzo di mem
 
 ciclo for:
 
-![](Aspose.Words.384bf70f-4628-49ef-9621-c6762054915a.005.png)
+![Image Not Found](Software/B_SUITE/Release_Notes/4_1/4_1_0_121_(MKT_Release)/Image/Bug200502_01.png)
 
 ripetizioni:
 
-![](Aspose.Words.384bf70f-4628-49ef-9621-c6762054915a.006.png)
+![Image Not Found](Software/B_SUITE/Release_Notes/4_1/4_1_0_121_(MKT_Release)/Image/Bug200502_02.png)
 
 ***
 
