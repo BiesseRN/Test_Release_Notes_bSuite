@@ -1,5 +1,7 @@
-﻿**Lista problemi risolti**
+﻿**LISTA PROBLEMI RISOLTI**
+ 
 ***
+
 **B_SUITE 4.1.0.121**   
 
 
