@@ -17,7 +17,7 @@ NOTA: è necessario cancellare e reinserire manualmente le macro
 
 NOTE: Per ragioni prestazionali è fortemente consigliato al cliente di usare il parametro 0 nel passo di discretizzazione.  
 In questo modo il PAV riesce a scegliere il passo corretto in funzione delle dimensioni del pannello ed ad avere una velocità di esecuzione ottimale.  
-![Immagine](Aspose.Words.384bf70f-4628-49ef-9621-c6762054915a.003.png)
+![Image Not Found](Software/B_SUITE/Release_Notes/4_1/4_1_0_121_(MKT_Release)/Image/Bug196427.png)
 
 ***
 
@@ -126,7 +126,7 @@ NOTA: è stato rimosso il dato "Tipo cambio utensile" dai parametri dei sottoman
 
 NOTA: il comando "vista fotorealistica" ora presenta il corretto shortCut "Shift+Alt+P" nel suo tooltip  
 
-![Immagine](Aspose.Words.384bf70f-4628-49ef-9621-c6762054915a.004.png)
+![Image Not Found](Software/B_SUITE/Release_Notes/4_1/4_1_0_121_(MKT_Release)/Image/Bug197810.png)
 
 ***
 
@@ -301,11 +301,11 @@ NOTA: Per ripetizioni a matrice il CIX, al fine di risparmio di utilizzo di mem
 
 ciclo for:
 
-![](Aspose.Words.384bf70f-4628-49ef-9621-c6762054915a.005.png)
+![Image Not Found](Software/B_SUITE/Release_Notes/4_1/4_1_0_121_(MKT_Release)/Image/Bug200502_01.png)
 
 ripetizioni:
 
-![](Aspose.Words.384bf70f-4628-49ef-9621-c6762054915a.006.png)
+![Image Not Found](Software/B_SUITE/Release_Notes/4_1/4_1_0_121_(MKT_Release)/Image/Bug200502_02.png)
 
 ***
 
