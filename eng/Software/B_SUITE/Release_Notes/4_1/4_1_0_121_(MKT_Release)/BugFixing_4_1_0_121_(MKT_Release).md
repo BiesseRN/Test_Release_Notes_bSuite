@@ -18,7 +18,7 @@ NOTE: it is necessary to manually delete and re-enter the macros.
 
 **Bug 196427: PR00019010 [PAV] : Problem with PAV and rotation step.**  
 
-NOTE:For performance reasons, it is strongly recommended that the customer use a parameter of 0 in the discretization step. This way, the PAV is able to choose the correct step based on the panel dimensions and achieve optimal execution speed.  
+NOTE: For performance reasons, it is strongly recommended that the customer use a parameter of 0 in the discretization step. This way, the PAV is able to choose the correct step based on the panel dimensions and achieve optimal execution speed.  
 ![Image Not Found](eng/Software/B_SUITE/Release_Notes/4_1/4_1_0_121_(MKT_Release)/Image/Bug196427.png)
 
 ***
