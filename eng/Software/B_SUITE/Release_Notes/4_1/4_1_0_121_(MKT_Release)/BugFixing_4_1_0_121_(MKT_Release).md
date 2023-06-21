@@ -121,15 +121,15 @@ NOTE: The 'tool exchange rate' data has been removed from the sub-manifold param
 
 ***
 
-**Bug 197810: [AU-ISSUE] Probe. Post link for PR00019461 connection**
+**Bug 197810: [AU-ISSUE] Probe. Post link for PR00019461 connection**  
+
+![Image Not Found](Software/B_SUITE/Release_Notes/4_1/4_1_0_121_(MKT_Release)/Image/Bug197810.png)
 
 ***
 
 **Bug 196679: [4.1Validation]: shortcut del comando "vista fotorealistica" (Control+Shift+R ) non corretto**  
 
 NOTE: The "photorealistic view" command now displays the correct shortcut "Shift+Alt+P" in its tooltip.
-
-![Immagine](Aspose.Words.b5620f8b-54bf-4551-bbe8-3c17dd581d23.004.png)
 
 ***
 
@@ -304,11 +304,11 @@ NOTE: For matrix repetitions, the CIX should not be programmed by inserting 1600
 
 loop for:
 
-![](Aspose.Words.b5620f8b-54bf-4551-bbe8-3c17dd581d23.005.png)
+![Image Not Found](Software/B_SUITE/Release_Notes/4_1/4_1_0_121_(MKT_Release)/Image/Bug200502_01.png)
 
 Repetitions: 
 
-![](Aspose.Words.b5620f8b-54bf-4551-bbe8-3c17dd581d23.006.png)
+![Image Not Found](Software/B_SUITE/Release_Notes/4_1/4_1_0_121_(MKT_Release)/Image/Bug200502_02.png)
 
 ***
 
