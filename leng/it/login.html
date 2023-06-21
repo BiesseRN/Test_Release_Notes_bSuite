@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Biesse Release Notes - Login</title>
+  <link rel="stylesheet" href="scripts/login.css">
+</head>
+<body>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    // Verifica se l'utente ha effettuato il login
+    var isLoggedIn = checkLoginStatus();
+
+    // Se l'utente ha effettuato il login, reindirizzalo alla pagina della dashboard
+    if (isLoggedIn) {
+      window.location.href = 'index.html';
+    }
+  });
+
+  function checkLoginStatus() {
+    // Effettua qui la logica per verificare se l'utente ha effettuato il login
+    // Puoi utilizzare sessioni, cookie o altre tecniche per memorizzare lo stato di login dell'utente
+    // Restituisci true se l'utente ha effettuato il login correttamente, altrimenti false
+
+    // Esempio di implementazione che controlla se esiste un token di accesso
+    var accessToken = localStorage.getItem('accessToken');
+    return accessToken !== null;
+  }
+</script>
+
+
+  <div class="login-container">
+  <center>
+  <img src="images/logo2.jpg" alt="Logo" class="logo">
+  </center>
+  <h2>Login</h2>
+  <form id="login-form" method="POST" action="scripts/login.php">
+    <div class="form-group">
+      <center><label for="username">Username</label></center>
+      <input type="text" id="username" name="username" class="username-input" required>
+    </div>
+    <div class="form-group">
+      <center><label for="password">Password</label></center>
+      <input type="password" id="password" name="password" class="password-input" required>
+    </div>
+    <center><button type="submit">Submit</button></center>
+  </form>
+  <div class="error-message" id="error-message"></div>
+  <div id="success-message" class="message success"></div>
+</div>
+  <script src="scripts/script.js"></script>
+</body>
+</html>

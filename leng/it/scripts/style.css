@@ -1,0 +1,219 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+#container {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  overflow-y: auto;
+  background-color: #03787c;
+}
+
+#sidebar {
+  height: 100vh;
+  width: 27%;
+  padding: 20px;
+  background-color: #03787c;
+  color: #fff;
+  overflow-y: auto;
+}
+
+.tree-title {
+  color: #fff;
+  padding: 10px;
+  margin: 0;
+  text-align: center;
+}
+
+#content {
+  flex: 1;
+  padding: 20px;
+  // background-color: #000;
+  background-image: url('../images/whiteandlogo.jpg');
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+.toggle {
+  cursor: pointer;
+  background-color: #03787c;
+  color: #fff;
+  border: none;
+  padding: 10px;
+  width: 100%;
+  text-align: left;
+  display: flex;
+  align-items: center;
+}
+
+.toggle:hover {
+  background-color: #025659;
+}
+
+.toggle i {
+  margin-right: 10px;
+}
+
+.subtree {
+  display: none;
+  padding-left: 20px;
+}
+
+.subtree ul.subtree {
+  padding-left: 40px;
+}
+
+.subtree ul.subtree ul.subtree {
+  padding-left: 60px;
+}
+
+.subtree.expanded {
+  display: block;
+}
+
+.text-color-tree {
+  color: #FFFFFF;
+}
+
+.expanded {
+  display: block;
+}
+
+a {
+  text-decoration: none;
+}
+
+.bold-link {
+  font-weight: bold;
+}
+
+#releaseContent {
+  color: #000;
+  padding-left: 40px;
+  max-width: 70%;
+  background-color: #fff;
+}
+
+#releaseContent ul {
+  list-style-type: none;
+  margin-left: 20px;
+  padding: 0;
+}
+
+#releaseContent ul li {
+  margin-bottom: 5px;
+}
+
+.logo {
+  width: 25px;
+  height: 25px;
+}
+
+#releaseTree a.selected {
+  background-color: #025659;
+  position: relative;
+}
+
+#releaseTree a.selected li {
+  background-color: #000000;
+}
+
+#releaseTree a.selected::after {
+  content: url('../images/arrow-right.png'); /* Sostituisci con il percorso dell'immagine dell'icona */
+  position: absolute;
+  right: 102%;
+  top: 50%;
+  transform: translateY(-50%);
+  margin-left: 5px; /* Aggiungi uno spazio tra il testo del link e l'icona */
+}
+
+#logout-container {
+  position: fixed;
+  bottom: 20px;
+  left: 140px; /* Modifica la posizione orizzontale del pulsante di logout in base alle tue esigenze */
+  z-index: 1; /* Assicurati che il pulsante di logout abbia una z-index per posizionarlo sopra gli altri elementi */
+}
+
+
+#logout-button {
+  background-color: #f44336;
+  color: #fff;
+  padding: 8px 12px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+#logout-button:hover {
+  background-color: #d32f2f;
+}
+
+
+#languageMenu {
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  z-index: 1; /* Aggiungi una z-index per posizionare il menu sopra gli altri elementi */
+}
+
+#languageMenu .toggle {
+  display: inline-block;
+  padding: 8px 12px;
+  background-color: #025659;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+#languageMenu .subtree {
+  display: none;
+  position: absolute;
+  background-color: #025659;
+  box-shadow: 0px -8px 16px 0px rgba(0, 0, 0, 0.2);
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  min-width: 91px;
+  bottom: 100%;
+}
+
+#languageMenu .subtree li {
+  padding: 8px 12px;
+  cursor: pointer;
+}
+
+#languageMenu .subtree li a {
+  color: #333;
+  text-decoration: none;
+}
+
+#languageMenu:hover .subtree {
+  display: block;
+}
+
+#languageMenu .subtree li:hover a {
+  color: #fff;
+  background-color: #014345;
+}
+
+.download-pdf {
+  display: inline-block;
+  margin-left: 5px;
+  font-size: 14px;
+  cursor: pointer; /* Aggiungi questa riga per cambiare il cursore quando si passa sopra l'icona */
+}
+
+.download-pdf:hover {
+  color: #1B7E5C; /* Cambia il colore dell'icona durante l'hover, se desideri */
+}
