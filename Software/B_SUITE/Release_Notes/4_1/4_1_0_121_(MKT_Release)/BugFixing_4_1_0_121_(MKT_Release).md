@@ -124,7 +124,7 @@ NOTA: è stato rimosso il dato "Tipo cambio utensile" dai parametri dei sottoman
 
 ***
 
-**Bug 197810: [AU-ISSUE] Tastatore. Collegamento post per PR00019461**  
+**Bug 196679: [4.1Validation]: shortcut del comando "vista fotorealistica" (Control+Shift+R ) non corretto**  
 
 NOTA: il comando "vista fotorealistica" ora presenta il corretto shortCut "Shift+Alt+P" nel suo tooltip  
 
