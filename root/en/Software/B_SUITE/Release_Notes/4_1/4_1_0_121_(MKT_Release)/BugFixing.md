@@ -353,3 +353,7 @@ NOTE: It is necessary to perform the machine model import with the "Preserve Dat
 **Bug 200831: [bSuite] bSolid Template with protruding right-side unloaders Rv C matr. 1000058810 (catalog fixed) [CATALOGUE]**  
 
 NOTE: It's necessary to perform the machine model import.  
+
+***
+
+**Bug 199300: [bNest] PR00019742: bNest: Incomprehensible error during CSV file import. Cannot complete the template....**
