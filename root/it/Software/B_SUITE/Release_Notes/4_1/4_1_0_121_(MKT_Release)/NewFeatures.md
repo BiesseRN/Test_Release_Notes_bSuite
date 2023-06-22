@@ -42,12 +42,12 @@ E' stata aggiunta la possibilità di spostare la posizione degli ingressi delle 
 Si può spostare l'ingresso del singolo pezzo, di una selezione di pezzi o dell'intero schema.  
 Per farlo ci sono varie modalità:  
 
-- Usando il gruppo di comandi automatici ![Image Not Found](Software/B_SUITE/Release_Notes/4_1/4_1_0_121_(MKT_Release)/Image/Feature197426_01.png) che permette di posizionare il punto di ingresso con le stesse possibilità offerte dai parametri di elaborazione:  
-- In posizione predefinita  
-- Il tratto più lungo  
-- Verso il bordo più vicino della lastra  
-- Verso il centro della lastra  
-- Usando il gruppo di comandi manuali ![Image Not Found](Software/B_SUITE/Release_Notes/4_1/4_1_0_121_(MKT_Release)/Image/Feature197426_02.png)che permettono di far ruotare il punto di ingresso intorno al pezzo a passi discreti in entrambi i versi, sia tramite click sui bottoni (e relativi shortcuts coi tasti Ctrl e '+' e Ctrl e '-'), sia attraverso uno specifico controllo cursore dove si riesce a percorrere un intero giro intorno al pezzo  
+· Usando il gruppo di comandi automatici ![Image Not Found](Software/B_SUITE/Release_Notes/4_1/4_1_0_121_(MKT_Release)/Image/Feature197426_01.png) che permette di posizionare il punto di ingresso con le stesse possibilità offerte dai parametri di elaborazione:  
+· In posizione predefinita  
+· Il tratto più lungo  
+· Verso il bordo più vicino della lastra  
+· Verso il centro della lastra  
+· Usando il gruppo di comandi manuali ![Image Not Found](Software/B_SUITE/Release_Notes/4_1/4_1_0_121_(MKT_Release)/Image/Feature197426_02.png)che permettono di far ruotare il punto di ingresso intorno al pezzo a passi discreti in entrambi i versi, sia tramite click sui bottoni (e relativi shortcuts coi tasti Ctrl e '+' e Ctrl e '-'), sia attraverso uno specifico controllo cursore dove si riesce a percorrere un intero giro intorno al pezzo  
 - Usando direttamente la rotellina del mouse in combinazione con il tasto Ctrl. Si può applicare su un singolo pezzo posizionandoci sopra il mouse oppure se si vuole agire sui pezzi selezionati, basta posizionare il mouse nel vuoto. Ruotando la la rotellina si otterrà lo spostamento del punto di ingresso nei pezzi interessati
 
 ***
@@ -55,13 +55,13 @@ Per farlo ci sono varie modalità:
 **Feature 197427: [bSuite][bNest] Creazione automatica di un nuovo progetto per i pezzi mancanti dei progetti elaborati (modalità statica) – porting da bOpti**  
 
 La funzionalità "Reintegro pezzi mancanti" cerca tra i progetti selezionati i pezzi che non sono stati inseriti nei risultati e li inserisce in un nuovo progetto o in uno già esistente.  
-Il comando è contraddistinto dalla icona ![Immagine](Aspose.Words.adf92199-a553-4311-a96d-acc49cc6bd3b.007.png) ed è disponibile sia nella vista della lista dei progetti  
+Il comando è contraddistinto dalla icona ![Image Not Found](Software/B_SUITE/Release_Notes/4_1/4_1_0_121_(MKT_Release)/Image/Feature197427_01.png) ed è disponibile sia nella vista della lista dei progetti  
 
-![Immagine](Aspose.Words.adf92199-a553-4311-a96d-acc49cc6bd3b.008.png)  
+![Image Not Found](Software/B_SUITE/Release_Notes/4_1/4_1_0_121_(MKT_Release)/Image/Feature197427_02.png)
 
 sia nella vista di dettaglio del progetto  
 
-![Immagine](Aspose.Words.adf92199-a553-4311-a96d-acc49cc6bd3b.009.png)  
+![Image Not Found](Software/B_SUITE/Release_Notes/4_1/4_1_0_121_(MKT_Release)/Image/Feature197427_03.png)
 
 ***
 
@@ -74,19 +74,19 @@ Informazioni dai risultati: Lastre, Resti, Lastre + Resti, Numero schemi, Area 
 
 Nell'immagine sotto si possono vedere alcuni dei nuovi campi:  
 
-![Immagine](Aspose.Words.adf92199-a553-4311-a96d-acc49cc6bd3b.010.png)  
+![Image Not Found](Software/B_SUITE/Release_Notes/4_1/4_1_0_121_(MKT_Release)/Image/Feature197428.png)
 
 ***
 
-**3.1.7 Feature 197429: [bNest] Rebranding software - Step 2 (completamento integrazione icone)**  
+**Feature 197429: [bNest] Rebranding software - Step 2 (completamento integrazione icone)**  
 Le modifiche introdotte con la nuova interfaccia di bNest riguardano puramente lo stile grafico e non alterano il funzionamento dei comandi dell’applicativo.
 
-![Immagine](Aspose.Words.adf92199-a553-4311-a96d-acc49cc6bd3b.011.png)  
+![Image Not Found](Software/B_SUITE/Release_Notes/4_1/4_1_0_121_(MKT_Release)/Image/Feature197429.png)
 
 I principali cambiamenti sono:  
 
-- Sostituzione icone nei vari ambienti  
-- Rivisitazione stili schede degli ambienti  
+· Sostituzione icone nei vari ambienti  
+· Rivisitazione stili schede degli ambienti  
 
 ***
 
