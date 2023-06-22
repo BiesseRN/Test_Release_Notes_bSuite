@@ -24,7 +24,7 @@ E' stata ottimizzata la gestione dell'archivio file dell'applicazione facendo in
 E' stata aggiunta una nuova tecnologia automatica che permette di applicare una fresatura intorno ad ogni singolo pezzo dello schema di nesting. Questa funzionalità è molto utile nel caso di pezzi composti da sole geometrie.  
 Per attivare questa funzionalità basta andare nei parametri di progetto e selezionare "Fresatura a pezzo singolo" nel tipo di fresatura della tecnologia automatica.  
 
-![Immagine](Aspose.Words.adf92199-a553-4311-a96d-acc49cc6bd3b.003.jpeg)  
+![Image Not Found](Software/B_SUITE/Release_Notes/4_1/4_1_0_121_(MKT_Release)/Image/Feature197424_01.jpeg)
 
 Per impostare tutti i parametri tecnologici e di comportamento della fresatura a pezzo singolo, basta andare nella specifica scheda
 
