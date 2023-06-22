@@ -48,7 +48,7 @@ Per farlo ci sono varie modalità:
 · Verso il bordo più vicino della lastra  
 · Verso il centro della lastra  
 · Usando il gruppo di comandi manuali ![Image Not Found](Software/B_SUITE/Release_Notes/4_1/4_1_0_121_(MKT_Release)/Image/Feature197426_02.png)che permettono di far ruotare il punto di ingresso intorno al pezzo a passi discreti in entrambi i versi, sia tramite click sui bottoni (e relativi shortcuts coi tasti Ctrl e '+' e Ctrl e '-'), sia attraverso uno specifico controllo cursore dove si riesce a percorrere un intero giro intorno al pezzo  
-- Usando direttamente la rotellina del mouse in combinazione con il tasto Ctrl. Si può applicare su un singolo pezzo posizionandoci sopra il mouse oppure se si vuole agire sui pezzi selezionati, basta posizionare il mouse nel vuoto. Ruotando la la rotellina si otterrà lo spostamento del punto di ingresso nei pezzi interessati
+·Usando direttamente la rotellina del mouse in combinazione con il tasto Ctrl. Si può applicare su un singolo pezzo posizionandoci sopra il mouse oppure se si vuole agire sui pezzi selezionati, basta posizionare il mouse nel vuoto. Ruotando la la rotellina si otterrà lo spostamento del punto di ingresso nei pezzi interessati
 
 ***
 
