@@ -79,6 +79,7 @@ Nell'immagine sotto si possono vedere alcuni dei nuovi campi:
 ***
 
 **Feature 197429: [bNest] Rebranding software - Step 2 (completamento integrazione icone)**  
+
 Le modifiche introdotte con la nuova interfaccia di bNest riguardano puramente lo stile grafico e non alterano il funzionamento dei comandi dell’applicativo.
 
 ![Image Not Found](Software/B_SUITE/Release_Notes/4_1/4_1_0_121_(MKT_Release)/Image/Feature197429.png)
