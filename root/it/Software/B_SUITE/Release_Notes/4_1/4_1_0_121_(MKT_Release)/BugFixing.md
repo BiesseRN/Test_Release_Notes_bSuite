@@ -357,3 +357,7 @@ NOTA: è necessario eseguire l’import del modello macchina
 
 **Bug 197477: [PktLib]: [bSuite]: PR00018743: bSolid: problema con la lavorazione di svuotamento su file CIX [PocketLib]**
 
+***
+
+**Bug 199300: [bNest] PR00019742: bNest: Errore incomprensibile durante import file CSV. Cannot complete the template ....**
+
