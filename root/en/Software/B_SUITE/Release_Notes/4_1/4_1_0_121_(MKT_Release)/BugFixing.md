@@ -356,4 +356,8 @@ NOTE: It's necessary to perform the machine model import.
 
 ***
 
+**Bug 197477: [PktLib]: [bSuite]: PR00018743: bSolid: issue with hollowing processing on CIX file [PocketLib]**
+
+***
+
 **Bug 199300: [bNest] PR00019742: bNest: Incomprehensible error during CSV file import. Cannot complete the template....**
