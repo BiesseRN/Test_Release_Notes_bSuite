@@ -321,15 +321,15 @@ Il file MNO, creato da bNest in fase di elaborazione, contiene l’elenco degli 
 All’interno di queste informazioni è stata aggiunta quella relativa alla densità.  
 Per impostare la densità di una lastra:  
 
-- Aprire l’anagrafica delle lastre  
-- Aprire una lastra  
-- Impostare il valore relativo alla densità  
-![](Aspose.Words.adf92199-a553-4311-a96d-acc49cc6bd3b.028.png)  
+· Aprire l’anagrafica delle lastre  
+· Aprire una lastra  
+· Impostare il valore relativo alla densità  
+![Image Not Found](Software/B_SUITE/Release_Notes/4_1/4_1_0_121_(MKT_Release)/Image/Feature197859_01.png)
 
 Per leggere l’informazione relativa alla densità della lastra utilizzata da uno schema di taglio è sufficiente aprire l’MNO trasmesso in macchina e cercare il nodo <FOGLIO> d’interesse.  
 
 Tale nodo contiene il sotto-noto <SheetInfo>, il quale contiene la proprietà “Density” valorizzata col valore impostato in bNest.  
-![](Aspose.Words.adf92199-a553-4311-a96d-acc49cc6bd3b.029.png)  
+![Image Not Found](Software/B_SUITE/Release_Notes/4_1/4_1_0_121_(MKT_Release)/Image/Feature197859_02.png)
 
 **Feature 197495: [bSuite][bNest] Gestione transitorio per libreria offset Nestlib: utilizzo della vecchia traiettoria 3DE**  
 
@@ -342,11 +342,11 @@ Nel caso in cui il cliente avesse bisogno di utilizzare il nuovo algoritmo per i
 Abilitando il nuovo Flag “Mantieni attrezzaggio piani con macchina differente” (Tab – “Imp generali”? [DA DEFINIRE]) ci si aspetta che aprendo un file.bSolid con un attrezzaggio piani, questo venga mantenuto indipendentemente dalla macchina attiva, a patto che questa sia P&R.  
 Nel fare questo, bSuite eseguirà un controllo di fattibilità e quando non sarà possibile applicare l’attrezzaggio del programma (vedi casi sotto) sarà generato un WARNING (giallo) all’apertura dello stesso in ambiente CAD. Il warning in questione proporrà il messaggio generico “ATTENZIONE: non è stato possibile applicare l’attrezzaggio piani originale del programma” (quindi senza alcuna diagnostica avanzata).     L’applicazione dell’attrezzaggio originale del programma non sarà applicato nei seguenti casi:  
 
-- L’origine selezionata nell’attrezzaggio piani originale NON è presente sulla macchina attualmente attiva  
-- L’attrezzaggio piani originale genera delle collisioni fra piani e/o carrelli della macchina attualmente attiva  
-- Il posizionamento dei piani e/o carrelli dell’attrezzaggio originale non è compreso nei limiti degli assi della macchina attualmente attiva  
-- Non viene gestita la modalità MULTIPANNELLO: l’attrezzaggio piani originale è stato creato in modalità multipannello, oppure il parametro è abilitato sulla macchina attiva  
-- Non vengono gestite le macchine FT: l’attrezzaggio piani è stato creato su una macchina FT e/o la macchina attiva è una macchina FT  
+· L’origine selezionata nell’attrezzaggio piani originale NON è presente sulla macchina attualmente attiva  
+· L’attrezzaggio piani originale genera delle collisioni fra piani e/o carrelli della macchina attualmente attiva  
+· Il posizionamento dei piani e/o carrelli dell’attrezzaggio originale non è compreso nei limiti degli assi della macchina attualmente attiva  
+· Non viene gestita la modalità MULTIPANNELLO: l’attrezzaggio piani originale è stato creato in modalità multipannello, oppure il parametro è abilitato sulla macchina attiva  
+· Non vengono gestite le macchine FT: l’attrezzaggio piani è stato creato su una macchina FT e/o la macchina attiva è una macchina FT  
 
 Aprendo un programma direttamente dall’ambiente Distinta, ci si aspetta il medesimo comportamento: nella parte bassa dello schermo sarà visualizzato lo stesso Warning spiegato al PT precedente.  
 La funzionalità dovrà gestire anche il caso di attrezzaggio con formule parametriche nella posizione dei piani e carrelli.  
@@ -355,11 +355,11 @@ La descrizione del parametro nel manuale utente dovrà essere la seguente: “Ab
 
 NOTA: l'attrezzaggio piani originale del programma non sarà applicato nei seguenti casi:  
 
-- L’origine selezionata nell’attrezzaggio piani originale NON è presente sulla macchina attualmente attiva  
-- L’attrezzaggio piani originale genera delle collisioni fra piani e/o carrelli della macchina attualmente attiva  
-- Il posizionamento dei piani e/o carrelli dell’attrezzaggio originale non è compreso nei limiti degli assi della macchina attualmente attiva  
-- Non viene gestita la modalità MULTIPANNELLO: l’attrezzaggio piani originale è stato creato in modalità multipannello, oppure il parametro è abilitato sulla macchina attiva  
-- Non vengono gestite le macchine FT: l’attrezzaggio piani è stato creato su una macchina FT e/o la macchina attiva è una macchina FT  
+· L’origine selezionata nell’attrezzaggio piani originale NON è presente sulla macchina attualmente attiva  
+· L’attrezzaggio piani originale genera delle collisioni fra piani e/o carrelli della macchina attualmente attiva  
+· Il posizionamento dei piani e/o carrelli dell’attrezzaggio originale non è compreso nei limiti degli assi della macchina attualmente attiva  
+· Non viene gestita la modalità MULTIPANNELLO: l’attrezzaggio piani originale è stato creato in modalità multipannello, oppure il parametro è abilitato sulla macchina attiva  
+· Non vengono gestite le macchine FT: l’attrezzaggio piani è stato creato su una macchina FT e/o la macchina attiva è una macchina FT  
 
 ***
 
@@ -398,10 +398,10 @@ L’obiettivo è quello di consentire all’utente di attivare il vuoto dinamico
 All’interno di questa sezione viene inserito il parametro “Vuoto dinamico”.  
 Tale parametro può avere i seguenti valori:  
 
-- Predefinito  
-- Attivo  
-- Disattivo  
-![](Aspose.Words.adf92199-a553-4311-a96d-acc49cc6bd3b.030.png)  
+· Predefinito  
+· Attivo  
+· Disattivo  
+![Image Not Found](Software/B_SUITE/Release_Notes/4_1/4_1_0_121_(MKT_Release)/Image/Feature197540.png)
 
 - Impostando “Predefinito” verrà generato un programma avente come gestione il comportamento di default impostato in B\_SOLID. Impostando “Attivo” o “Disattivo”, verrà generato un programma nel quale il vuoto dinamico sarà forzato ad essere rispettivamente attivo o disattivo.
 
@@ -411,17 +411,16 @@ Tale parametro può avere i seguenti valori:
 
 Nell' insertore del "Testo lineare" e nell’ insertore del "Testo su percorso"  è stata nascosta la sezione "Dati CAM”:  
 
-![Immagine](Aspose.Words.adf92199-a553-4311-a96d-acc49cc6bd3b.031.png)  
+![Image Not Found](Software/B_SUITE/Release_Notes/4_1/4_1_0_121_(MKT_Release)/Image/Feature196741_01.png)
 
-![Immagine](Aspose.Words.adf92199-a553-4311-a96d-acc49cc6bd3b.032.png)
-
+![Image Not Found](Software/B_SUITE/Release_Notes/4_1/4_1_0_121_(MKT_Release)/Image/Feature196741_02.png)
 ***
 
 **Feature 196742: [bSuite] Nascondere la sezione "Dati CAM" dal plug-in "Spline"**  
 
 Nell' insertore della “Spline” è stata nascosta la sezione "Dati CAM”:  
 
-![Immagine](Aspose.Words.adf92199-a553-4311-a96d-acc49cc6bd3b.033.png)
+![Image Not Found](Software/B_SUITE/Release_Notes/4_1/4_1_0_121_(MKT_Release)/Image/Feature196742.png)
 
 ***
 
@@ -429,7 +428,7 @@ Nell' insertore della “Spline” è stata nascosta la sezione "Dati CAM”:
 
 "Nell' insertore "Selezione Parziale" è stata nascosta la sezione "Dati CAM":  
 
-![Immagine](Aspose.Words.adf92199-a553-4311-a96d-acc49cc6bd3b.034.png)
+![Image Not Found](Software/B_SUITE/Release_Notes/4_1/4_1_0_121_(MKT_Release)/Image/Feature196740.png)
 
 ***
 
@@ -440,7 +439,7 @@ Tipicamente queste due funzionalità erano dissociate e nelle versioni precedent
 E’ stato deciso di superare questo limite, introducendo quindi la possibilità di coniugare i due approcci, e facendo in modo che, nella maggior parte dei casi, una macchina con doppia testa, possa sfruttare la velocità di lavoro anche della tecnologia a tagli in comune.  
 Per riuscire ad impostare, nei parametri di un progetto bNEST, sia la volontà di eseguire la clonazione, che la volontà di eseguire fresature a tagli in comune, è stata eliminata l’inibizione che era presente prima, e che ora, quando si sceglie “fresature a tagli in comune” continua ad esistere solo per l’approccio “Multi-Testa”.  
 
-![](Aspose.Words.adf92199-a553-4311-a96d-acc49cc6bd3b.035.png)
+![Image Not Found](Software/B_SUITE/Release_Notes/4_1/4_1_0_121_(MKT_Release)/Image/Feature199262_01.png)
 
 ***
 
@@ -451,7 +450,8 @@ Con questo sviluppo si è voluto proprio superare questo limite, inserendo nella
 
 |**Esempio di sequenza senza Clonazione + Fresatura a tagli in comune**|**Esempio di sequenza con Clonazione + Fresatura a tagli in comune**    
 
-|![](Aspose.Words.adf92199-a553-4311-a96d-acc49cc6bd3b.036.png)  |![](Aspose.Words.adf92199-a553-4311-a96d-acc49cc6bd3b.037.png)|
+![Image Not Found](Software/B_SUITE/Release_Notes/4_1/4_1_0_121_(MKT_Release)/Image/Feature199262_02.png)   
+![Image Not Found](Software/B_SUITE/Release_Notes/4_1/4_1_0_121_(MKT_Release)/Image/Feature199262_02.png)  
 
 Come si può notare dalla figura, la sequenza è sempre scandita in ordine stretto, ma in presenza di clonazione vengono accoppiati le parti clonate e sistemate tra separatori.  
 In questo modo è garantito l’ordine stretto per la buona riuscita delle lavorazioni di fresatura per il distacco dei pezzi, ma l’ottimizzatore riuscirà ad accoppiare le lavorazioni racchiuse tra separatori, realizzando di fatto il parallelismo, dal momento che i pezzi contenuti in una sezione tra separatori sono, appunto, gemelli e identici.
@@ -465,14 +465,12 @@ Ad oggi, per eseguire in macchina l’intero progetto, l’utente dovrebbe aprir
 L’intento dello sviluppo è quello di fornire, oltre alle distinte di sotto-progetto, una distinta “globale”, per facilitare l’esecuzione in macchina dell’intero progetto.  
 La trasmissione in macchina della distinta di progetto è per default disabilitata. Per abilitarla è necessario attivarla nelle impostazioni macchina di B\_NEST, all’interno del gruppo “Trasmissione”  
 
-![](Aspose.Words.adf92199-a553-4311-a96d-acc49cc6bd3b.038.png)  
+![Image Not Found](Software/B_SUITE/Release_Notes/4_1/4_1_0_121_(MKT_Release)/Image/Feature200521_01.png)
 
 Abilitando tale impostazione, in fase di trasmissione, oltre alle distinte di sotto-progetto, verrà inviata anche la distinta di progetto contenente tutti gli schemi di taglio generati dall’elaborazione di tutti i sotto-progetti.  
 Tale distinta avrà come nome lo stesso del progetto di B\_NEST (a differenza delle altre, che oltre a tale nome, avranno anche il nome del sotto-progetto)  
 
-![](Aspose.Words.adf92199-a553-4311-a96d-acc49cc6bd3b.039.png)
-
-***
+![Image Not Found](Software/B_SUITE/Release_Notes/4_1/4_1_0_121_(MKT_Release)/Image/Feature200521_02.png)  
 
 Coerentemente come avviene per le distinte di sotto-progetto, anche in questo caso l’utente può decidere la tipologia di distinta da generare, scegliendo una delle seguenti tipologie:  
 
@@ -482,41 +480,41 @@ Coerentemente come avviene per le distinte di sotto-progetto, anche in questo ca
 
 La scelta ti tale tipologia si effettua nelle impostazioni macchina di B\_NEST, all’interno del gruppo “Trasmissione”  
 
-![](Aspose.Words.adf92199-a553-4311-a96d-acc49cc6bd3b.040.png)  
+![Image Not Found](Software/B_SUITE/Release_Notes/4_1/4_1_0_121_(MKT_Release)/Image/Feature200521_03.png)  
 
-**Distinta unica per lastre e resti**
+**Distinta unica per lastre e resti**  
 
 Tale tipologia prevede la trasmissione di un'unica distinta contenente l’elenco degli schemi di taglio generati da tutti i sotto-progetti
 
-![](Aspose.Words.adf92199-a553-4311-a96d-acc49cc6bd3b.041.png)  
+![Image Not Found](Software/B_SUITE/Release_Notes/4_1/4_1_0_121_(MKT_Release)/Image/Feature200521_04.png)
 
 **Distinta unica con separazione tra lastre e resti**  
 
 Tale tipologia prevede la trasmissione di un'unica distinta contenente l’elenco degli schemi di taglio generati da tutti i sotto-progetti, ordinati come segue:  
 
-•	Schemi derivanti da lastre  
-•	Elemento di pausa  
-•	Schemi derivanti da resti  
+·	Schemi derivanti da lastre  
+·	Elemento di pausa  
+·	Schemi derivanti da resti  
 
-![](Aspose.Words.adf92199-a553-4311-a96d-acc49cc6bd3b.042.png)  
+![Image Not Found](Software/B_SUITE/Release_Notes/4_1/4_1_0_121_(MKT_Release)/Image/Feature200521_05.png)
 
 **Una distinta per lastre e una per resti**  
 
 Tale tipologia prevede la trasmissione di due distinte, la prima contenente l’elenco degli schemi di taglio derivanti da lastre mentre la seconda quelli derivanti da resti. La distinta unica delle lastre ha lo stesso nome del progetto, mentre quelle dei resti ha lo stesso nome del progetto seguita dal suffisso “\_W”;  
 
-![](Aspose.Words.adf92199-a553-4311-a96d-acc49cc6bd3b.043.png)  
+![Image Not Found](Software/B_SUITE/Release_Notes/4_1/4_1_0_121_(MKT_Release)/Image/Feature200521_06.png)
 
-![](Aspose.Words.adf92199-a553-4311-a96d-acc49cc6bd3b.044.png)  
+![Image Not Found](Software/B_SUITE/Release_Notes/4_1/4_1_0_121_(MKT_Release)/Image/Feature200521_07.png)
 
 Non è possibile trasmettere la distinta macchina di progetto nelle seguenti situazioni:  
 
-- Qualche sotto-progetto non risulta elaborato  
-- Qualche sotto-progetto segnala degli errori di trasmissione  
-- Si cerca di trasmettere soltanto alcuni sotto-progetti singolarmente  
+· Qualche sotto-progetto non risulta elaborato  
+· Qualche sotto-progetto segnala degli errori di trasmissione  
+· Si cerca di trasmettere soltanto alcuni sotto-progetti singolarmente  
 
 In generale la distinta di progetto viene trasmessa soltanto se si esegue la trasmissione totale del progetto senza che nessun sotto-progetto vada in errore. In caso contrario, un messaggio di warning avvisa l’utente del problema  
 
-![](Aspose.Words.adf92199-a553-4311-a96d-acc49cc6bd3b.045.png)  
+![Image Not Found](Software/B_SUITE/Release_Notes/4_1/4_1_0_121_(MKT_Release)/Image/Feature200521_08.png)
 
 ***
 
@@ -530,7 +528,7 @@ Inserito a catalogo un nuovo clamper orizzontale di H74mm con spillini, il suo c
 
 Implementata la modifica tecnica “CR00011030”; qui sotto un’immagine che identifica la modifica eseguita:  
 
-![](Aspose.Words.adf92199-a553-4311-a96d-acc49cc6bd3b.046.png)
+![Image Not Found](Software/B_SUITE/Release_Notes/4_1/4_1_0_121_(MKT_Release)/Image/Feature199857.png)
 
 ***
 
@@ -540,18 +538,18 @@ La spesa analizza una distinta di programmi (bsolid,.cix,,ISO), trovando la list
 Sarà definito un dato macchina che permetterà di definire un utensile/aggregato “non spesabile”.  
 In macchina ci possono essere 3 condizioni:  
 
-- **TooLogic automatica** (viene applicato l’attrezzaggio calcolato dall’ algoritmo di spesa solo se conveniente relativamente ai soli tempi di cambio utensile)**  
-- **TooLogic sempre attiva** (viene sempre applicato l ‘attrezzaggio calcolato dall’ algoritmo di spesa)  
-- **TooLogic disattivata** (non viene applicato l’attrezzaggio calcolato dall’ algoritmo di spesa)**  
+· **TooLogic automatica** (viene applicato l’attrezzaggio calcolato dall’ algoritmo di spesa solo se conveniente relativamente ai soli tempi di cambio utensile)**  
+· **TooLogic sempre attiva** (viene sempre applicato l ‘attrezzaggio calcolato dall’ algoritmo di spesa)  
+· **TooLogic disattivata** (non viene applicato l’attrezzaggio calcolato dall’ algoritmo di spesa)**  
 
 La spesa verrà effettuata in questa modalità.  
 
-- Il cliente mette in Start una distinta, che può essere composta da programmi **bSolid**, **cix**, **ISO**.  
+· Il cliente mette in Start una distinta, che può essere composta da programmi **bSolid**, **cix**, **ISO**.  
   Allo start i programmi che non sono in formato .ISO verranno, grazie al modulo di ottimizzazione, ottimizzati con l’attrezzaggio dei magazzini presente in quel momento in macchina.  
-- Terminata la ottimizzazione dei programmi, che trasformerà i programmi bSolid, cix in formato .ISO inizierà, da parte di un ottimizzatore di attrezzaggio dei magazzini, l’ analisi dei programmi ottenuti e alla fine di questa analisi si otterrà un nuovo attrezzaggio dei magazzini e una stima del tempo guadagnato o “perso”, dato dalla differenza tra [i tempi di cambio utensili prima del calcolo del nuovo attrezzaggio] e [il tempo necessario per lo spostamento degli utensili da magazzini lenti a quelli veloci, più il tempo di cambio utensili con il nuovo attrezzaggio].  
-- Se ci saranno le condizioni, che sono state riportate nei paragrafi sotto, verrà applicato il nuovo attrezzaggio dei magazzini.  
-- Terminato lo spostamento degli utensili, i programmi cix e bSolid verranno ottimizzati di nuovo con il nuovo attrezzaggio dei magazzini.  
-- A questo punto verranno eseguiti in macchina i programmi con il nuovo attrezzaggio dei magazzini.  
+· Terminata la ottimizzazione dei programmi, che trasformerà i programmi bSolid, cix in formato .ISO inizierà, da parte di un ottimizzatore di attrezzaggio dei magazzini, l’ analisi dei programmi ottenuti e alla fine di questa analisi si otterrà un nuovo attrezzaggio dei magazzini e una stima del tempo guadagnato o “perso”, dato dalla differenza tra [i tempi di cambio utensili prima del calcolo del nuovo attrezzaggio] e [il tempo necessario per lo spostamento degli utensili da magazzini lenti a quelli veloci, più il tempo di cambio utensili con il nuovo attrezzaggio].  
+· Se ci saranno le condizioni, che sono state riportate nei paragrafi sotto, verrà applicato il nuovo attrezzaggio dei magazzini.  
+· Terminato lo spostamento degli utensili, i programmi cix e bSolid verranno ottimizzati di nuovo con il nuovo attrezzaggio dei magazzini.  
+· A questo punto verranno eseguiti in macchina i programmi con il nuovo attrezzaggio dei magazzini.  
 
 **NOTA:** A seguito dello sviluppo in oggetto, al primo avvio di bSuite 4.1.0.X, una volta ripristinato un qualsiasi backup verrà richiesto l'allineamento degli utensili.  
 **L'allineamento verrà richiesto per tutte le tipologie di macchine.**
@@ -560,9 +558,9 @@ La spesa verrà effettuata in questa modalità.
 
 **Feature 199291: gestione parametro CRT in import cix**  
 
-E' Importato/Esportato nel@ CIX il parametro CRT (Tipo di spigolo) della lavorazione di Fresatura ![Immagine](Aspose.Words.adf92199-a553-4311-a96d-acc49cc6bd3b.047.png)  
+E' Importato/Esportato nel@ CIX il parametro CRT (Tipo di spigolo) della lavorazione di Fresatura ![Image Not Found](Software/B_SUITE/Release_Notes/4_1/4_1_0_121_(MKT_Release)/Image/Feature199291_01.png)  
 
-![Immagine](Aspose.Words.adf92199-a553-4311-a96d-acc49cc6bd3b.048.png)  
+![Image Not Found](Software/B_SUITE/Release_Notes/4_1/4_1_0_121_(MKT_Release)/Image/Feature199291_02.png)  
 
 La sintassi CIX è la seguente  
 
