@@ -103,21 +103,22 @@ bNest non supporta più la macchina Nextstep, non è più possibile elaborare pr
 ***
 
 **Feature 197432: [bSuite][bNest] Calcolo dei punti di attacco in relazione agli ordinali di distacco**  
+
 Il calcolo della posizione dei punti di attacco in relazione agli ordinali di distacco è una funzionalità che serve a favorire la stabilità dei pezzi nella fase di lavorazione in macchina degli schemi di nesting, ed in particolare nelle lavorazioni di distacco.  
 In contesto di "fresature a pezzo singolo" le lavorazioni di distacco vengono aggiunte ai pezzi, ed è possibile decidere quale sia il miglior punto di approccio per la lavorazione di distacco di ciascun pezzo.  
 Tipicamente le possibilità di scelta per la posizione del punto di approccio per un pezzo sono in relazione allo schema (verso il centro, verso la periferia), o rispetto alla conformazione del pezzo stesso (sul punto programmato originariamente, sul tratto più lungo).  
 Per favorire però la stabilità dei pezzi in fase di elaborazione è anche disponibile la possibilità di mettere in correlazione la sequenza di distacchi, che si desidera imporre ai pezzi, e la posizione dei punti di approccio per le stesse lavorazioni di distacco.  
 
-![Immagine](Aspose.Words.adf92199-a553-4311-a96d-acc49cc6bd3b.012.png)  
+![Image Not Found](Software/B_SUITE/Release_Notes/4_1/4_1_0_121_(MKT_Release)/Image/Feature197432_01.png)
 
 Tra i parametri di elaborazione, nella sezione relativa alla "fresatura a pezzo singolo", è possibile selezionare tutte le "regole" per decidere il punto migliore, sul contorno del pezzo, in cui inserire il punto di approccio delle lavorazione di contornatura\distacco.  
 Come si vede in figura è possibile scegliere delle modalità di inserimeno rispetto allo schema o alla forma del pezzo...  
 
-![Immagine](Aspose.Words.adf92199-a553-4311-a96d-acc49cc6bd3b.013.png)  
+![Image Not Found](Software/B_SUITE/Release_Notes/4_1/4_1_0_121_(MKT_Release)/Image/Feature197432_02.png)
 
 .. ed è possibile combinare la scelta rispetto alla forma dei pezzi  
 
-` `![Immagine](Aspose.Words.adf92199-a553-4311-a96d-acc49cc6bd3b.014.png)  
+![Image Not Found](Software/B_SUITE/Release_Notes/4_1/4_1_0_121_(MKT_Release)/Image/Feature197432_03.png)
 
 Ricordiamo che In BNEST sono disponibili delle modalità di associazione di numeri ordinali ai pezzi, che rappresentano la sequenza di distacco dei pezzi dalla lastra. Ricordiamo anche che ci sono parametri che regolano l'attribuzione di tali ordinali ai pezzi secondo regole precise (dalla dimensione dei pezzi, alla loro posizione sulla lastra)  
 Per quanto riguarda quindi la scelta della posizione dei punti di approccio in un contesto in cui siano stati assegnati degli ordinali ai pezzi in uno schema, in aggiunta alle possibilità pilotate dai parametri riportati nelle figure sopra, è disponibile anche una modalità di lavoro in cui si tenga conto anche delle relazioni di adiacenza dei pezzi nei risultati, considerandone in particolar modo i numeri ordinali associati dal sistema, relativi alla sequenza di distacco.  
@@ -133,14 +134,14 @@ Con la funzionalità "Calcolo dei punto di attacco in relazione agli ordinali di
 Sostanzialmente ci sono dei parametri per regolare la ricerca dei punti di approccio rispetto ai numeri ordinali associati ai pezzi adiacenti nei vari tratti che compongono il contorno di un certo pezzo. Una volta isolati tali tratti di contorno, nell'ipotesi di trovarne più di uno, su di essi verranno applicati i parametri definiti normalmente (quelli delle figure sopra, come ad esempio scegliere il tratto più lungo).  
 Nella figura sotto riportiamo i parametri per attivare e regolare tale modalità di ricerca della posizione dei punti di approccio.  
 
-![Immagine](Aspose.Words.adf92199-a553-4311-a96d-acc49cc6bd3b.015.png)  
+![Image Not Found](Software/B_SUITE/Release_Notes/4_1/4_1_0_121_(MKT_Release)/Image/Feature197432_04.png)
 
 Il primo parametro permette di decidere se effettivamente tenere conto delle relazioni di adiacenza e degli ordinali assegnati per il posizionamento del punto di approccio sui vari pezzi.  
 
 Ricordando che i pezzi possono avere le forme più svariate, gli altri due parametri servono per definire  
 
-- Il concetto di adiacenza, determinando cosa si intenda per "vicinanza" tra due pezzi  
-- La minima lunghezza per definire un tratto come "tratto di adiacenza", candidandolo alla collocazione del punto di approccio  
+· Il concetto di adiacenza, determinando cosa si intenda per "vicinanza" tra due pezzi  
+· La minima lunghezza per definire un tratto come "tratto di adiacenza", candidandolo alla collocazione del punto di approccio  
 
 Nelle sessioni di Editing Manuale degli schemi, in cui l'utente può modificare le posizioni dei pezzi, visto che vengono ad essere potenzialmente modificate sia le relazioni di adiacenza che gli ordinali di distacco, sono presenti automatismi e comandi per mantenersi coerenti il più possibile con le regole impartite in fase di elaborazione.  
 La posizione del punto di approccio di una lavorazione di distacco potrà subire modifiche automatiche in conseguenza ad un movimento di uno o più pezzi (il pezzo in questione o gli adiacenti) o alla modifica dell’ordinale di sequenza di distacco (per il pezzo in questione o per gli adiacenti).  
@@ -159,8 +160,8 @@ E' stato risolto il problema di precisione dando la possibilità all'utente di g
 
 Cambiata la complessità della password di accesso al Database  
 
-- Criptata la Password  
-- Creata una nuova istanza SQL -> BNEST\_19\_2
+· Criptata la Password  
+· Creata una nuova istanza SQL -> BNEST\_19\_2
 
 
 **Feature 197435: [bSuite] [bNest] Avvio del configuratore senza aspettare la chiusura in fase di installazione**  
@@ -173,12 +174,12 @@ Aggiunto, nella esecuzione batch del configuratore, l'avvio del ripristino dopo 
 
 Questo sviluppo ha modificato il significato di un parametro in interfaccia, che si chiamava “Centro CAM” e che ora assume un significato diverso, ovvero quello di “Centro ISO”. Questo parametro si trova nei Dati Macchina, nella sezione “Unità operatrici”, ed è presente per ognuna di esse:  
 
-![](Aspose.Words.adf92199-a553-4311-a96d-acc49cc6bd3b.016.png)  
+![Image Not Found](Software/B_SUITE/Release_Notes/4_1/4_1_0_121_(MKT_Release)/Image/Feature197436.png)
 
 Fino alla versione precedente, per le macchine importate (Rover, Winline, Eko), questo valore assumeva un doppio significato:  
 
-- Per il CAM, il centro rappresentava un contenitore di una o più teste (o unità operatrici), pertanto il parametro indicava per ogni testa il suo “centro” di appartenenza, e veniva utilizzata sia dall’ottimizzatore che dal CAM per i suoi ragionamenti;  
-- Per il PostProcessor indica la sezione all’interno del file ISO in cui quella testa viene esportata, contenendo le rispettive istruzioni ISO che quella testa esegue in macchina.  
+· Per il CAM, il centro rappresentava un contenitore di una o più teste (o unità operatrici), pertanto il parametro indicava per ogni testa il suo “centro” di appartenenza, e veniva utilizzata sia dall’ottimizzatore che dal CAM per i suoi ragionamenti;  
+· Per il PostProcessor indica la sezione all’interno del file ISO in cui quella testa viene esportata, contenendo le rispettive istruzioni ISO che quella testa esegue in macchina.  
 
 Con questo sviluppo, è rimasto invariato il significato per il PostProcessor, mentre nel CAM\ottimizzatore viene calcolato tutto internamente, basandosi su ragionamenti legati agli assi e agli ingombri delle teste. Per questo motivo, in interfaccia il parametro assume il nome di “Centro ISO” e il suo significato resta solo quello legato al PostProcessor; in più, non saranno più presenti messaggi di diagnostica del CAM con errori relativi a questo parametro, dato che il CAM ora è indipendente da esso.  
 Questo sviluppo permette anche all’ottimizzatore di avere maggiore autonomia nelle scelte dell’ordine delle lavorazioni e dei cambi utensili, e dai risultati di alcuni test interni, ha migliorato le prestazioni di alcuni casi specifici, in particolare sulle Rover Edge.  
@@ -202,11 +203,11 @@ La modifica dell’algoritmo di calcolo del toolpath in compensazione (3DE), com
 
 Alcuni programmi che con il vecchio algoritmo risultavano erroneamente come nella figura seguente  
 
-![](Aspose.Words.adf92199-a553-4311-a96d-acc49cc6bd3b.017.png)  
+![Image Not Found](Software/B_SUITE/Release_Notes/4_1/4_1_0_121_(MKT_Release)/Image/Feature197442_01.png)
 
 Ora si presentano, come realmente sono eseguiti in macchina.  
 
-![](Aspose.Words.adf92199-a553-4311-a96d-acc49cc6bd3b.018.png)  
+![Image Not Found](Software/B_SUITE/Release_Notes/4_1/4_1_0_121_(MKT_Release)/Image/Feature197442_02.png)
 
 E’ chiaro che questi programmi erano errati e realizzavano sul pezzo lavorazioni non corrette.  
 
@@ -216,15 +217,15 @@ Questo tipo di test è stato modificato.
 
 Programmi in cui i toolpath erano collegati perché (erroneamente) allineati,  
 
-![](Aspose.Words.adf92199-a553-4311-a96d-acc49cc6bd3b.019.png)  
+![Image Not Found](Software/B_SUITE/Release_Notes/4_1/4_1_0_121_(MKT_Release)/Image/Feature197442_03.png)
 
 con il nuovo calcolo toolpath (più corretto) non eseguono più il link tra una lavorazione e l’altra anche se stiamo parlando di decimi di millimetro.  
 
-![](Aspose.Words.adf92199-a553-4311-a96d-acc49cc6bd3b.020.png)  
+![Image Not Found](Software/B_SUITE/Release_Notes/4_1/4_1_0_121_(MKT_Release)/Image/Feature197442_04.png)
 
 Il problema è dovuto a seguente parametro presente nei “Dati ottimizzatore” del documento,  
 
-![](Aspose.Words.adf92199-a553-4311-a96d-acc49cc6bd3b.021.png)  
+![Image Not Found](Software/B_SUITE/Release_Notes/4_1/4_1_0_121_(MKT_Release)/Image/Feature197442_05.png)
 
 che ha un default di 0 e zero significa proprio ZERO.  
 In questo caso interveniamo in due punti nel codice.  
@@ -261,7 +262,7 @@ Nel manuale è stata completata la descrizione della funzionalità di generazion
 
 É stato introdotto un check che permette la visualizzazione dei soli utensili attrezzati tra i filtri della selezione utensili. Come gli altri filtri viene resettato ad ogni apertura ed il suo stato non é memorizzato.  
 
-![Immagine](Aspose.Words.adf92199-a553-4311-a96d-acc49cc6bd3b.022.png)  
+![Image Not Found](Software/B_SUITE/Release_Notes/4_1/4_1_0_121_(MKT_Release)/Image/Feature197444.png)
 
 ***
 
@@ -282,11 +283,11 @@ Nell'area CAD è stata nascosta la sezione "Dati CAM" presente nel tab "Avanzate
 Nella definizione di sottoprogetto è stata aggiunta la funzionalità relativa alla sua cancellazione.  
 Il comando è:  
 
-![](Aspose.Words.adf92199-a553-4311-a96d-acc49cc6bd3b.023.png)  
+![Image Not Found](Software/B_SUITE/Release_Notes/4_1/4_1_0_121_(MKT_Release)/Image/Feature196242_01.png)
 
 Il comando è disponibile anche sulla definizione di sottoprogetto della pagina dei risultati (sottoprogetto elaborato):  
 
-![](Aspose.Words.adf92199-a553-4311-a96d-acc49cc6bd3b.024.png)  
+![Image Not Found](Software/B_SUITE/Release_Notes/4_1/4_1_0_121_(MKT_Release)/Image/Feature196242_02.png)
 
 L’utilizzo del comando elimina il sottoprogetto, le relative linee di progetto e i relativi risultati dell’elaborazione.  
 Il salvataggio renderà effettive le modifiche fatte.
@@ -298,8 +299,8 @@ Il salvataggio renderà effettive le modifiche fatte.
 È stata data la possibilità all’utente di stabilire se un sotto-progetto è conveniente o meno.  
 Per farlo sono stati messi a disposizioni due parametri di elaborazione che permettono di stabilire una soglia di convenienza:  
 
-- Per percentuale pezzi: un progetto è sconveniente se la percentuale di area dei pezzi inseriti rispetto all’area totale delle lastre usate è inferiore alla soglia impostata  
-- Per superficie di scarto totale: un progetto è sconveniente se l’area di scarto totale è superiore alla soglia impostata  
+· Per percentuale pezzi: un progetto è sconveniente se la percentuale di area dei pezzi inseriti rispetto all’area totale delle lastre usate è inferiore alla soglia impostata  
+· Per superficie di scarto totale: un progetto è sconveniente se l’area di scarto totale è superiore alla soglia impostata  
 
 ![](Aspose.Words.adf92199-a553-4311-a96d-acc49cc6bd3b.025.png)  
 
