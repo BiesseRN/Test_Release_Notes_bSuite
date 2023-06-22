@@ -134,7 +134,7 @@ Con la funzionalità "Calcolo dei punto di attacco in relazione agli ordinali di
 Sostanzialmente ci sono dei parametri per regolare la ricerca dei punti di approccio rispetto ai numeri ordinali associati ai pezzi adiacenti nei vari tratti che compongono il contorno di un certo pezzo. Una volta isolati tali tratti di contorno, nell'ipotesi di trovarne più di uno, su di essi verranno applicati i parametri definiti normalmente (quelli delle figure sopra, come ad esempio scegliere il tratto più lungo).  
 Nella figura sotto riportiamo i parametri per attivare e regolare tale modalità di ricerca della posizione dei punti di approccio.  
 
-![Image Not Found](Software/B_SUITE/Release_Notes/4_1/4_1_0_121_(MKT_Release)/Image/Feature197432_04.png)
+![Image Not Found](Software/B_SUITE/Release_Notes/4_1/4_1_0_121_(MKT_Release)/Image/FEature197432_04.png)
 
 Il primo parametro permette di decidere se effettivamente tenere conto delle relazioni di adiacenza e degli ordinali assegnati per il posizionamento del punto di approccio sui vari pezzi.  
 
@@ -302,16 +302,16 @@ Per farlo sono stati messi a disposizioni due parametri di elaborazione che perm
 · Per percentuale pezzi: un progetto è sconveniente se la percentuale di area dei pezzi inseriti rispetto all’area totale delle lastre usate è inferiore alla soglia impostata  
 · Per superficie di scarto totale: un progetto è sconveniente se l’area di scarto totale è superiore alla soglia impostata  
 
-![](Aspose.Words.adf92199-a553-4311-a96d-acc49cc6bd3b.025.png)  
+![Image Not Found](Software/B_SUITE/Release_Notes/4_1/4_1_0_121_(MKT_Release)/Image/Feature196245_01.png)  
 
 I due parametri possono anche essere combinati; in tal caso il sotto-progetto risulta sconveniente se almeno una delle due soglie non è stata rispettata.  
 Una volta impostate le soglie, se si procede con l’elaborazione del progetto, nell’ambiente dei risultati verranno contrassegnati con un triangolo rosso tutti i sotto-progetti che non rispettano le rispettive soglie impostate.  
 
-![](Aspose.Words.adf92199-a553-4311-a96d-acc49cc6bd3b.026.png)  
+![Image Not Found](Software/B_SUITE/Release_Notes/4_1/4_1_0_121_(MKT_Release)/Image/Feature196245_02.png)  
 
 Andando con il mouse sopra il triangolo rosso apparirà un tooltip con la motivazione per cui il sotto-progetto risulta sconveniente  
 
-![](Aspose.Words.adf92199-a553-4311-a96d-acc49cc6bd3b.027.png)  
+![Image Not Found](Software/B_SUITE/Release_Notes/4_1/4_1_0_121_(MKT_Release)/Image/Feature196245_03.png)  
 
 ***
 
