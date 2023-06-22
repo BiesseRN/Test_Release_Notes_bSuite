@@ -419,6 +419,7 @@ Nell' insertore del "Testo lineare" e nell’ insertore del "Testo su percorso"�
 ![Image Not Found](Software/B_SUITE/Release_Notes/4_1/4_1_0_121_(MKT_Release)/Image/Feature196741_01.png)
 
 ![Image Not Found](Software/B_SUITE/Release_Notes/4_1/4_1_0_121_(MKT_Release)/Image/Feature196741_02.png)
+
 ***
 
 **Feature 196742: [bSuite] Nascondere la sezione "Dati CAM" dal plug-in "Spline"**  
@@ -456,7 +457,7 @@ Con questo sviluppo si è voluto proprio superare questo limite, inserendo nella
 
 **Esempio di sequenza senza Clonazione + Fresatura a tagli in comune**  
 
-![Image Not Found](Software/B_SUITE/Release_Notes/4_1/4_1_0_121_(MKT_Release)/Image/Feature199262_02.png)  
+![Image Not Found](Software/B_SUITE/Release_Notes/4_1/4_1_0_121_(MKT_Release)/Image/Feature199262_01.png)  
 
 **Esempio di sequenza con Clonazione + Fresatura a tagli in comune**  
 
@@ -553,7 +554,7 @@ In macchina ci possono essere 3 condizioni:
 · **TooLogic sempre attiva** (viene sempre applicato l ‘attrezzaggio calcolato dall’ algoritmo di spesa)  
 · **TooLogic disattivata** (non viene applicato l’attrezzaggio calcolato dall’ algoritmo di spesa)**  
 
-La spesa verrà effettuata in questa modalità.  
+La spesa verrà effettuata in questa modalità:  
 
 · Il cliente mette in Start una distinta, che può essere composta da programmi **bSolid**, **cix**, **ISO**.  
   Allo start i programmi che non sono in formato .ISO verranno, grazie al modulo di ottimizzazione, ottimizzati con l’attrezzaggio dei magazzini presente in quel momento in macchina.  
