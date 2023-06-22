@@ -47,6 +47,10 @@ body {
   z-index: 2;
 }
 
+#companyLogo img {
+  width: 200px; /* Regola la dimensione del logo secondo le tue preferenze */
+}
+
 ul {
   list-style-type: none;
   padding: 0;
