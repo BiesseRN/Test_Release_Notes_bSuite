@@ -28,7 +28,7 @@ Per attivare questa funzionalità basta andare nei parametri di progetto e selez
 
 Per impostare tutti i parametri tecnologici e di comportamento della fresatura a pezzo singolo, basta andare nella specifica scheda
 
-![Immagine](Aspose.Words.adf92199-a553-4311-a96d-acc49cc6bd3b.004.jpeg)  
+![Image Not Found](Software/B_SUITE/Release_Notes/4_1/4_1_0_121_(MKT_Release)/Image/Feature197424_02.jpeg)
 
 Tra i parametri di comportamento di questa scheda particolarmente importanti sono quelli relativi alla gestione del punto di attacco, che offrono la possibilità di decidere in quale punto del pezzo posizionare il punto di attacco (es. sul tratto più lungo, in base all'ordine di distacco dei pezzi, prediligendo i tratti lineari, ...).
 
