@@ -210,7 +210,6 @@ Ora si presentano, come realmente sono eseguiti in macchina.
 ![Image Not Found](Software/B_SUITE/Release_Notes/4_1/4_1_0_121_(MKT_Release)/Image/Feature197442_02.png)
 
 E’ chiaro che questi programmi erano errati e realizzavano sul pezzo lavorazioni non corrette.  
-
 Questo tipo di test è stato modificato.  
 
 **Fallimenti dei programmi con Link tra una lavorazione e l’altra.**  
@@ -228,6 +227,7 @@ Il problema è dovuto a seguente parametro presente nei “Dati ottimizzatore”
 ![Image Not Found](Software/B_SUITE/Release_Notes/4_1/4_1_0_121_(MKT_Release)/Image/Feature197442_05.png)
 
 che ha un default di 0 e zero significa proprio ZERO.  
+
 In questo caso interveniamo in due punti nel codice.  
 Il primo punto è nel CAM dove andiamo ad utilizzare una tolleranza di 0.1mm anche dove l’utente avesse impostato zero come “Massimo disallineamento XY”.  
 Il secondo punto è nel valore di default di questo parametro per i nuovi documenti che nella prossima versione sarà impostato a 1 mm.  
@@ -238,7 +238,7 @@ Nei programmi dove “Massimo disallineamento XY” è impostato a zero e la tol
 Con l’introduzione della nuova libreria di Offset WRT, bNest ha riscontrato diversi fallimenti nei test che potranno essere risolti solo con nuovi sviluppi della Nestlib disponibili a partire dal 04/2023.  
 Per ovviare alle regressioni allora si è deciso quanto segue: bSolid uscirà con una modalità compatibile con le vecchie versioni.  
 Per default non utilizzerà la libreria di offset del WRT.  
-Nel file BswFiles\IniFiles\CamSwitcher.ini sarà infatti presente il seguente flag  
+Nel file BswFiles\IniFiles\CamSwitcher.ini sarà infatti presente il seguente flag:  
 
 [Toolpath]  
 
@@ -319,6 +319,7 @@ Andando con il mouse sopra il triangolo rosso apparirà un tooltip con la motiva
 
 Il file MNO, creato da bNest in fase di elaborazione, contiene l’elenco degli schemi di taglio ottenuti. Ad ogni schema di taglio è associata l’informazione relativa alla lastra utilizzata dallo schema stesso.  
 All’interno di queste informazioni è stata aggiunta quella relativa alla densità.  
+
 Per impostare la densità di una lastra:  
 
 · Aprire l’anagrafica delle lastre  
@@ -381,7 +382,9 @@ Verrà generato un iso parametrico. Questa funzionalità è già attiva nella la
 **Feature 196248: [bNest] Comando di cancellazione di tutti i sottoprogetti non convenienti**  
 
 Nella gestione del progetto è stata aggiunta la funzione di cancellazione dei sottoprogetti non convenienti.  
-Il comando cancella tutti i sottoprogetti elaborati ma identificati come “non convenienti”. La definizione di convenienza viene impostata prima dell’elaborazione e l’elaborazione ne identifica gli schemi e i sottoprogetti. Questa rappresentazione e disponibile solo nella pagina dei risultati Il comando è disponibile sulla colonna di sinistra.
+Il comando cancella tutti i sottoprogetti elaborati ma identificati come “non convenienti”.  
+La definizione di convenienza viene impostata prima dell’elaborazione e l’elaborazione ne identifica gli schemi e i sottoprogetti.  
+Questa rappresentazione e disponibile solo nella pagina dei risultati Il comando è disponibile sulla colonna di sinistra.
 
 ***
 
@@ -396,6 +399,7 @@ Se per una lavorazione vengono abilitati sia il T-Jet che pressare a rulli, bSol
 
 L’obiettivo è quello di consentire all’utente di attivare il vuoto dinamico nei programmi degli schemi di taglio, generati da B\_NEST, senza dover necessariamente impostare un comportamento di default nei parametri di B\_SOLID. Nei parametri di elaborazione di B\_NEST, in particolare nella pagina “Parametri di progetto”, scheda “Risultati” viene inserita una nuova sezione, chiamata “Parametri di programma”.  
 All’interno di questa sezione viene inserito il parametro “Vuoto dinamico”.  
+
 Tale parametro può avere i seguenti valori:  
 
 · Predefinito  
@@ -443,14 +447,18 @@ Per riuscire ad impostare, nei parametri di un progetto bNEST, sia la volontà d
 
 ***
 
-Come si vede in figura ora il segnale “giallo” di inibizione viene ad essere visualizzato solo per la parte di parametri relativi al “Multi-Testa”, mentre la scheda di configurazione dei parametri per la clonazione dei risultati risulta ora accessibile. Per effettuare fresature a tagli in comune l’ordine delle lavorazioni deve essere STRETTAMENTE deciso in fase di generazione dei risultati di nesting e poco è lasciato all’ottimizzatore della time-line di bSOLID.  
+Come si vede in figura ora il segnale “giallo” di inibizione viene ad essere visualizzato solo per la parte di parametri relativi al “Multi-Testa”, mentre la scheda di configurazione dei parametri per la clonazione dei risultati risulta ora accessibile. Per effettuare fresature a tagli in comune l’ordine delle lavorazioni deve essere STRETTAMENTE deciso in fase di generazione dei risultati di nesting e poco è lasciato all’ottimizzatore della time-line di bSolid.  
 Il motivo di questo è che per come è strutturato, l’approccio delle fresature a tagli in comune prevede dei criteri di progressione per la scelta della sequenza dei pezzi da “tagliare”, e poi diviene strettamente rigida la sequenza, poiché, dopo il primo pezzo tagliato per intero, i pezzi adiacenti che vengono scelti, che avranno dei segmenti “in comune” con i pezzi precedentemente tagliati, possono essere lavorati “scendendo in verticale” sul canale della fresature dei contorni dei poligoni precedenti.  
-Questo implica che tutte le lavorazioni di fresatura a tagli in comune, con cui si separano i pezzi, dovranno essere inserite in time-line come “strettamente” non ottimizzabili. Dando questo ordine “stretto” alle lavorazioni era impossibile che macchine con testa multipla potessero riuscire a ottimizzare la sequenza “accoppiando” le lavorazioni.  
+Questo implica che tutte le lavorazioni di fresatura a tagli in comune, con cui si separano i pezzi, dovranno essere inserite in time-line come “strettamente” non ottimizzabili.  
+Dando questo ordine “stretto” alle lavorazioni era impossibile che macchine con testa multipla potessero riuscire a ottimizzare la sequenza “accoppiando” le lavorazioni.  
 Con questo sviluppo si è voluto proprio superare questo limite, inserendo nella time-line dei risultati di nesting le lavorazioni “gemelle”, fornite dalla clonazione, in modo “isolato” e ordinato, rispetto agli altri, chiuso in una sezione della time-line, ma “aperte” alla possibilità di essere trattate insieme dall’ottimizzatore di sequenza.  
 
-|**Esempio di sequenza senza Clonazione + Fresatura a tagli in comune**|**Esempio di sequenza con Clonazione + Fresatura a tagli in comune**    
+**Esempio di sequenza senza Clonazione + Fresatura a tagli in comune**  
 
-![Image Not Found](Software/B_SUITE/Release_Notes/4_1/4_1_0_121_(MKT_Release)/Image/Feature199262_02.png)   
+![Image Not Found](Software/B_SUITE/Release_Notes/4_1/4_1_0_121_(MKT_Release)/Image/Feature199262_02.png)  
+
+**Esempio di sequenza con Clonazione + Fresatura a tagli in comune**  
+
 ![Image Not Found](Software/B_SUITE/Release_Notes/4_1/4_1_0_121_(MKT_Release)/Image/Feature199262_02.png)  
 
 Come si può notare dalla figura, la sequenza è sempre scandita in ordine stretto, ma in presenza di clonazione vengono accoppiati le parti clonate e sistemate tra separatori.  
@@ -463,7 +471,8 @@ In questo modo è garantito l’ordine stretto per la buona riuscita delle lavor
 Trasmettendo in macchina un progetto contenente diversi sotto-progetti, vengono generate diverse distinte macchina, una per ogni sotto-progetto.  
 Ad oggi, per eseguire in macchina l’intero progetto, l’utente dovrebbe aprire una distinta alla volta ed eseguirla.  
 L’intento dello sviluppo è quello di fornire, oltre alle distinte di sotto-progetto, una distinta “globale”, per facilitare l’esecuzione in macchina dell’intero progetto.  
-La trasmissione in macchina della distinta di progetto è per default disabilitata. Per abilitarla è necessario attivarla nelle impostazioni macchina di B\_NEST, all’interno del gruppo “Trasmissione”  
+La trasmissione in macchina della distinta di progetto è per default disabilitata.  
+Per abilitarla è necessario attivarla nelle impostazioni macchina di B\_NEST, all’interno del gruppo “Trasmissione”.  
 
 ![Image Not Found](Software/B_SUITE/Release_Notes/4_1/4_1_0_121_(MKT_Release)/Image/Feature200521_01.png)
 
@@ -512,7 +521,7 @@ Non è possibile trasmettere la distinta macchina di progetto nelle seguenti sit
 · Qualche sotto-progetto segnala degli errori di trasmissione  
 · Si cerca di trasmettere soltanto alcuni sotto-progetti singolarmente  
 
-In generale la distinta di progetto viene trasmessa soltanto se si esegue la trasmissione totale del progetto senza che nessun sotto-progetto vada in errore. In caso contrario, un messaggio di warning avvisa l’utente del problema  
+In generale la distinta di progetto viene trasmessa soltanto se si esegue la trasmissione totale del progetto senza che nessun sotto-progetto vada in errore. In caso contrario, un messaggio di warning avvisa l’utente del problema.  
 
 ![Image Not Found](Software/B_SUITE/Release_Notes/4_1/4_1_0_121_(MKT_Release)/Image/Feature200521_08.png)
 
@@ -534,7 +543,8 @@ Implementata la modifica tecnica “CR00011030”; qui sotto un’immagine che i
 
 **Feature 196008: [bSuite][Rover A HF] Tool Logic Automatic (spesa)**  
 
-La spesa analizza una distinta di programmi (bsolid,.cix,,ISO), trovando la lista degli utensili che sono utilizzati da tutti i programmi contenuti nella distinta. Gli utensili che sono soggetti a più cambi verranno spostati dai magazzini lenti ai magazzini più veloci della macchina.  
+La spesa analizza una distinta di programmi (bsolid,.cix,,ISO), trovando la lista degli utensili che sono utilizzati da tutti i programmi contenuti nella distinta.  
+Gli utensili che sono soggetti a più cambi verranno spostati dai magazzini lenti ai magazzini più veloci della macchina.  
 Sarà definito un dato macchina che permetterà di definire un utensile/aggregato “non spesabile”.  
 In macchina ci possono essere 3 condizioni:  
 
@@ -546,12 +556,12 @@ La spesa verrà effettuata in questa modalità.
 
 · Il cliente mette in Start una distinta, che può essere composta da programmi **bSolid**, **cix**, **ISO**.  
   Allo start i programmi che non sono in formato .ISO verranno, grazie al modulo di ottimizzazione, ottimizzati con l’attrezzaggio dei magazzini presente in quel momento in macchina.  
-· Terminata la ottimizzazione dei programmi, che trasformerà i programmi bSolid, cix in formato .ISO inizierà, da parte di un ottimizzatore di attrezzaggio dei magazzini, l’ analisi dei programmi ottenuti e alla fine di questa analisi si otterrà un nuovo attrezzaggio dei magazzini e una stima del tempo guadagnato o “perso”, dato dalla differenza tra [i tempi di cambio utensili prima del calcolo del nuovo attrezzaggio] e [il tempo necessario per lo spostamento degli utensili da magazzini lenti a quelli veloci, più il tempo di cambio utensili con il nuovo attrezzaggio].  
+· Terminata la ottimizzazione dei programmi, che trasformerà i programmi bSolid, cix in formato .ISO inizierà, da parte di un ottimizzatore di attrezzaggio dei magazzini, l’ analisi dei programmi ottenuti e alla fine di questa analisi si otterrà un nuovo attrezzaggio dei magazzini e una stima del tempo guadagnato o “perso”, dato dalla differenza tra i tempi di cambio utensili prima del calcolo del nuovo attrezzaggio e il tempo necessario per lo spostamento degli utensili da magazzini lenti a quelli veloci, più il tempo di cambio utensili con il nuovo attrezzaggio.  
 · Se ci saranno le condizioni, che sono state riportate nei paragrafi sotto, verrà applicato il nuovo attrezzaggio dei magazzini.  
 · Terminato lo spostamento degli utensili, i programmi cix e bSolid verranno ottimizzati di nuovo con il nuovo attrezzaggio dei magazzini.  
 · A questo punto verranno eseguiti in macchina i programmi con il nuovo attrezzaggio dei magazzini.  
 
-**NOTA:** A seguito dello sviluppo in oggetto, al primo avvio di bSuite 4.1.0.X, una volta ripristinato un qualsiasi backup verrà richiesto l'allineamento degli utensili.  
+**NOTA:** A seguito dello sviluppo in oggetto, al primo avvio di bSuite 4.1.0.X, una volta ripristinato un qualsiasi backup verrà richiesto l'allineamento degli utensili.    
 **L'allineamento verrà richiesto per tutte le tipologie di macchine.**
 
 ***
@@ -564,14 +574,17 @@ E' Importato/Esportato nel@ CIX il parametro CRT (Tipo di spigolo) della lavoraz
 
 La sintassi CIX è la seguente  
 
-PARAM,NAME=CRT,VALUE=<valore>   con    <valore>=    0:Ruota attorno;      1:Spigolo vivo
+PARAM,NAME=CRT,VALUE=<valore>  
+con  
+<valore>= 0:Ruota attorno; 1:Spigolo vivo
 
 ***
 
 **Feature 197509: [bSuite][bSolid] Firma digitale file eseguibili B\_SUITE**  
 
 Gli eseguibili dedicati all'utente finale distribuiti con l'applicativo sono stati firmati digitalmente.  
-La firma digitale sugli eseguibili è utile per garantire l'autenticità e l'integrità del software che si sta utilizzando. La firma digitale garantisce che il software è stato compilato e distribuito da Biesse e che quindi non sia stato modificato in alcun modo dalla sua origine.
+La firma digitale sugli eseguibili è utile per garantire l'autenticità e l'integrità del software che si sta utilizzando.  
+La firma digitale garantisce che il software è stato compilato e distribuito da Biesse e che quindi non sia stato modificato in alcun modo dalla sua origine.
 
 ***
 
