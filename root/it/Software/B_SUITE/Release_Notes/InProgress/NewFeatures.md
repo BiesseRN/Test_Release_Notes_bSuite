@@ -170,7 +170,8 @@
 <hr>
 
 ###206372:[bNest] Aggiornamento password per collegamento al DB Winstore<br>
-
+<html lang='en' xmlns='http://www.w3.org/1999/xhtml'><head><meta charset='utf-8'></head><body style="FONT-SIZE: 10pt; MARGIN-BOTTOM: 0px; FONT-FAMILY: Helvetica; MARGIN-TOP: 0px"><div><br></div>
+<div>integrato in bSuite 13.3.84,&nbsp;<span>bnest 13.3.43</span> </div></body></html>
 <hr>
 
 ###207717:[bSuite] [SRWL22014] Morsa Hyperclamp tipo finger simile a 7351072, ma per spessore 68 - 136 [CATALOGO]<br>
