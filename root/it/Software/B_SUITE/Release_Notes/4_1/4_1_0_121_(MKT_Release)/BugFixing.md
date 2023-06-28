@@ -27,6 +27,7 @@ In questo modo il PAV riesce a scegliere il passo corretto in funzione delle dim
 
 NOTA: è necessario eseguire l’import del modello macchina
 
+***
 
 **Bug 196535: PR00019128: bSolid: comando "Salva macro con nome" non abilitato nel modulo BASE**  
 
