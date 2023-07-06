@@ -508,7 +508,7 @@
 <hr>
 
 ###205378:[HOOPS] Errore scalatura nell'import<br>
-
+<html lang='en' xmlns='http://www.w3.org/1999/xhtml'><head><meta charset='utf-8'></head><body style="FONT-SIZE: 10pt; MARGIN-BOTTOM: 0px; FONT-FAMILY: Helvetica; MARGIN-TOP: 0px"><div>[Documentare il fatto che è stata aggiornata la versione della libreria di import HOOPS (senza specificare la build), dichiarando che a partire da SP1 le versioni dei file gestiti dalla nuova versione saranno le seguenti]<br><img alt="Immagine" src="Image/Image0.png"><br></div></body></html>
 <hr>
 
 ###203140:[OT] integrazione catalogo Rover_Plast_B_FT_2243_1000062756<br>
