@@ -508,7 +508,7 @@
 <hr>
 
 ###205378:[HOOPS] Import scaling error<br>
-
+<html lang='en' xmlns='http://www.w3.org/1999/xhtml'><head><meta charset='utf-8'></head><body style="FONT-SIZE: 10pt; MARGIN-BOTTOM: 0px; FONT-FAMILY: Helvetica; MARGIN-TOP: 0px"><div>[Document the fact that the version of the HOOPS import library has been updated (without specifying the build), declaring that starting from SP1 the versions of the files managed by the new version will be the following]<br><img id="0" alt="Image" src="Image/Image0.png"><br></div></body></html>
 <hr>
 
 ###203140:[OT] Rover_Plast_B_FT_2243_1000062756 catalog integration<br>
