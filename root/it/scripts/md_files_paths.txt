@@ -1,0 +1,7 @@
+"../it/Software/B_SUITE/Release_Notes/4_1/4_1_0_121_(MKT_Release)/BugFixing.md" "Bug Fixing 4.1.0.121"
+"../it/Software/B_SUITE/Release_Notes/4_1/4_1_0_121_(MKT_Release)/NewFeatures.md" "Nuove Funzionalità 4.1.0.121"
+"../it/Software/B_SUITE/Info/Compatibilità.md" "Compatibilità"
+"../it/Software/B_SUITE/Info/Informazioni_aggiuntive.md" "Informazioni aggiuntive"
+"../it/Software/B_SUITE/Info/Informazioni_di_installazione.md" "Informazioni di installazione"
+"../it/Software/B_SUITE/Info/Localizzazione.md" "Localizzazione"
+"../it/Software/B_SUITE/Info/Storico_versioni_rilasciate.md" "Storico versioni rilasciate"

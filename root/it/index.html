@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Biesse Release Notes</title>
+  <link rel="stylesheet" type="text/css" href="scripts/style.css">
+</head>
+<body>
+  <!-- SCRIPTS NECESSARI -->
+  <script src="https://kit.fontawesome.com/62cc1e16e2.js" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/markdown-it@12.2.0/dist/markdown-it.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
+  <script src="scripts/script.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.7.2/highlight.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.7.2/styles/default.min.css">
+
+	<!-- COMMENTATO A CAUSA DI ERRORE 405 SUL LOGIN.PHP
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    // Verifica se l'utente ha effettuato il login
+    var isLoggedIn = checkLoginStatus();
+
+    // Se l'utente non ha effettuato il login, reindirizzalo alla pagina di login
+    if (!isLoggedIn) {
+      window.location.href = 'login.html';
+    }
+  });
+
+  function checkLoginStatus() {
+    // Effettua qui la logica per verificare se l'utente ha effettuato il login
+    // Puoi utilizzare sessioni, cookie o altre tecniche per memorizzare lo stato di login dell'utente
+    // Restituisci true se l'utente ha effettuato il login correttamente, altrimenti false
+
+    // Esempio di implementazione che controlla se esiste un token di accesso
+    var accessToken = localStorage.getItem('accessToken');
+    return accessToken !== null;
+  }
+</script> -->
+
+  <div id="container">
+    <div id="sidebar">
+      <h1 class="tree-title"><img src="images/logo.png" alt="Biesse Logo" class="logo">Biesse Release Notes</h1>
+      <ul id="releaseTree">
+        <li>
+          <button class="bold-link toggle"><i class="fas fa-chevron-down"></i> Software</button>
+          <ul class="subtree">
+
+			<!-- MENU DROPDOWN BSUITE -->
+            <li>
+              <button class="bold-link toggle"><i class="fas fa-chevron-down"></i> B_SUITE</button>
+              <ul class="subtree">
+                <li><a href="#" data-release="Compatibilità" data-release-path="Software/B_SUITE/Info/Compatibilità.md" style="color:#FFFFFF">Compatibilità</a></li>
+                <li><a href="#" data-release="Informazioni aggiuntive" data-release-path="Software/B_SUITE/Info/Informazioni_aggiuntive.md" style="color:#FFFFFF">Informazioni aggiuntive</a></li>
+                <li><a href="#" data-release="Informazioni di installazione" data-release-path="Software/B_SUITE/Info/Informazioni_di_installazione.md" style="color:#FFFFFF">Informazioni di installazione</a></li>
+                <li><a href="#" data-release="Localizzazione" data-release-path="Software/B_SUITE/Info/Localizzazione.md" style="color:#FFFFFF">Localizzazione</a></li>
+                <li><a href="#" data-release="Storico versioni rilasciate" data-release-path="Software/B_SUITE/Info/Storico_versioni_rilasciate.md" style="color:#FFFFFF">Storico versioni rilasciate</a></li>
+                <li>
+                  <button class="bold-link toggle"><i class="fas fa-chevron-down"></i> Release Notes</button>
+                  <ul class="subtree">
+			             <!-- STRUTTURA: <BUTTON><I><I/><i></i></BUTTON> -->
+                    <li>
+                      <button class="bold-link toggle"><i class="fas fa-chevron-down"></i> B_SUITE 4.1.0.121 (Major - 05/05/2023) <!-- DOUBLE CALL DOWNLOAD FILES --> <i class="fas fa-download download-pdf" onclick="convertToPdf('Software/B_SUITE/Release_Notes/4_1/4_1_0_121_(MKT_Release)/BugFixing.md'); convertToPdf('Software/B_SUITE/Release_Notes/4_1/4_1_0_121_(MKT_Release)/NewFeatures.md')"></i> </button> 
+                      <ul class="subtree">
+                        <li> <a href="#" data-release="Bug Fixing 4.1.0.121" data-release-path="Software/B_SUITE/Release_Notes/4_1/4_1_0_121_(MKT_Release)/BugFixing.md" style="color:#FFFFFF">Bug Fixing 4.1.0.121</a></li>
+                        <li> <a href="#" data-release="Nuove Funzionalità 4.1.0.121" data-release-path="Software/B_SUITE/Release_Notes/4_1/4_1_0_121_(MKT_Release)/NewFeatures.md" style="color:#FFFFFF">Nuove Funzionalità 4.1.0.121</a></li> 
+                      </ul>
+                    </li>
+
+                    
+                    <li id="InProgress"> <!-- TEAM TEST SA COSA SIGNIFICA TUTTO CIO' :D -->
+                      <button class="bold-link toggle"><i class="fas fa-chevron-down"></i> B_SUITE - In Progress <!-- DOUBLE CALL DOWNLOAD FILES --> <i class="fas fa-download download-pdf" onclick="convertToPdf('Software/B_SUITE/Release_Notes/InProgress/Bug/IT.md'); convertToPdf('Software/B_SUITE/Release_Notes/InProgress/Feauture/IT.md')"></i> </button> 
+                      <ul class="subtree">
+                        <li> <a href="#" data-release="Bug Fixing - In Progress" data-release-path="Software/B_SUITE/Release_Notes/InProgress/Bug/IT.md" style="color:#FFFFFF">Bug Fixing - In Progress</a></li>
+                        <li> <a href="#" data-release="Nuove Funzionalità - In Progress" data-release-path="Software/B_SUITE/Release_Notes/InProgress/Feature/IT.md" style="color:#FFFFFF">Nuove Funzionalità - In Progress</a></li> 
+                      </ul>
+                    </li>
+
+                  </ul>
+                </li>
+              </ul>
+            </li>
+			
+			<!-- MENU DROPDOWN BOPTI -->
+            <li>
+              <button class="bold-link toggle"><i class="fas fa-chevron-down"></i> B_OPTI</button>
+              <ul class="subtree">
+                <li>
+                  <button class="bold-link toggle"><i class="fas fa-chevron-down"></i> Release Notes 1.X</button>
+                  <ul class="subtree">
+                    <li><a href="#" data-release="bSuite/4.1/v4.1" style="color:#FFFFFF">[ITA] Release Notes X.X</a></li>
+                  </ul>
+                </li>
+                <li>
+                  <button class="bold-link toggle"><i class="fas fa-chevron-down"></i> Release Notes 2.X</button>
+                  <ul class="subtree">
+                    <li><a href="#" data-release="v3.1" style="color:#FFFFFF">[ITA] Release Notes X.X</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+			
+			<!-- MENU DROPDOWN BPROCESS -->
+            <li>
+              <button class="bold-link toggle"><i class="fas fa-chevron-down"></i> B_PROCESS</button>
+              <ul class="subtree">
+                <li>
+                  <button class="bold-link toggle"><i class="fas fa-chevron-down"></i> Release Notes 1.X</button>
+                  <ul class="subtree">
+                    <li><a href="#" data-release="bSuite/4.1/v4.1" style="color:#FFFFFF">[ITA] Release Notes X.X</a></li>
+                  </ul>
+                </li>
+                <li>
+                  <button class="bold-link toggle"><i class="fas fa-chevron-down"></i> Release Notes 2.X</button>
+                  <ul class="subtree">
+                    <li><a href="#" data-release="v3.1" style="color:#FFFFFF">[ITA] Release Notes X.X</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+			
+			<!-- MENU DROPDOWN USER -->
+            <li>
+              <button class="bold-link toggle"><i class="fas fa-chevron-down"></i> U_SER</button>
+              <ul class="subtree">
+                <li>
+                  <button class="bold-link toggle"><i class="fas fa-chevron-down"></i> Release Notes 1.X</button>
+                  <ul class="subtree">
+                    <li><a href="#" data-release="bSuite/4.1/v4.1" style="color:#FFFFFF">[ITA] Release Notes X.X</a></li>
+                  </ul>
+                </li>
+                <li>
+                  <button class="bold-link toggle"><i class="fas fa-chevron-down"></i> Release Notes 2.X</button>
+                  <ul class="subtree">
+                    <li><a href="#" data-release="v3.1" style="color:#FFFFFF">[ITA] Release Notes X.X</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+			
+			
+          </ul>
+        </li>
+      </ul>
+    </div>
+	
+	
+    <div id="content">
+      <div id="companyLogo">
+        <img src="images/logo2.jpg" alt="Logo Biesse">
+      </div>
+      <div id="releaseContent">
+        <h2>Seleziona il software e la versione di cui vuoi visualizzare le release notes.</h2>
+      </div>
+    </div>
+	
+	<div id="languageMenu">
+      <button class="toggle"><i class="fas fa-globe"></i> Lingua</button>
+      <ul class="subtree">
+        <li><a style="color:#FFFFFF" href="#">Italiano</a></li>
+        <li><a style="color:#FFFFFF" href="../en/index.html">Inglese</a></li>
+      </ul>
+    </div>
+	
+    <div id="search-container">
+      <input type="text" id="search-input" placeholder="Cerca parole contenute">
+      <select id="search-results-menu" class="search-results-menu"></select>
+      <button id="search-button"></button>
+    </div>
+
+    <!--
+    <div id="logout-container">
+      <button id="logout-button">Logout</button>
+    </div>
+    -->
+
+
+  </div>
+</body>
+</html>
