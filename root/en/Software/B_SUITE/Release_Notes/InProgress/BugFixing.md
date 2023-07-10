@@ -180,7 +180,7 @@
 <hr>
 
 ###204638:[OT] PR00020474: bSolid: solid problem the slide is too low compared to the sled.  Passage piece 250 impossible<br>
-
+<html lang='en' xmlns='http://www.w3.org/1999/xhtml'><head><meta charset='utf-8'></head><body style="FONT-SIZE: 10pt; MARGIN-BOTTOM: 0px; FONT-FAMILY: Helvetica; MARGIN-TOP: 0px"><div><span style="FONT-SIZE: 10pt; FONT-FAMILY: Helvetica; DISPLAY: inline !important">PR00020474- fix on the attachment point of the FtPlane bPart.</span><br></div></body></html>
 <hr>
 
 ###203687:[bNest] bNest_print report - the "remains obtained" parameter is missing in print reports<br>
