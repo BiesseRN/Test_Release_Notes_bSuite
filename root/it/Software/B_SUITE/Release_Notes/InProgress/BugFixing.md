@@ -180,7 +180,7 @@
 <hr>
 
 ###204638:[OT] PR00020474: bSolid: problema solido la slitta è troppo bassa rispetto la relata. Passaggio pezzo 250 impossibile<br>
-
+<html lang='en' xmlns='http://www.w3.org/1999/xhtml'><head><meta charset='utf-8'></head><body style="FONT-SIZE: 10pt; MARGIN-BOTTOM: 0px; FONT-FAMILY: Helvetica; MARGIN-TOP: 0px"><div><span style="FONT-SIZE: 10pt; FONT-FAMILY: Helvetica; DISPLAY: inline !important">PR00020474- fix sul punto di attacco del bPart FtPlane.</span><br></div></body></html>
 <hr>
 
 ###203687:[bNest] bNest_report di stampa - manca il parametro "resti ottenuti" nei report di stampa <br>
