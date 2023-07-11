@@ -131,7 +131,7 @@
 <hr>
 
 ###205651:[OT] Verifica fine corsa degli aggregati con centro di rotazione sui mandrini<br>
-
+<html lang='en' xmlns='http://www.w3.org/1999/xhtml'><head><meta charset='utf-8'></head><body style="FONT-SIZE: 10pt; MARGIN-BOTTOM: 0px; FONT-FAMILY: Helvetica; MARGIN-TOP: 0px"><div>Da non inserire nelle ReleaseNotes; verrà inserita solamente la documentazione relativa alla&nbsp;<i><a style="BOX-SIZING: border-box; FONT-SIZE: 10pt; FONT-FAMILY: Helvetica" href="http://tfsserver:8080/tfs/CDC_Software/B_ASG/_workitems/edit/203115" rel="noopener noreferrer" target="_blank">Feature 203115</a><span style="BOX-SIZING: border-box; FONT-SIZE: 10pt; FONT-FAMILY: Helvetica">: Gestione Aggregati Custom con mandrini Offsettati in X ed in Y.</span></i> </div></body></html>
 <hr>
 
 ###204764:bSuite 4.1 sp. 1 Traduzione stringhe d'interfaccia<br>
